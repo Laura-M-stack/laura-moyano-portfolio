@@ -6,8 +6,9 @@ import { useLanguage } from '../context/LanguageContext';
 
 const heroText = {
   en: {
-    title1: 'Front End Developer',
-    title2: 'AI-driven Creator',
+    titleLine1: 'Front End',
+    titleLine2: 'Developer',
+    subtitle: 'Turning ideas into digital experiences.',
     description:
       'Front End Developer with a focus on clean UX, scalable interfaces and AI integration. I enjoy combining design, technology and creativity to build meaningful digital products.',
     viewProjects: 'View projects',
@@ -19,8 +20,9 @@ const heroText = {
     hi: 'Hi, I am'
   },
   es: {
-    title1: 'Desarrolladora Front End',
-    title2: 'Creadora impulsada por IA',
+    titleLine1: 'Desarrolladora',
+    titleLine2: 'Front End',
+    subtitle: 'Transformo ideas en experiencias digitales.',
     description:
       'Desarrolladora Front End enfocada en UX limpio, interfaces escalables e integración con inteligencia artificial. Me gusta combinar diseño, tecnología y creatividad para construir productos digitales significativos.',
     viewProjects: 'Ver proyectos',
@@ -64,21 +66,14 @@ export const Hero: React.FC = () => {
         </p>
 
         <h1 className="hero-title">
-          <span style={{ fontWeight: 700, color: '#f9fafb' }}>{h.title1}</span>
-          <br />
-          <span
-            style={{
-              display: 'inline-block',
-              backgroundImage:
-                'linear-gradient(90deg, var(--primary) 0%, #fb7185 100%)',
-              backgroundClip: 'text',
-              WebkitBackgroundClip: 'text',
-              color: 'transparent',
-              WebkitTextFillColor: 'transparent',
-              fontWeight: 600
-            }}
-          >
-            {h.title2}
+          <span className="hero-title-main hero-title-line">
+            {h.titleLine1}
+          </span>
+          <span className="hero-title-main hero-title-line">
+            {h.titleLine2}
+          </span>
+          <span className="hero-subtitle">
+            {h.subtitle}
           </span>
         </h1>
 
