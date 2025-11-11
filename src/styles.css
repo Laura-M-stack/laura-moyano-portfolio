@@ -160,7 +160,6 @@ p {
     transition: all 0.3s ease;
 }
 
-/* 3 líneas equidistantes (hamburguesa) */
 .navbar-toggle .bar.top {
     top: 10px;
 }
@@ -173,7 +172,6 @@ p {
     top: 24px;
 }
 
-/* animación al abrir (X) */
 .navbar-toggle.is-open .bar.top {
     transform: rotate(45deg);
     top: 17px;
@@ -217,14 +215,12 @@ p {
   margin: 0;
 }
 
-/* grupo solo del título blanco */
 .hero-title-main-group {
   font-size: clamp(3.2rem, 5.8vw, 3.8rem);
   display: block;
   white-space: nowrap;
 }
 
-/* palabras del título blanco */
 .hero-title-main {
   display: inline-block;
   font-family: "Outfit", "Poppins", "Raleway", sans-serif;
@@ -233,7 +229,6 @@ p {
   color: #f9fafb;
 }
 
-/* línea de color debajo */
 .hero-subtitle {
   display: block;
   margin-top: 0.5rem;
@@ -325,8 +320,6 @@ p {
     display: flex;
     justify-content: flex-end;
 }
-
-/* Hero card como glass */
 
 .hero-card {
     width: 100%;
@@ -548,8 +541,6 @@ p {
     gap: 0.8rem;
     margin-top: 0.6rem;
 }
-
-/* Contact cards como glass también */
 
 .contact-card {
     display: block;

@@ -28,7 +28,7 @@ export const experiences = [
     role: 'Product Engineer',
     period: '2024 – Nov 2025',
     description:
-      'Worked on scalable web interfaces across the ChicksX and ChicksGold platforms, ensuring usability and design consistency. Contributed to refactoring legacy code and improving performance in production environments.',
+      'Worked on scalable web interfaces across the ChicksX platform, ensuring usability and design consistency. Contributed to refactoring legacy code and improving performance in production environments.',
     highlights: [
       'Developed and optimized UI components using Aurelia, TypeScript and SCSS.',
       'Implemented visual and accessibility improvements aligned with Figma specs.',
@@ -57,7 +57,7 @@ export const experiences = [
       'Built APIs and machine learning integrations in projects aimed at solving real-world problems using AI technologies.',
     highlights: [
       'Designed and deployed RESTful APIs using Node.js and Python.',
-      'Collaborated on the definition of architecture and deployment pipelines.',
+      'Colabborated in design and frontend development of user interfaces.',
       'Integrated machine learning models into web applications.'
     ],
     tech: ['Node.js', 'Python', 'MySQL']
@@ -141,7 +141,7 @@ export const talks = [
       'Moderator in a talk about artificial intelligence and its social impact with Dr. Florencia Pollo-Cataneo.'
   },
   {
-    title: 'IA para Mujeres Emprendedoras: Automatización y Productividad Responsable',
+    title: 'AI for Women Entrepreneurs: Automation and Responsible Productivity',
     event: 'MEFEBA',
     year: '2024',
     description:

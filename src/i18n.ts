@@ -28,7 +28,7 @@ export const translations = {
                 role: 'Product Engineer',
                 period: 'May 2025 – Nov 2025',
                 description:
-                    'Developed and maintained web interfaces at ChicksX platform, ensuring usability and consistency.',
+                    'Developed and maintained web interfaces at ChicksX exchange platform, ensuring usability and consistency.',
                 highlights: [
                     'Built and optimized UI components using Aurelia, TypeScript and SCSS.',
                     'Improved performance and visual alignment based on Figma specs.',
@@ -55,7 +55,7 @@ export const translations = {
                     'Developed APIs and AI integrations for projects with social impact.',
                 highlights: [
                     'Built REST APIs using Node.js and Python.',
-                    'Worked on backend integrations and deployment.',
+                    'Worked on frontend, backend integrations and deployment.',
                     'Collaborated in architecture and data modeling decisions.'
                 ]
             },
@@ -66,7 +66,7 @@ export const translations = {
                 description:
                     'Led and built SafePets, a blockchain-based marketplace that won the Polygon Cardona category for innovation.',
                 highlights: [
-                    'Designed and implemented the main UI with React.',
+                    'Designed and implemented the marketplace UI with React.',
                     'Coordinated the team and project presentation.',
                     'Integrated smart contracts and wallet connection.'
                 ]
@@ -127,7 +127,7 @@ export const translations = {
                 event: 'Panel',
                 year: '2024',
                 description:
-                    'Discussion about the ethical and social implications of AI, with Dr. Florencia Pollo-Cataneo.'
+                    'Moderator in a discussion about the ethical and social implications of AI, with Dr. Florencia Pollo-Cataneo.'
             },
             {
                 title: 'AI for Women Entrepreneurs',
@@ -180,7 +180,7 @@ export const translations = {
                 role: 'Product Engineer',
                 period: 'May 2025 – Nov 2025',
                 description:
-                    'Desarrollo y mantenimiento de interfaces web en la plataforma ChicksX, asegurando usabilidad y consistencia visual.',
+                    'Desarrollo y mantenimiento de interfaces web en la plataforma de exchange ChicksX, asegurando usabilidad y consistencia visual.',
                 highlights: [
                     'Construcción y optimización de componentes UI con Aurelia, TypeScript y SCSS.',
                     'Mejoras de performance y alineación visual según diseños en Figma.',
@@ -207,7 +207,7 @@ export const translations = {
                     'Desarrollo de APIs e integraciones de IA para proyectos con impacto social.',
                 highlights: [
                     'Creación de APIs REST con Node.js y Python.',
-                    'Integración backend y despliegue en entornos de prueba.',
+                    'Integración frontend, backend y despliegue en entornos de prueba.',
                     'Participación en decisiones de arquitectura y modelado de datos.'
                 ]
             },
@@ -218,7 +218,7 @@ export const translations = {
                 description:
                     'Liderazgo y desarrollo de SafePets, un marketplace blockchain ganador de la categoría Polygon Cardona por innovación.',
                 highlights: [
-                    'Diseño e implementación de la UI principal con React.',
+                    'Diseño e implementación de la UI del marketplace con React.',
                     'Coordinación del equipo y presentación ante jurados.',
                     'Integración de smart contracts y conexión de wallet.'
                 ]
@@ -232,7 +232,7 @@ export const translations = {
                 highlights: [
                     'Diseños centrados en el usuario y código limpio de front end.',
                     'Optimización de rendimiento y accesibilidad.',
-                    'Entrega de soluciones personalizadas para pymes.'
+                    'Entrega de soluciones personalizadas para cada proyecto.'
                 ]
             }
         ],

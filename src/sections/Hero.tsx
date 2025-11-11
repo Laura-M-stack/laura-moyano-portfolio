@@ -49,7 +49,6 @@ export const Hero: React.FC = () => {
   const { language } = useLanguage();
   const h = heroText[language];
 
-  // 👇 título principal en una sola string, con espacio no separable
   const titleMain = `${h.titleLine1}\u00A0${h.titleLine2}`;
 
   return (
