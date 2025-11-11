@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Laura Moyano',
-  role: 'Front End Developer\nAI-driven Creator',
+  role: 'Front End Developer',
   location: 'Argentina · Remote friendly',
   tagline:
     'Front End Developer with a focus on clean UX, scalable interfaces and AI integration. I enjoy combining design, technology and creativity to build meaningful digital products.',

@@ -49,6 +49,9 @@ export const Hero: React.FC = () => {
   const { language } = useLanguage();
   const h = heroText[language];
 
+  // 👇 título principal en una sola string, con espacio no separable
+  const titleMain = `${h.titleLine1}\u00A0${h.titleLine2}`;
+
   return (
     <motion.section
       className="hero"
@@ -66,12 +69,15 @@ export const Hero: React.FC = () => {
         </p>
 
         <h1 className="hero-title">
-          <span className="hero-title-main hero-title-line">
-            {h.titleLine1}
+          <span className="hero-title-main-group">
+            <span className="hero-title-main hero-title-line1">
+              {h.titleLine1}
+            </span>{' '}
+            <span className="hero-title-main hero-title-line2">
+              {h.titleLine2}
+            </span>
           </span>
-          <span className="hero-title-main hero-title-line">
-            {h.titleLine2}
-          </span>
+
           <span className="hero-subtitle">
             {h.subtitle}
           </span>
