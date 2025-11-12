@@ -8,7 +8,7 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/laura-moyano-h',
     github: 'https://github.com/Laura-M-stack',
     email: 'mailto:lauraymh000@gmail.com',
-    youtube: 'https://www.youtube.com/@MakeYourReality'
+    // youtube: 'https://www..com/@MakeYourReality'
   },
   keywords: [
     'Front End Development',
@@ -99,14 +99,14 @@ export const projects = [
     tech: ['React', 'Solidity', 'Web3', 'Figma'],
     link: 'https://devpost.com/software/safepets'
   },
-  {
-    name: 'Make Your Reality – YouTube Channel',
-    role: 'Creator',
-    description:
-      'Multilingual motivational content powered by AI tools for voice, image and music. Focused on mindset, productivity and personal growth.',
-    tech: ['AI Tools', 'CapCut', 'Canva', 'YouTube'],
-    link: 'https://www.youtube.com/@MakeYourReality'
-  },
+  // {
+  //   name: 'Make Your Reality – YouTube Channel',
+  //   role: 'Creator',
+  //   description:
+  //     'Multilingual motivational content powered by AI tools for voice, image and music. Focused on mindset, productivity and personal growth.',
+  //   tech: ['AI Tools', 'CapCut', 'Canva', 'YouTube'],
+  //   link: 'https://www.youtube.com/@MakeYourReality'
+  // },
   {
     name: 'ChatMarketAI',
     role: 'Front End Developer',

@@ -20,7 +20,7 @@ export const translations = {
             "Until November 2025 I worked at Chicks Group Inc. as a Product Engineer, collaborating with international teams on scalable web interfaces.",
             "Before that, I contributed to AI training projects at Outlier.ai, developing prompts and testing strategies for model optimization.",
             "Nowadays I’m focused on freelance and creative projects that merge technology, design and automation — exploring how AI can enhance front-end development, content creation and personal productivity.",
-            "I enjoy learning, iterating and sharing knowledge — whether it’s through open-source work, mentorship or my motivational YouTube project, Make Your Reality."
+            // "I enjoy learning, iterating and sharing knowledge — whether it’s through open-source work, mentorship or my motivational YouTube project, Make Your Reality."
         ],
         experience: [
             {
@@ -92,13 +92,13 @@ export const translations = {
                     'Winner of Latina Blockchain Hackathon (Polygon Cardona Category). A decentralized platform promoting responsible pet adoption.',
                 tech: ['React', 'Solidity', 'Web3', 'Figma']
             },
-            {
-                name: 'Make Your Reality – YouTube Channel',
-                role: 'Creator',
-                description:
-                    'Multilingual motivational channel powered by AI for voice, visuals and editing. Focused on mindset, productivity and personal growth.',
-                tech: ['AI Tools', 'CapCut', 'Canva', 'YouTube']
-            },
+            // {
+            //     name: 'Make Your Reality – YouTube Channel',
+            //     role: 'Creator',
+            //     description:
+            //         'Multilingual motivational channel powered by AI for voice, visuals and editing. Focused on mindset, productivity and personal growth.',
+            //     tech: ['AI Tools', 'CapCut', 'Canva', 'YouTube']
+            // },
             {
                 name: 'ChatMarketAI',
                 role: 'Front End Developer',
@@ -146,8 +146,8 @@ export const translations = {
             linkedinSubtitle: 'Let’s connect',
             githubTitle: 'GitHub',
             githubSubtitle: 'Check my code',
-            youtubeTitle: 'YouTube',
-            youtubeSubtitle: 'Make Your Reality'
+            // youtubeTitle: 'YouTube',
+            // youtubeSubtitle: 'Make Your Reality'
         }
     },
 
@@ -244,13 +244,13 @@ export const translations = {
                     'Proyecto ganador del Latina Blockchain Hackathon (Categoría Polygon Cardona). Plataforma descentralizada que promueve la adopción responsable.',
                 tech: ['React', 'Solidity', 'Web3', 'Figma']
             },
-            {
-                name: 'Make Your Reality – Canal de YouTube',
-                role: 'Creadora',
-                description:
-                    'Canal motivacional multilingüe impulsado por herramientas de IA para voz, imagen y edición. Enfocado en mentalidad, productividad y crecimiento personal.',
-                tech: ['IA', 'CapCut', 'Canva', 'YouTube']
-            },
+            // {
+            //     name: 'Make Your Reality – Canal de YouTube',
+            //     role: 'Creadora',
+            //     description:
+            //         'Canal motivacional multilingüe impulsado por herramientas de IA para voz, imagen y edición. Enfocado en mentalidad, productividad y crecimiento personal.',
+            //     tech: ['IA', 'CapCut', 'Canva', 'YouTube']
+            // },
             {
                 name: 'ChatMarketAI',
                 role: 'Desarrolladora Front End',
@@ -298,8 +298,8 @@ export const translations = {
             linkedinSubtitle: 'Conectemos',
             githubTitle: 'GitHub',
             githubSubtitle: 'Mirá mi código',
-            youtubeTitle: 'YouTube',
-            youtubeSubtitle: 'Make Your Reality'
+            // youtubeTitle: 'YouTube',
+            // youtubeSubtitle: 'Make Your Reality'
         }
     }
 };

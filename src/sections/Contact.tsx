@@ -38,7 +38,7 @@ export const Contact: React.FC = () => {
           <h3>{t.contact.githubTitle}</h3>
           <p className="muted">{t.contact.githubSubtitle}</p>
         </a>
-        <a
+        {/* <a
           href={profile.links.youtube}
           target="_blank"
           rel="noreferrer"
@@ -46,7 +46,7 @@ export const Contact: React.FC = () => {
         >
           <h3>{t.contact.youtubeTitle}</h3>
           <p className="muted">{t.contact.youtubeSubtitle}</p>
-        </a>
+        </a> */}
       </div>
     </Section>
   );
