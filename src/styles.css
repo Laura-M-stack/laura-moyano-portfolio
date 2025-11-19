@@ -264,7 +264,7 @@ p {
 .hero-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.6rem;
+    gap: 1em;
     margin-top: 0.6rem;
     justify-content: center;
     margin-inline: auto;
@@ -275,16 +275,15 @@ p {
 .btn-primary,
 .btn-ghost {
     border-radius: 999px;
-    padding: 0.55rem 1.1rem;
-    font-size: 1.2rem;
-    border: 1px solid transparent;
+    padding: 0.55rem 2rem;
+    font-size: 1.3rem;
+    border: 2px solid transparent;
     cursor: pointer;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 0.4rem;
-    transition: all 0.18s ease-out;
 }
 
 .btn-primary {
@@ -294,19 +293,25 @@ p {
 }
 
 .btn-primary:hover {
+    background: var(--primary);
     filter: brightness(1.05);
     transform: translateY(-1px);
 }
 
 .btn-ghost {
-    background: rgba(15, 23, 42, 0.9);
-    border-color: rgba(148, 163, 184, 0.4);
-    color: var(--muted);
+    background: var(--primary-soft);
+    color: var(--text);
+    box-shadow: var(--shadow-soft);
 }
 
 .btn-ghost:hover {
+    background: var(--primary);
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+    color:#020617;
     border-color: var(--primary);
     color: var(--text);
+    box-shadow: var(--shadow-soft);
 }
 
 /* Section base */
