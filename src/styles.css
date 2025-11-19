@@ -287,15 +287,17 @@ p {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--primary), var(--primary-soft));
-    color: var(--text);
+    background: linear-gradient(135deg, #ff75c1, #b07cff);
+    color: var(--bg-elevated);
     box-shadow: var(--shadow-soft);
+    border: 2px solid var(--primary);
 }
 
 .btn-primary:hover {
     background: var(--primary);
     filter: brightness(1.05);
     transform: translateY(-1px);
+    color:var(--text);
 }
 
 .btn-primary:active && .btn-primary:focus  && .btn-primary:visited {
@@ -305,9 +307,10 @@ p {
 }
 
 .btn-ghost {
-    background: var(--primary-soft);
-    color: var(--text);
+    background: linear-gradient(135deg, #b07cff, #5ac8fa);
+    color: var(--bg-elevated);
     box-shadow: var(--shadow-soft);
+    border: 2px solid var(--primary);
 }
 
 .btn-ghost:hover {
@@ -321,7 +324,7 @@ p {
 }
 
 .btn-ghost:active && .btn-ghost:focus  && .btn-ghost:visited {
-     background: var(--primary-soft);
+    background: linear-gradient(135deg, var(--primary-soft), var(--primary));
     color: var(--text);
     box-shadow: var(--shadow-soft);
 }
