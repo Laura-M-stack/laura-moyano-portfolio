@@ -298,6 +298,12 @@ p {
     transform: translateY(-1px);
 }
 
+.btn-primary:active && .btn-primary:focus  && .btn-primary:visited {
+    background: linear-gradient(135deg, var(--primary), var(--primary-soft));
+    color: var(--text);
+    box-shadow: var(--shadow-soft);
+}
+
 .btn-ghost {
     background: var(--primary-soft);
     color: var(--text);
@@ -310,6 +316,12 @@ p {
     transform: translateY(-1px);
     color:#020617;
     border-color: var(--primary);
+    color: var(--text);
+    box-shadow: var(--shadow-soft);
+}
+
+.btn-ghost:active && .btn-ghost:focus  && .btn-ghost:visited {
+     background: var(--primary-soft);
     color: var(--text);
     box-shadow: var(--shadow-soft);
 }
