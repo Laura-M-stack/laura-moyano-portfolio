@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: 'laura-moyano-portfolio/',
+  base: '/laura-moyano-portfolio/',
   build: {
     outDir: 'docs',
   },
