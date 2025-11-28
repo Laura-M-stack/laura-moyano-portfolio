@@ -11,7 +11,7 @@ export const translations = {
         sections: {
             aboutEyebrow: 'Who I am',
             experienceEyebrow: 'What I have been working on',
-            projectsEyebrow: 'Things I have built',
+            projectsEyebrow: 'Some things I have built',
             talksEyebrow: 'Sharing what I learn',
             contactEyebrow: 'Let us build something together'
         },
@@ -163,7 +163,7 @@ export const translations = {
         sections: {
             aboutEyebrow: 'Quién soy',
             experienceEyebrow: 'En qué estuve trabajando',
-            projectsEyebrow: 'Proyectos que construí',
+            projectsEyebrow: 'Algunos proyectos que construí',
             talksEyebrow: 'Charlas y conferencias',
             contactEyebrow: 'Construyamos algo juntos'
         },
