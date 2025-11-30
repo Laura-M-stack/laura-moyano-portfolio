@@ -92,28 +92,31 @@ export const experiences = [
 
 export const projects = [
   {
-    name: 'SafePets – Blockchain Marketplace',
-    role: 'Project Manager / Frontend Developer',
+    name: 'Currency Converter App',
+    role: 'Front End Developer',
     description:
-      'Winner of Latina Blockchain Hackathon (Polygon Cardona Category). A decentralized marketplace promoting responsible pet adoption and sterilization.',
-    tech: ['React', 'Solidity', 'Web3', 'Figma'],
-    link: 'https://devpost.com/software/safepets'
+      'Svelte application to convert currencies with real-time rates, dark/light mode, six languages and conversion history. Focused on performance, accessibility and an intuitive user experience.',
+    tech: ['Svelte', 'TypeScript', 'Sass'],
+    link: 'https://laura-m-stack.github.io/Currency-Converter-App/',
+    image: 'projects/currency-converter.png'
   },
-  // {
-  //   name: 'Make Your Reality – YouTube Channel',
-  //   role: 'Creator',
-  //   description:
-  //     'Multilingual motivational content powered by AI tools for voice, image and music. Focused on mindset, productivity and personal growth.',
-  //   tech: ['AI Tools', 'CapCut', 'Canva', 'YouTube'],
-  //   link: 'https://www.youtube.com/@MakeYourReality'
-  // },
+  {
+    name: 'Glamour Studio – Beauty & Wellness',
+    role: 'Front End Developer',
+    description:
+      'Single-page React website for a beauty studio, including services, team, testimonials and an online booking section. Fully responsive and built with a modern component-based architecture.',
+    tech: ['React', 'TypeScript', 'Vite', 'SCSS'],
+    link: 'https://glamourstudio.netlify.app/',
+    image: 'projects/glamour-studio.png'
+  },
   {
     name: 'ChatMarketAI',
     role: 'Front End Developer',
     description:
       'Platform to explore and connect with chatbot solutions, built with HTML, CSS and JavaScript.',
     tech: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://chatmarketai.netlify.app/'
+    link: 'https://chatmarketai.netlify.app/',
+    image: 'projects/chat-market-ai.png'
   },
   {
     name: 'Style Factory',
@@ -121,7 +124,35 @@ export const projects = [
     description:
       'Landing page for a fashion brand, featuring responsive design and API integration.',
     tech: ['HTML', 'CSS', 'Bootstrap', 'JS'],
-    link: 'https://style-factory.netlify.app/'
+    link: 'https://style-factory.netlify.app/',
+    image: 'projects/style-factory.png'
+  },
+  {
+    name: 'Casa Artesana – Online Marketplace',
+    role: 'Front End Developer',
+    description:
+      'Frontend for an online handicraft marketplace made with HTML, CSS and JavaScript. Includes product galleries, categories and a mobile-first responsive layout.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://casaartesana.netlify.app/',
+    image: 'projects/casa-artesana.png'
+  },
+  {
+    name: 'Servicios Hogar – Services Directory',
+    role: 'Front End Developer',
+    description:
+      'Website for hiring home service professionals, created with HTML, CSS and JavaScript. Includes categorized service listings, intuitive navigation and a fully responsive design.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://servicioshogar.netlify.app/',
+    image: 'projects/servicios-hogar.png'
+  },
+  {
+    name: 'SafePets – Blockchain Marketplace',
+    role: 'Project Manager / Frontend Developer',
+    description:
+      'Winner of Latina Blockchain Hackathon (Polygon Cardona category). A decentralized marketplace promoting responsible pet adoption and sterilization.',
+    tech: ['React', 'Solidity', 'Web3', 'Figma'],
+    link: 'https://devpost.com/software/safepets',
+    image: 'projects/safepets.png'
   }
 ];
 

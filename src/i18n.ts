@@ -86,34 +86,56 @@ export const translations = {
         ],
         projects: [
             {
-                name: 'SafePets – Blockchain Marketplace',
-                role: 'Project Manager / Frontend Developer',
+                name: 'Currency Converter App',
+                role: 'Front End Developer',
                 description:
-                    'Winner of Latina Blockchain Hackathon (Polygon Cardona Category). A decentralized platform promoting responsible pet adoption.',
-                tech: ['React', 'Solidity', 'Web3', 'Figma']
+                    'Svelte application to convert currencies with real-time rates, dark/light mode, six languages and conversion history. Focused on performance, accessibility and an intuitive user experience.',
+                tech: ['Svelte', 'TypeScript', 'Sass']
             },
-            // {
-            //     name: 'Make Your Reality – YouTube Channel',
-            //     role: 'Creator',
-            //     description:
-            //         'Multilingual motivational channel powered by AI for voice, visuals and editing. Focused on mindset, productivity and personal growth.',
-            //     tech: ['AI Tools', 'CapCut', 'Canva', 'YouTube']
-            // },
+            {
+                name: 'Glamour Studio – Beauty & Wellness',
+                role: 'Front End Developer',
+                description:
+                    'Single-page website for a beauty studio, built with React and TypeScript. Includes services, team, testimonials and an online booking section, with a fully responsive layout.',
+                tech: ['React', 'TypeScript', 'Vite', 'SCSS']
+            },
             {
                 name: 'ChatMarketAI',
                 role: 'Front End Developer',
                 description:
-                    'Web platform to explore and connect chatbot solutions. Built with HTML, CSS and JavaScript.',
+                    'Web platform to explore and connect chatbot solutions. Built using HTML, CSS and JavaScript with a clean layout and responsive navigation.',
                 tech: ['HTML', 'CSS', 'JavaScript']
             },
             {
                 name: 'Style Factory',
                 role: 'Front End Developer',
                 description:
-                    'Landing page for a fashion brand with responsive design and API integration.',
+                    'Landing page for a fashion brand, featuring responsive layouts, strong visual branding, smooth interactions and API integration for dynamic content.',
                 tech: ['HTML', 'CSS', 'Bootstrap', 'JS']
+            },
+            {
+                name: 'Casa Artesana – Online Marketplace',
+                role: 'Front End Developer',
+                description:
+                    'Frontend for an online handicraft marketplace made with HTML, CSS and JavaScript. Includes product galleries, category filters and a mobile-first responsive layout.',
+                tech: ['HTML', 'CSS', 'JavaScript']
+            },
+            {
+                name: 'Servicios Hogar – Services Directory',
+                role: 'Front End Developer',
+                description:
+                    'Website for hiring home service professionals, created with HTML, CSS and JavaScript. Includes categorized service listings, clear navigation and a fully responsive design.',
+                tech: ['HTML', 'CSS', 'JavaScript']
+            },
+            {
+                name: 'SafePets – Blockchain Marketplace',
+                role: 'Project Manager / Frontend Developer',
+                description:
+                    'Winner of Latina Blockchain Hackathon (Polygon Cardona category). A decentralized marketplace promoting responsible pet adoption and sterilization.',
+                tech: ['React', 'Solidity', 'Web3', 'Figma']
             }
         ],
+
         talks: [
             {
                 title: 'AI in Action: Hacking your Daily Productivity',
@@ -238,34 +260,56 @@ export const translations = {
         ],
         projects: [
             {
-                name: 'SafePets – Marketplace Blockchain',
-                role: 'Project Manager / Desarrolladora Frontend',
+                name: 'App Conversor de Monedas',
+                role: 'Desarrolladora Front End',
                 description:
-                    'Proyecto ganador del Latina Blockchain Hackathon (Categoría Polygon Cardona). Plataforma descentralizada que promueve la adopción responsable.',
-                tech: ['React', 'Solidity', 'Web3', 'Figma']
+                    'Aplicación en Svelte para convertir monedas con tipos de cambio en tiempo real, modo claro/oscuro, seis idiomas e historial de conversiones. Enfocada en rendimiento, accesibilidad y una UX intuitiva.',
+                tech: ['Svelte', 'TypeScript', 'Sass']
             },
-            // {
-            //     name: 'Make Your Reality – Canal de YouTube',
-            //     role: 'Creadora',
-            //     description:
-            //         'Canal motivacional multilingüe impulsado por herramientas de IA para voz, imagen y edición. Enfocado en mentalidad, productividad y crecimiento personal.',
-            //     tech: ['IA', 'CapCut', 'Canva', 'YouTube']
-            // },
+            {
+                name: 'Glamour Studio – Estética & Bienestar',
+                role: 'Desarrolladora Front End',
+                description:
+                    'Página web para un estudio de belleza desarrollada con React y TypeScript. Incluye secciones de servicios, equipo, testimonios y turnos online, con diseño totalmente responsive.',
+                tech: ['React', 'TypeScript', 'Vite', 'SCSS']
+            },
             {
                 name: 'ChatMarketAI',
                 role: 'Desarrolladora Front End',
                 description:
-                    'Plataforma web para explorar y conectar soluciones de chatbots, desarrollada con HTML, CSS y JavaScript.',
+                    'Plataforma web para explorar y conectar soluciones de chatbots, creada con HTML, CSS y JavaScript. Presenta un diseño minimalista y navegación responsive.',
                 tech: ['HTML', 'CSS', 'JavaScript']
             },
             {
                 name: 'Style Factory',
                 role: 'Desarrolladora Front End',
                 description:
-                    'Landing page para una marca de moda, con diseño responsive e integración de API.',
+                    'Landing page para una marca de moda, con diseño responsive, identidad visual definida, animaciones suaves e integración de API para contenido dinámico.',
                 tech: ['HTML', 'CSS', 'Bootstrap', 'JS']
+            },
+            {
+                name: 'Casa Artesana – Marketplace Online',
+                role: 'Desarrolladora Front End',
+                description:
+                    'Frontend de un mercado online de artesanías hecho con HTML, CSS y JavaScript. Incluye galerías de productos, categorías y un layout completamente responsive.',
+                tech: ['HTML', 'CSS', 'JavaScript']
+            },
+            {
+                name: 'Servicios Hogar – Directorio de Oficios',
+                role: 'Desarrolladora Front End',
+                description:
+                    'Sitio web para contratar trabajadores de oficios, desarrollado con HTML, CSS y JavaScript. Incluye listados de servicios por categoría, navegación clara y diseño mobile-first.',
+                tech: ['HTML', 'CSS', 'JavaScript']
+            },
+            {
+                name: 'SafePets – Marketplace Blockchain',
+                role: 'Project Manager / Desarrolladora Frontend',
+                description:
+                    'Proyecto ganador del Latina Blockchain Hackathon (Categoría Polygon Cardona). Plataforma descentralizada que promueve la adopción responsable de mascotas y la esterilización.',
+                tech: ['React', 'Solidity', 'Web3', 'Figma']
             }
         ],
+
         talks: [
             {
                 title: 'IA en acción: Hackeá tu productividad diaria',
