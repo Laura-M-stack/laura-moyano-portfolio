@@ -90,13 +90,15 @@ body.theme-neonpulse {
     --muted: #9ca3af;
 
     --primary: #22d3ee;
-    --primary-soft: rgba(34, 211, 238, 0.45);
-    --border-subtle: rgba(148, 163, 184, 0.45);
+    --primary-soft: rgba(241, 104, 241, 0.93);
+    --border-subtle: #22c55e;
 
-    /* fondo general */
+    --shadow-soft: 0 18px 20px rgba(81, 86, 97, 0.5);
+    --shadow-grey: rgba(234, 232, 233, 0.3);
+
     --bg-gradient-start: #000000;
-    --bg-gradient-mid: #05001a;
-    --bg-gradient-end: #020617;
+    --bg-gradient-mid: #000000;
+    --bg-gradient-end: #000000;
 
     --hero-gradient-from: #22d3ee;
     --hero-gradient-mid: #a855f7;
@@ -108,13 +110,13 @@ body.theme-neonpulse {
     --btn-ghost-from: #a855f7;
     --btn-ghost-to: #22c55e;
 
-    --btn-text: #020617;
-    --btn-hover-text: #020617;
+    --btn-text: var(--bg);
+    --btn-hover-text: var(--bg);
 
     --project-card-inner: rgba(34, 211, 238, 0.22);
-    --project-card-inner-active: rgba(168, 85, 247, 0.45);
+    --project-card-inner-active: rgba(247, 85, 220, 0.45);
     --project-card-outer: var(--bg-elevated);
-    --project-card-border: rgba(34, 211, 238, 0.7);
+    --project-card-border: rgba(238, 34, 228, 0.7);
 }
 
 body.theme-forest {
@@ -207,7 +209,7 @@ body.theme-lavender {
     --btn-ghost-from: #843cc7;
     --btn-ghost-to: #5b6af0;
 
-    --btn-text: #fff;
+    --btn-text: whitesmoke;
     --btn-hover-text: #fff;
 
     --project-card-inner: rgba(192, 132, 252, 0.35);
@@ -240,8 +242,8 @@ body.theme-amber {
     --btn-ghost-from: #f5bd31;
     --btn-ghost-to: #f4a720;
 
-    --btn-text: #1a1205;
-    --btn-hover-text: #fff;
+    --btn-text: var(--bg);
+    --btn-hover-text: var(--bg);
 
     --project-card-inner: rgba(251, 191, 36, 0.3);
     --project-card-inner-active: rgba(251, 191, 36, 0.45);
@@ -273,8 +275,8 @@ body.theme-crimson {
     --btn-ghost-from: #f930a9;
     --btn-ghost-to: #670482;
 
-    --btn-text: #fff;
-    --btn-hover-text: #fff;
+    --btn-text: whitesmoke;
+    --btn-hover-text: whitesmoke;
 
     --project-card-inner: rgba(251, 113, 133, 0.35);
     --project-card-inner-active: rgba(251, 113, 133, 0.52);
@@ -283,9 +285,9 @@ body.theme-crimson {
 }
 
 body.theme-pearl {
-    --bg: #fafaff;
-    --bg-elevated: #ffffff;
-    --bg-soft: #f3f4f9;
+    --bg: whitesmoke;
+    --bg-elevated: whitesmoke;
+    --bg-soft: whitesmoke;
 
     --text: #0b0816;
     --muted: #5b5b87;
@@ -295,22 +297,22 @@ body.theme-pearl {
     --border-subtle: rgba(58, 82, 237, 0.45);
     --shadow-grey: rgba(93, 89, 90, 0.7);
 
-    --bg-gradient-start: #ffffff;
+    --bg-gradient-start: whitesmoke;
     --bg-gradient-mid: #dbd6f7;
     --bg-gradient-end: #cfcde4;
 
-    --hero-gradient-from: #6f529c;
+    --hero-gradient-from: #603c94;
     --hero-gradient-mid: #737692;
     --hero-gradient-to: #b4bcf0;
 
-    --btn-primary-from: #6f529c;
+    --btn-primary-from: #603c94;
     --btn-primary-to: #737692;
 
     --btn-ghost-from: #737692;
     --btn-ghost-to: #b4bcf0;
 
-    --btn-text: #ffffff;
-    --btn-hover-text: #ffffff;
+    --btn-text: whitesmoke;
+    --btn-hover-text: whitesmoke;
 
     --project-card-inner: rgba(124, 58, 237, 0.14);
     --project-card-inner-active: rgba(124, 58, 237, 0.2);
@@ -327,8 +329,8 @@ body.theme-sand {
     --muted: #6c635a;
 
     --primary: #a56423;
-    --primary-soft: rgba(212, 163, 115, 0.28);
-    --border-subtle: rgba(212, 163, 115, 0.3);
+    --primary-soft: rgba(206, 136, 65, 0.837);
+    --border-subtle: rgba(212, 163, 115, 0.655);
     --shadow-grey: rgba(93, 89, 90, 0.7);
 
     --bg-gradient-start: #ffffff;
@@ -351,7 +353,7 @@ body.theme-sand {
     --project-card-inner: rgba(212, 163, 115, 0.18);
     --project-card-inner-active: rgba(212, 163, 115, 0.28);
     --project-card-outer: var(--bg-elevated);
-    --project-card-border: rgba(212, 163, 115, 0.55);
+    --project-card-border: rgba(229, 168, 107, 0.55);
 }
 
 body.theme-rosemilk {
@@ -359,12 +361,12 @@ body.theme-rosemilk {
     --bg-elevated: #ffffff;
     --bg-soft: #fceff3;
 
-    --text: #29151c;
-    --muted: #974961;
+    --text: #0f0106;
+    --muted: #874a69;
 
     --primary: #ec8095;
-    --primary-soft: rgba(218, 130, 148, 0.35);
-    --border-subtle: rgba(244, 182, 194, 0.35);
+    --primary-soft: rgba(239, 156, 204, 0.856);
+    --border-subtle: rgb(244, 182, 194);
     --shadow-grey: rgba(93, 89, 90, 0.7);
 
     --bg-gradient-start: #ffffff;
@@ -399,8 +401,8 @@ body.theme-mintfresh {
     --muted: #52927f;
 
     --primary: #0a905f;
-    --primary-soft: rgba(52, 211, 153, 0.35);
-    --border-subtle: rgba(52, 211, 153, 0.579);
+    --primary-soft: rgba(0, 129, 82, 0.739);
+    --border-subtle: rgba(52, 211, 153, 0.76);
     --shadow-grey: rgba(93, 89, 90, 0.7);
 
     --bg-gradient-start: #ffffff;
@@ -434,37 +436,32 @@ body.theme-skyline {
   --text: #1f2937;
   --muted: #6b7280;
 
-  /* acento principal: naranja cítrico */
   --primary: #f97316;
-  --primary-soft: rgba(249, 115, 22, 0.28);
-  --border-subtle: rgba(148, 163, 184, 0.25);
+  --primary-soft: #facc15e3;
+  --border-subtle: rgba(136, 226, 91, 0.572);
   --shadow-grey: rgba(93, 89, 90, 0.7);
 
-  /* fondo general – crema cálido, nada de azul */
   --bg-gradient-start: #fffaf2;
   --bg-gradient-mid: #fff3d4;
   --bg-gradient-end: #fee2e2;
 
-  /* hero gradient – naranja → amarillo → verde */
   --hero-gradient-from: #f97316;
   --hero-gradient-mid: #facc15;
   --hero-gradient-to: #22c55e;
 
-  /* botones */
   --btn-primary-from: #f97316;
   --btn-primary-to: #facc15;
 
   --btn-ghost-from: #facc15;
   --btn-ghost-to: #55f98e;
 
-  --btn-text: #1f2937;
-  --btn-hover-text: #0b1120;
+  --btn-text: var(--text);
+  --btn-hover-text: var(var(--text));
 
-  /* cards de proyectos */
   --project-card-inner: rgba(249, 115, 22, 0.16);
   --project-card-inner-active: rgba(250, 204, 21, 0.30);
   --project-card-outer: var(--bg-elevated);
-  --project-card-border: rgba(249, 115, 22, 0.45);
+  --project-card-border: rgba(236, 157, 101, 0.732);
 }
 
 body.theme-cloud {
