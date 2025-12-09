@@ -254,24 +254,24 @@ body.theme-crimson {
     --bg-elevated: #1b080d;
     --bg-soft: #270b11;
     --text: #ffe4e6;
-    --muted: #f7dbde;
-    --primary: #f930a9;
-    --primary-soft: rgba(251, 113, 133, 0.45);
-    --border-subtle: rgba(251, 113, 133, 0.35);
+    --muted: #fbcdd1;
+    --primary: #e82db9;
+    --primary-soft: rgba(239, 110, 226, 0.85);
+    --border-subtle: rgba(251, 113, 198, 0.463);
 
-    --bg-gradient-start: #370317;
-    --bg-gradient-mid: #1a030b;
+    --bg-gradient-start: #24040f;
+    --bg-gradient-mid: #120107;
     --bg-gradient-end: #000000;
 
-    --hero-gradient-from: #ec96dd;
-    --hero-gradient-mid: #f930a9;
-    --hero-gradient-to: #820454;
+    --hero-gradient-from: #ef8c3b;
+    --hero-gradient-mid: #e72db8;
+    --hero-gradient-to: #670482;
 
-    --btn-primary-from: #ec96dd;
+    --btn-primary-from: #ef8c3b;
     --btn-primary-to: #f930a9;
 
     --btn-ghost-from: #f930a9;
-    --btn-ghost-to: #820454;
+    --btn-ghost-to: #670482;
 
     --btn-text: #fff;
     --btn-hover-text: #fff;
@@ -427,38 +427,44 @@ body.theme-mintfresh {
 }
 
 body.theme-skyline {
-    --bg: #f3f7fd;
-    --bg-elevated: #ffffff;
-    --bg-soft: #e3eefb;
+  --bg: #fffaf2;
+  --bg-elevated: #ffffff;
+  --bg-soft: #fef3c7;
 
-    --text: #1f2933;
-    --muted: #60708a;
+  --text: #1f2937;
+  --muted: #6b7280;
 
-    --primary: #2563eb;
-    --primary-soft: rgba(37, 99, 235, 0.28);
-    --border-subtle: rgba(15, 23, 42, 0.12);
+  /* acento principal: naranja cítrico */
+  --primary: #f97316;
+  --primary-soft: rgba(249, 115, 22, 0.28);
+  --border-subtle: rgba(148, 163, 184, 0.25);
+  --shadow-grey: rgba(93, 89, 90, 0.7);
 
-    --bg-gradient-start: #ffffff;
-    --bg-gradient-mid: #e5f0ff;
-    --bg-gradient-end: #d7e3f8;
+  /* fondo general – crema cálido, nada de azul */
+  --bg-gradient-start: #fffaf2;
+  --bg-gradient-mid: #fff3d4;
+  --bg-gradient-end: #fee2e2;
 
-    --hero-gradient-from: #2563eb;
-    --hero-gradient-mid: #38bdf8;
-    --hero-gradient-to: #22c1c3;
+  /* hero gradient – naranja → amarillo → verde */
+  --hero-gradient-from: #f97316;
+  --hero-gradient-mid: #facc15;
+  --hero-gradient-to: #22c55e;
 
-    --btn-primary-from: #2563eb;
-    --btn-primary-to: #38bdf8;
+  /* botones */
+  --btn-primary-from: #f97316;
+  --btn-primary-to: #facc15;
 
-    --btn-ghost-from: #e0f2fe;
-    --btn-ghost-to: #bfdbfe;
+  --btn-ghost-from: #facc15;
+  --btn-ghost-to: #55f98e;
 
-    --btn-text: #ffffff;
-    --btn-hover-text: #0b1120;
+  --btn-text: #1f2937;
+  --btn-hover-text: #0b1120;
 
-    --project-card-inner: rgba(37, 99, 235, 0.14);
-    --project-card-inner-active: rgba(56, 189, 248, 0.28);
-    --project-card-outer: var(--bg-elevated);
-    --project-card-border: rgba(37, 99, 235, 0.4);
+  /* cards de proyectos */
+  --project-card-inner: rgba(249, 115, 22, 0.16);
+  --project-card-inner-active: rgba(250, 204, 21, 0.30);
+  --project-card-outer: var(--bg-elevated);
+  --project-card-border: rgba(249, 115, 22, 0.45);
 }
 
 body.theme-cloud {
