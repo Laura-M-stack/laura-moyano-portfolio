@@ -3,7 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 export type ThemeId =
     | 'default'
     | 'ocean'
-    | 'sunset'
+    | 'neonpulse'
     | 'forest'
     | 'mono'
     | 'lavender'
@@ -13,7 +13,7 @@ export type ThemeId =
     | 'sand'
     | 'rosemilk'
     | 'mintfresh'
-    | 'supaclean'
+    | 'skyline'
     | 'cloud'
     | 'snowbloom';
 

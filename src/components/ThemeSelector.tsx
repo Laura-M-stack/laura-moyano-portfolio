@@ -13,22 +13,22 @@ type ThemeOption = {
 
 const themes: ThemeOption[] = [
   // 🔹 Oscuros
-  { id: 'default',   labelEs: 'Clásico',        labelEn: 'Classic',        mode: 'dark' },
-  { id: 'ocean',     labelEs: 'Neón océano',    labelEn: 'Ocean neon',     mode: 'dark' },
-  { id: 'sunset',    labelEs: 'Atardecer',      labelEn: 'Sunset',         mode: 'dark' },
-  { id: 'forest',    labelEs: 'Bosque',         labelEn: 'Forest',         mode: 'dark' },
-  { id: 'mono',      labelEs: 'Minimal',        labelEn: 'Minimal',        mode: 'dark' },
-  { id: 'lavender',  labelEs: 'Lavanda Suave',  labelEn: 'Soft Lavender',  mode: 'dark' },
-  { id: 'amber',     labelEs: 'Ámbar Dorado',   labelEn: 'Golden Amber',   mode: 'dark' },
-  { id: 'crimson',   labelEs: 'Carmesí Intenso',labelEn: 'Deep Crimson',   mode: 'dark' },
+  { id: 'default', labelEs: 'Clásico', labelEn: 'Classic', mode: 'dark' },
+  { id: 'ocean', labelEs: 'Neón océano', labelEn: 'Ocean neon', mode: 'dark' },
+  { id: 'neonpulse', labelEs: 'Neón Pulse', labelEn: 'Neon Pulse' , mode: 'dark' },
+  { id: 'forest', labelEs: 'Bosque', labelEn: 'Forest', mode: 'dark' },
+  { id: 'mono', labelEs: 'Minimal', labelEn: 'Minimal', mode: 'dark' },
+  { id: 'lavender', labelEs: 'Lavanda Suave', labelEn: 'Soft Lavender', mode: 'dark' },
+  { id: 'amber', labelEs: 'Ámbar Dorado', labelEn: 'Golden Amber', mode: 'dark' },
+  { id: 'crimson', labelEs: 'Carmesí Intenso',labelEn: 'Deep Crimson', mode: 'dark' },
 
   // 🔹 Claros
-  { id: 'pearl',     labelEs: 'Perla Suave',    labelEn: 'Soft Pearl', mode: 'light' },
-  { id: 'sand',      labelEs: 'Arena Cálida',   labelEn: 'Warm Sand', mode: 'light' },
-  { id: 'rosemilk',  labelEs: 'Rosa Suave',       labelEn: 'RoseMilk', mode: 'light' },
-  { id: 'mintfresh', labelEs: 'Menta Fresca',     labelEn: 'Mint Fresh', mode: 'light' },
-  { id: 'supaclean', labelEs: 'Supabase Claro', labelEn: 'Supabase Clean', mode: 'light' },
-  { id: 'cloud',     labelEs: 'Cielo Suave',    labelEn: 'Soft Cloud', mode: 'light' },
+  { id: 'pearl', labelEs: 'Perla Suave', labelEn: 'Soft Pearl', mode: 'light' },
+  { id: 'sand', labelEs: 'Arena Cálida', labelEn: 'Warm Sand', mode: 'light' },
+  { id: 'rosemilk', labelEs: 'Rosa Suave', labelEn: 'RoseMilk', mode: 'light' },
+  { id: 'mintfresh', labelEs: 'Menta Fresca', labelEn: 'Mint Fresh', mode: 'light' },
+  { id: 'skyline', labelEs: 'Skyline Claro', labelEn: 'Skyline Light', mode: 'light' },
+  { id: 'cloud', labelEs: 'Cielo Suave', labelEn: 'Soft Cloud', mode: 'light' },
   { id: 'snowbloom', labelEs: 'Pétalo Suave', labelEn: 'SnowBloom', mode: 'light' },
 ];
 

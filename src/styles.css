@@ -81,37 +81,40 @@ body.theme-ocean {
     --project-card-border: rgba(56, 189, 248, 0.65);
 }
 
-body.theme-sunset {
-    --bg: #0b0614;
-    --bg-elevated: #130820;
-    --bg-soft: #1e1030;
-    --text: #fdf2f8;
-    --muted: #f0c5dc;
-    --primary: #fb7185;
-    --primary-soft: rgba(248, 113, 113, 0.45);
-    --border-subtle: rgba(248, 113, 113, 0.35);
+body.theme-neonpulse {
+    --bg: #020008;
+    --bg-elevated: #020617;
+    --bg-soft: #050816;
 
-    --bg-gradient-start: #3a0615;
-    --bg-gradient-mid: #1a0224;
-    --bg-gradient-end: #080012;
+    --text: #e5f2ff;
+    --muted: #9ca3af;
 
-    --hero-gradient-from: #fb923c;
-    --hero-gradient-mid: #fb7185;
-    --hero-gradient-to: #ec4899;
+    --primary: #22d3ee;
+    --primary-soft: rgba(34, 211, 238, 0.45);
+    --border-subtle: rgba(148, 163, 184, 0.45);
 
-    --btn-primary-from: #fb923c;
-    --btn-primary-to: #fb7185;
+    /* fondo general */
+    --bg-gradient-start: #000000;
+    --bg-gradient-mid: #05001a;
+    --bg-gradient-end: #020617;
 
-    --btn-ghost-from: #fb7185;
-    --btn-ghost-to: #ec4899;
+    --hero-gradient-from: #22d3ee;
+    --hero-gradient-mid: #a855f7;
+    --hero-gradient-to: #fb7185;
 
-    --btn-text: #fff;
-    --btn-hover-text: #fff;
+    --btn-primary-from: #22d3ee;
+    --btn-primary-to: #a855f7;
 
-    --project-card-inner: rgba(248, 113, 113, 0.38);
-    --project-card-inner-active: rgba(248, 113, 113, 0.55);
+    --btn-ghost-from: #a855f7;
+    --btn-ghost-to: #22c55e;
+
+    --btn-text: #020617;
+    --btn-hover-text: #020617;
+
+    --project-card-inner: rgba(34, 211, 238, 0.22);
+    --project-card-inner-active: rgba(168, 85, 247, 0.45);
     --project-card-outer: var(--bg-elevated);
-    --project-card-border: rgba(248, 113, 113, 0.7);
+    --project-card-border: rgba(34, 211, 238, 0.7);
 }
 
 body.theme-forest {
@@ -423,39 +426,39 @@ body.theme-mintfresh {
     --project-card-border: rgba(52, 211, 153, 0.55);
 }
 
-body.theme-supaclean {
-    --bg: #f6f7f8;
+body.theme-skyline {
+    --bg: #f3f7fd;
     --bg-elevated: #ffffff;
-    --bg-soft: #eef1f4;
+    --bg-soft: #e3eefb;
 
-    --text: #0f172a;
+    --text: #1f2933;
+    --muted: #60708a;
 
-    --primary: #22c55e;
-    --primary-soft: rgba(34, 197, 94, 0.25);
-    --border-subtle: rgba(34, 197, 94, 0.25);
-    --shadow-grey: rgba(93, 89, 90, 0.7);
+    --primary: #2563eb;
+    --primary-soft: rgba(37, 99, 235, 0.28);
+    --border-subtle: rgba(15, 23, 42, 0.12);
 
-    --bg-gradient-start: #f9fafb;
-    --bg-gradient-mid: #f6f7f8;
-    --bg-gradient-end: #eef1f4;
+    --bg-gradient-start: #ffffff;
+    --bg-gradient-mid: #e5f0ff;
+    --bg-gradient-end: #d7e3f8;
 
-    --hero-gradient-from: #22c55e;
-    --hero-gradient-mid: #2dd4bf;
-    --hero-gradient-to: #38bdf8;
+    --hero-gradient-from: #2563eb;
+    --hero-gradient-mid: #38bdf8;
+    --hero-gradient-to: #22c1c3;
 
-    --btn-primary-from: #22c55e;
-    --btn-primary-to: #2dd4bf;
+    --btn-primary-from: #2563eb;
+    --btn-primary-to: #38bdf8;
 
-    --btn-ghost-from: #2dd4bf;
-    --btn-ghost-to: #38bdf8;
+    --btn-ghost-from: #e0f2fe;
+    --btn-ghost-to: #bfdbfe;
 
     --btn-text: #ffffff;
-    --btn-hover-text: #ffffff;
+    --btn-hover-text: #0b1120;
 
-    --project-card-inner: rgba(34, 197, 94, 0.15);
-    --project-card-inner-active: rgba(34, 197, 94, 0.25);
+    --project-card-inner: rgba(37, 99, 235, 0.14);
+    --project-card-inner-active: rgba(56, 189, 248, 0.28);
     --project-card-outer: var(--bg-elevated);
-    --project-card-border: rgba(34, 197, 94, 0.35);
+    --project-card-border: rgba(37, 99, 235, 0.4);
 }
 
 body.theme-cloud {
