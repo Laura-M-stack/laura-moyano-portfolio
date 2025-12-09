@@ -7,6 +7,7 @@ import { Projects } from './sections/Projects';
 import { Talks } from './sections/Talks';
 import { Contact } from './sections/Contact';
 import { Footer } from './components/Footer';
+import { ThemeSelector } from './components/ThemeSelector';
 
 const App: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
+        <ThemeSelector />
         <About />
         <Experience />
         <Projects />

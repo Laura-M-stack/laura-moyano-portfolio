@@ -194,7 +194,6 @@ export const translations = {
             'Hasta noviembre de 2025 trabajé en Chicks Group Inc. como Product Engineer, colaborando con equipos internacionales en la implementación de interfaces web escalables.',
             'Antes de eso, participé en proyectos de entrenamiento de IA en Outlier.ai, desarrollando prompts y estrategias de testing para optimizar modelos.',
             'Actualmente me enfoco en proyectos freelance y creativos que combinan tecnología, diseño y automatización — explorando cómo la IA puede potenciar el desarrollo front end, la creación de contenido y la productividad personal.',
-            'Me gusta aprender, iterar y compartir conocimiento — ya sea a través de proyectos open-source, mentorías o mi canal motivacional Make Your Reality.'
         ],
         experience: [
             {

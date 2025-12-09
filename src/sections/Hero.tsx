@@ -1,4 +1,3 @@
-// src/sections/Hero.tsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import { profile } from '../data/profile';
