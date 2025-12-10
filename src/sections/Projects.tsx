@@ -71,7 +71,6 @@ const ProjectsSlider: React.FC<SliderProps> = ({
                 <div className="project-slide-body">
                   <header className="card-header">
                     <h4 className="card-title">{name}</h4>
-                    <p className="card-subtitle muted">{role}</p>
                   </header>
 
                   <p className="card-description">{description}</p>
