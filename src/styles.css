@@ -429,39 +429,39 @@ body.theme-mintfresh {
 }
 
 body.theme-skyline {
-  --bg: #fffaf2;
-  --bg-elevated: #ffffff;
-  --bg-soft: #fef3c7;
+    --bg: #fffaf2;
+    --bg-elevated: #ffffff;
+    --bg-soft: #fef3c7;
 
-  --text: #1f2937;
-  --muted: #6b7280;
+    --text: #1f2937;
+    --muted: #6b7280;
 
-  --primary: #f97316;
-  --primary-soft: #facc15e3;
-  --border-subtle: rgba(136, 226, 91, 0.572);
-  --shadow-grey: rgba(93, 89, 90, 0.7);
+    --primary: #f97316;
+    --primary-soft: #facc15e3;
+    --border-subtle: rgba(136, 226, 91, 0.572);
+    --shadow-grey: rgba(93, 89, 90, 0.7);
 
-  --bg-gradient-start: #fffaf2;
-  --bg-gradient-mid: #fff3d4;
-  --bg-gradient-end: #fee2e2;
+    --bg-gradient-start: #fffaf2;
+    --bg-gradient-mid: #fff3d4;
+    --bg-gradient-end: #fee2e2;
 
-  --hero-gradient-from: #f97316;
-  --hero-gradient-mid: #facc15;
-  --hero-gradient-to: #22c55e;
+    --hero-gradient-from: #f97316;
+    --hero-gradient-mid: #facc15;
+    --hero-gradient-to: #22c55e;
 
-  --btn-primary-from: #f97316;
-  --btn-primary-to: #facc15;
+    --btn-primary-from: #f97316;
+    --btn-primary-to: #facc15;
 
-  --btn-ghost-from: #facc15;
-  --btn-ghost-to: #55f98e;
+    --btn-ghost-from: #facc15;
+    --btn-ghost-to: #55f98e;
 
-  --btn-text: var(--text);
-  --btn-hover-text: var(var(--text));
+    --btn-text: var(--text);
+    --btn-hover-text: var(var(--text));
 
-  --project-card-inner: rgba(249, 115, 22, 0.16);
-  --project-card-inner-active: rgba(250, 204, 21, 0.30);
-  --project-card-outer: var(--bg-elevated);
-  --project-card-border: rgba(236, 157, 101, 0.732);
+    --project-card-inner: rgba(249, 115, 22, 0.16);
+    --project-card-inner-active: rgba(250, 204, 21, 0.30);
+    --project-card-outer: var(--bg-elevated);
+    --project-card-border: rgba(236, 157, 101, 0.732);
 }
 
 body.theme-cloud {
@@ -668,7 +668,7 @@ p {
 
 .navbar-toggle:hover {
     border-color: var(--primary);
-    box-shadow: 0 0 10px var (--shadow-grey);
+    box-shadow: 0 0 10px var(--shadow-grey);
 }
 
 .navbar-toggle .bar {
@@ -758,7 +758,7 @@ p {
     display: block;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 1.35;
     margin-inline: auto;
     background-image: linear-gradient(90deg,
@@ -1314,29 +1314,31 @@ p {
     box-shadow: 0 18px 48px rgba(0, 0, 0, 0.95);
 }
 
-/* Responsive */
-
+/* Responsive – Projects slider */
 @media (max-width: 900px) {
     .projects-slider-stage {
         position: static;
-        min-height: 0;
-        padding-block: 1rem 1.5rem;
+        min-height: auto;
+        padding-block: 1.25rem 1.5rem;
     }
 
-    /* Cada slide se comporta como card normal en columna */
     .project-slide {
-        position: static;
+        position: relative;
+        top: auto;
+        left: auto;
         transform: none;
         opacity: 1;
         filter: none;
         pointer-events: auto;
         max-width: 100%;
-        margin: 0 0 1.5rem;
+        margin: 0 0 1.75rem;
+        z-index: 1;
     }
 
     .project-slide-inner {
         grid-template-columns: minmax(0, 1fr);
         gap: 1.1rem;
+        align-items: flex-start;
     }
 
     .project-slide-media {
@@ -1344,16 +1346,16 @@ p {
         margin: 0 auto;
     }
 
-    /* Todos los estados se ven igual en mobile */
     .project-slide--prev,
     .project-slide--next,
-    .project-slide--off {
+    .project-slide--off,
+    .project-slide--active {
         opacity: 1;
         filter: none;
         transform: none;
+        z-index: 1;
     }
 
-    /* Ocultamos flechas y contador en mobile */
     .projects-slider-nav {
         display: none;
     }
@@ -1515,11 +1517,11 @@ body.theme-transitioning * {
     }
 
     .hero-eyebrow {
-        font-size: 1.1rem !important;
+        font-size: 1.2rem !important;
     }
 
     .hero-title-main-group {
-        font-size: 64px !important;
+        font-size: 56px !important;
         white-space: normal;
         flex-wrap: wrap;
         justify-content: center;
@@ -1527,7 +1529,7 @@ body.theme-transitioning * {
     }
 
     .hero-subtitle {
-        font-size: 32px !important;
+        font-size: 34px !important;
         line-height: 1.3;
     }
 
@@ -1544,12 +1546,16 @@ body.theme-transitioning * {
         padding-inline: 1rem;
     }
 
+    .hero-eyebrow {
+        font-size: 1.1rem !important;
+    }
+
     .hero-title-main-group {
         font-size: 48px;
     }
 
     .hero-subtitle {
-        font-size: 22px;
+        font-size: 30px !important;
     }
 
     .hero-tagline {
