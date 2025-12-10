@@ -449,11 +449,11 @@ body.theme-skyline {
     --hero-gradient-mid: #facc15;
     --hero-gradient-to: #22c55e;
 
-    --btn-primary-from: #f97316;
-    --btn-primary-to: #facc15;
+    --btn-primary-from: #f97416d4;
+    --btn-primary-to: #facc15c6;
 
-    --btn-ghost-from: #facc15;
-    --btn-ghost-to: #55f98e;
+    --btn-ghost-from: #facc15c6;
+    --btn-ghost-to: #55f98ed3;
 
     --btn-text: var(--text);
     --btn-hover-text: var(var(--text));
@@ -485,11 +485,11 @@ body.theme-cloud {
     --hero-gradient-mid: #4991fe;
     --hero-gradient-to: #79c8ec;
 
-    --btn-primary-from: #1359ca;
-    --btn-primary-to: #4991fe;
+    --btn-primary-from: #4991fed2;
+    --btn-primary-to: #79c7ecde;
 
-    --btn-ghost-from: #4991fe;
-    --btn-ghost-to: #79c8ec;
+    --btn-ghost-from: #79c7ecde;
+    --btn-ghost-to: #4991fed2;
 
     --btn-text: #ffffff;
     --btn-hover-text: #ffffff;
@@ -796,7 +796,8 @@ p {
     margin-inline: auto;
 
     @media (max-width: 600px) {
-        gap: 1.5rem;
+        gap: 1rem;
+        flex-direction: column;
     }
 }
 
@@ -816,10 +817,11 @@ p {
     gap: 0.4rem;
 
     @media (max-width: 600px) {
-        font-size: 1rem;
-        padding: 0.6rem 1.5rem;
         margin-top: 0.5rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg,
+            var(--btn-ghost-from),
+            var(--btn-ghost-to)) !important;
     }
 }
 
