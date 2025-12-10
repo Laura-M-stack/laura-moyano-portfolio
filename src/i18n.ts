@@ -3,14 +3,18 @@ export const translations = {
         navbar: {
             about: 'About',
             experience: 'Experience',
+            education: 'Education',
             projects: 'Projects',
             talks: 'Talks',
             contact: 'Contact',
+            theme: 'Theme'
         },
         footer: 'Made with 💖 by Laura Moyano.',
         sections: {
             aboutEyebrow: 'Who I am',
             experienceEyebrow: 'What I have been working on',
+            educationEyebrow: 'My educational background',
+            educationTitle: 'Education',
             projectsEyebrow: 'Some things I have built',
             talksEyebrow: 'Sharing what I learn',
             contactEyebrow: 'Let us build something together'
@@ -84,6 +88,29 @@ export const translations = {
                 ]
             }
         ],
+        education: [
+            {
+                title: 'University Technician in Web Development',
+                institution: 'Universidad Nacional de Entre Ríos(UNER)',
+                description:
+                    'Program focused on full stack web development, databases, design patterns and application architecture. I currently have one semester left to complete the degree.',
+                year: '2024 – Present'
+            },
+            {
+                title: 'Diploma in Digital Transformation',
+                institution: 'Universidad Tecnológica Nacional (UTN)',
+                description:
+                    'Program focused on integrating technology, innovation and change management in organizations.',
+                year: '2024'
+            },
+            {
+                title: 'Complementary courses and certifications',
+                institution: 'Harvard Business Impact, Santander Open Academy, M1000IA and others',
+                description:
+                    'Continuous training in web development, artificial intelligence, testing, project management and digital marketing. My goal is to maintain a comprehensive understanding of technology and deliver solutions that are modern, effective and results-driven.',
+                year: '2023 – 2025'
+            }
+        ],
         projects: [
             {
                 name: 'Currency Converter App',
@@ -135,7 +162,6 @@ export const translations = {
                 tech: ['React', 'Solidity', 'Web3', 'Figma']
             }
         ],
-
         talks: [
             {
                 title: 'AI in Action: Hacking your Daily Productivity',
@@ -167,9 +193,7 @@ export const translations = {
             linkedinTitle: 'LinkedIn',
             linkedinSubtitle: 'Let’s connect',
             githubTitle: 'GitHub',
-            githubSubtitle: 'Check my code',
-            // youtubeTitle: 'YouTube',
-            // youtubeSubtitle: 'Make Your Reality'
+            githubSubtitle: 'Check my code'
         }
     },
 
@@ -177,14 +201,18 @@ export const translations = {
         navbar: {
             about: 'Sobre mí',
             experience: 'Experiencia',
+            education: 'Educación',
             projects: 'Proyectos',
             talks: 'Charlas',
             contact: 'Contacto',
+            theme: 'Tema'
         },
         footer: 'Hecho con 💖 por Laura Moyano.',
         sections: {
             aboutEyebrow: 'Quién soy',
             experienceEyebrow: 'En qué estuve trabajando',
+            educationEyebrow: 'Mi formación académica',
+            educationTitle: 'Educación',
             projectsEyebrow: 'Algunos proyectos que construí',
             talksEyebrow: 'Charlas y conferencias',
             contactEyebrow: 'Construyamos algo juntos'
@@ -193,7 +221,30 @@ export const translations = {
             'Soy Desarrolladora Front End apasionada por crear productos digitales que equilibren usabilidad, rendimiento y creatividad.',
             'Hasta noviembre de 2025 trabajé en Chicks Group Inc. como Product Engineer, colaborando con equipos internacionales en la implementación de interfaces web escalables.',
             'Antes de eso, participé en proyectos de entrenamiento de IA en Outlier.ai, desarrollando prompts y estrategias de testing para optimizar modelos.',
-            'Actualmente me enfoco en proyectos freelance y creativos que combinan tecnología, diseño y automatización — explorando cómo la IA puede potenciar el desarrollo front end, la creación de contenido y la productividad personal.',
+            'Actualmente me enfoco en proyectos freelance y creativos que combinan tecnología, diseño y automatización — explorando cómo la IA puede potenciar el desarrollo front end, la creación de contenido y la productividad personal.'
+        ],
+        education: [
+            {
+                title: 'Tecnicatura Universitaria en Desarrollo Web',
+                institution: 'Universidad Tecnológica Nacional (UTN)',
+                description:
+                    'Carrera orientada al desarrollo web full stack, bases de datos, patrones de diseño y arquitectura de aplicaciones. Actualmente me queda un cuatrimestre para finalizar la tecnicatura.',
+                year: '2024 – Presente'
+            },
+            {
+                title: 'Diplomatura en Transformación Digital',
+                institution: 'Universidad Tecnológica Nacional (UTN)',
+                description:
+                    'Programa enfocado en la integración de tecnología, innovación y gestión del cambio en organizaciones.',
+                year: '2024'
+            },
+            {
+                title: 'Cursos y certificaciones complementarias',
+                institution: 'Harvard Business Impact, Santander Open Academy, M1000IA y otros',
+                description:
+                    'Formación continua en desarrollo web, inteligencia artificial, testing, project management, diseño UX/UI y marketing digital. El objetivo es mantener una visión integral de la tecnología y ofrecer soluciones más completas, actualizadas y orientadas a resultados.',
+                year: '2023 – 2025'
+            }
         ],
         experience: [
             {
@@ -308,7 +359,6 @@ export const translations = {
                 tech: ['React', 'Solidity', 'Web3', 'Figma']
             }
         ],
-
         talks: [
             {
                 title: 'IA en acción: Hackeá tu productividad diaria',
@@ -340,9 +390,7 @@ export const translations = {
             linkedinTitle: 'LinkedIn',
             linkedinSubtitle: 'Conectemos',
             githubTitle: 'GitHub',
-            githubSubtitle: 'Mirá mi código',
-            // youtubeTitle: 'YouTube',
-            // youtubeSubtitle: 'Make Your Reality'
+            githubSubtitle: 'Mirá mi código'
         }
     }
 };
