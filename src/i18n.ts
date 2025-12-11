@@ -4,6 +4,7 @@ export const translations = {
             about: 'About',
             experience: 'Experience',
             education: 'Education',
+            skills: 'Skills',
             projects: 'Projects',
             talks: 'Talks',
             contact: 'Contact',
@@ -14,6 +15,7 @@ export const translations = {
             aboutEyebrow: 'Who I am',
             experienceEyebrow: 'What I have been working on',
             educationEyebrow: 'My educational background',
+            skillsEyebrow: 'What I work with',
             educationTitle: 'Education',
             projectsEyebrow: 'Some things I have built',
             talksEyebrow: 'Sharing what I learn',
@@ -111,6 +113,81 @@ export const translations = {
                 year: '2023 – 2025'
             }
         ],
+        skills: {
+            eyebrow: "What I use to build",
+            title: "Skills & Technologies",
+            groups: [
+                {
+                    label: "Frontend Development",
+                    items: [
+                        "HTML", "CSS", "JavaScript",
+                        "React", "Svelte", "Aurelia",
+                        "Vue", "TypeScript",
+                        "SCSS", "Tailwind", "Bootstrap",
+                        "Responsive Design",
+                        "UI Architecture", "Performance", "Accessibility"
+                    ]
+                },
+                {
+                    label: "Backend & APIs",
+                    items: [
+                        "Python", "Node.js", "Express",
+                        "Django", "FastAPI", "Flask",
+                        "REST APIs", "Auth", "Data Modeling", "ORMs", "Databases", "SQL", "NoSQL", "GraphQL", "Serverless", "Cloud Services",
+                        "AWS", "Azure"
+                    ]
+                },
+                {
+                    label: "AI Development",
+                    items: [
+                        "LLMs", "Prompt Engineering", "AI Testing",
+                        "LangChain", "RAG", "Evaluation", "Automation",
+                        "Model Evaluation",
+                        "AI Automation", "API Integrations", "Fine-tuning",
+                    ]
+                },
+                {
+                    label: "Testing & QA",
+                    items: [
+                        "Functional Testing", "Test Cases", "UI Testing",
+                        "Exploratory Testing",
+                        "Selenium", "Postman",
+                        "Regression & Integration Tests",
+                        "Performance Testing", "Accessibility Testing", "Bug Tracking", "Reporting"
+                    ]
+                },
+                {
+                    label: "DevOps & Tools",
+                    items: [
+                        "Git", "Docker", "CI/CD (monitoring)",
+                        "Jira",
+                        "Azure DevOps", "Deployments", "GitHub Actions", "Version Control"
+                    ]
+                },
+                {
+                    label: "Design & Branding",
+                    items: [
+                        "Figma", "Canva", "Photoshop",
+                        "Illustrator", "InDesign",
+                        "Branding", "Prototyping", "UX/UI Design", "Wireframing", "Design Systems", "User-Centered Design",
+                        "Usability Testing", "Accessibility Testing", "Visual Design", "Graphic Design", "Animation Basics",
+                        "Typography", "Color Theory", "Motion Graphics", "Logos", "Icons"
+                    ]
+                },
+                {
+                    label: "Mobile",
+                    items: ["Flutter (basic)", "React Native (basic)", "Responsive Design", "Cross-Platform Development", "Mobile UI/UX Principles", "Performance Optimization"]
+                },
+                {
+                    label: "Automation",
+                    items: ["n8n (basic)", "AI-based automation", "Workflow Automation", "Scripting", "Task Automation", "Integration of Services", "Process Optimization", "API Usage"]
+                },
+                {
+                    label: "Other Skills",
+                    items: ["Project Management", "Agile Methodologies", "Scrum", "Kanban", "Communication", "Team Collaboration", "Problem-Solving", "Time Management", "Adaptability", "Critical Thinking", "Creativity", "Continuous Learning", "Mentorship", "Public Speaking", "Technical Writing"]
+                }
+            ]
+        },
         projects: [
             {
                 name: 'Currency Converter App',
@@ -202,6 +279,7 @@ export const translations = {
             about: 'Sobre mí',
             experience: 'Experiencia',
             education: 'Educación',
+            skills: 'Habilidades',
             projects: 'Proyectos',
             talks: 'Charlas',
             contact: 'Contacto',
@@ -212,6 +290,7 @@ export const translations = {
             aboutEyebrow: 'Quién soy',
             experienceEyebrow: 'En qué estuve trabajando',
             educationEyebrow: 'Mi formación académica',
+            skillsEyebrow: 'Con qué trabajo',
             educationTitle: 'Educación',
             projectsEyebrow: 'Algunos proyectos que construí',
             talksEyebrow: 'Charlas y conferencias',
@@ -246,6 +325,80 @@ export const translations = {
                 year: '2023 – 2025'
             }
         ],
+        skills: {
+            eyebrow: "Con qué construyo",
+            title: "Skills & Tecnologías",
+            groups: [
+                {
+                    label: "Desarrollo Front End",
+                    items: [
+                        "HTML", "CSS", "JavaScript",
+                        "React", "Svelte", "Aurelia",
+                        "Vue", "TypeScript",
+                        "SCSS", "Tailwind", "Bootstrap", "Responsive Design",
+                        "Arquitectura UI", "Performance", "Accesibilidad"
+                    ]
+                },
+                {
+                    label: "Backend & APIs",
+                    items: [
+                        "Python", "Node.js", "Express",
+                        "Django", "FastAPI", "Flask",
+                        "APIs REST", "Autenticación", "Modelado de datos",
+                        "ORMs", "Bases de datos", "SQL", "NoSQL", "GraphQL", "Serverless", "Servicios en la nube",
+                        "AWS", "Azure"
+                    ]
+                },
+                {
+                    label: "Desarrollo de IA",
+                    items: [
+                        "LLMs", "Prompt Engineering", "Testing de IA",
+                        "LangChain", "RAG", "Evaluación", "Automatización",
+                        "Evaluación de modelos",
+                        "Automatización con IA", "Integración vía API", "Fine-tuning"
+                    ]
+                },
+                {
+                    label: "Testing & QA",
+                    items: [
+                        "Testing funcional", "Casos de prueba", "Testing de UI",
+                        "Testing exploratorio",
+                        "Selenium", "Postman",
+                        "Pruebas de regresión e integración",
+                        "Pruebas de performance", "Pruebas de accesibilidad", "Seguimiento de bugs", "Reportes"
+                    ]
+                },
+                {
+                    label: "DevOps & Herramientas",
+                    items: [
+                        "Git", "Docker", "CI/CD (monitoreo)", "Jira",
+                        "Azure DevOps", "Deployments", "GitHub Actions", "Control de versiones"
+                    ]
+                },
+                {
+                    label: "Diseño & Branding",
+                    items: [
+                        "Figma", "Canva", "Photoshop",
+                        "Illustrator", "InDesign",
+                        "Branding", "Prototipado", "UX/UI Design", "Wireframing", "Sistemas de diseño", "Diseño centrado en el usuario",
+                        "Pruebas de usabilidad", "Pruebas de accesibilidad", "Diseño visual", "Diseño gráfico", "Animación básica",
+                        "Tipografía", "Teoría del color", "Motion graphics", "Logos", "Íconos"
+                    ]
+                },
+                {
+                    label: "Mobile",
+                    items: ["Flutter (básico)", "React Native (básico)", "Diseño responsive", "Desarrollo cross-platform", "Optimización de performance"]
+                },
+                {
+                    label: "Automatización",
+                    items: ["n8n (básico)", "Automatización con IA", "Automatización de flujos de trabajo", "Scripting", "Automatización de tareas", "Integración de servicios", "Optimización de procesos", "Uso de APIs"]
+                },
+                {
+                    label: "Otras habilidades",
+                    items: ["Gestión de proyectos", "Metodologías ágiles", "Scrum", "Kanban", "Comunicación", "Trabajo en equipo", "Resolución de problemas", "Gestión del tiempo", "Adaptabilidad", "Pensamiento crítico", "Creatividad", "Aprendizaje continuo", "Mentoría", "Oratoria", "Redacción técnica"]
+                }
+            ]
+        },
         experience: [
             {
                 company: 'Chicks Group Inc.',

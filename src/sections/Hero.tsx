@@ -62,9 +62,6 @@ export const Hero: React.FC = () => {
         </h2>
         <p className="hero-tagline">{h.description}</p>
         <div className="hero-tags">
-          {profile.keywords.map(keyword => (
-            <Tag key={keyword} label={keyword} />
-          ))}
         </div>
         <div className="hero-actions">
           <a href="#projects" className="btn-primary">
