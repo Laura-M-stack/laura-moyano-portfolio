@@ -92,6 +92,15 @@ export const experiences = [
 
 export const projects = [
   {
+    name: 'StackProof — Web3 DApp',
+    role: 'Full Stack Developer',
+    description:
+      'Web3 demo dApp that connects a wallet and lets the user sign a message to generate a verifiable “proof”. Built to showcase wallet integration, signature flows and a clean UI.',
+    tech: ['React', 'TypeScript', 'Viem', 'Hardhat'],
+    link: 'https://laura-m-stack.github.io/stackproof/',
+    image: 'projects/stackproof.png',
+  },
+  {
     name: 'Currency Converter App',
     role: 'Front End Developer',
     description:
@@ -109,51 +118,51 @@ export const projects = [
     link: 'https://glamourstudio.netlify.app/',
     image: 'projects/glamour-studio.png'
   },
-  {
-    name: 'ChatMarketAI',
-    role: 'Front End Developer',
-    description:
-      'Platform to explore and connect with chatbot solutions, built with HTML, CSS and JavaScript.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://chatmarketai.netlify.app/',
-    image: 'projects/chat-market-ai.png'
-  },
-  {
-    name: 'Style Factory',
-    role: 'Front End Developer',
-    description:
-      'Landing page for a fashion brand, featuring responsive design and API integration.',
-    tech: ['HTML', 'CSS', 'Bootstrap', 'JS'],
-    link: 'https://style-factory.netlify.app/',
-    image: 'projects/style-factory.png'
-  },
-  {
-    name: 'Casa Artesana – Online Marketplace',
-    role: 'Front End Developer',
-    description:
-      'Frontend for an online handicraft marketplace made with HTML, CSS and JavaScript. Includes product galleries, categories and a mobile-first responsive layout.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://casaartesana.netlify.app/',
-    image: 'projects/casa-artesana.png'
-  },
-  {
-    name: 'Servicios Hogar – Services Directory',
-    role: 'Front End Developer',
-    description:
-      'Website for hiring home service professionals, created with HTML, CSS and JavaScript. Includes categorized service listings, intuitive navigation and a fully responsive design.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://servicioshogar.netlify.app/',
-    image: 'projects/servicios-hogar.png'
-  },
-  {
-    name: 'SafePets – Blockchain Marketplace',
-    role: 'Project Manager / Frontend Developer',
-    description:
-      'Winner of Latina Blockchain Hackathon (Polygon Cardona category). A decentralized marketplace promoting responsible pet adoption and sterilization.',
-    tech: ['React', 'Solidity', 'Web3', 'Figma'],
-    link: 'https://devpost.com/software/safepets',
-    image: 'projects/safepets.png'
-  }
+  // {
+  //   name: 'ChatMarketAI',
+  //   role: 'Front End Developer',
+  //   description:
+  //     'Platform to explore and connect with chatbot solutions, built with HTML, CSS and JavaScript.',
+  //   tech: ['HTML', 'CSS', 'JavaScript'],
+  //   link: 'https://chatmarketai.netlify.app/',
+  //   image: 'projects/chat-market-ai.png'
+  // },
+  // {
+  //   name: 'Style Factory',
+  //   role: 'Front End Developer',
+  //   description:
+  //     'Landing page for a fashion brand, featuring responsive design and API integration.',
+  //   tech: ['HTML', 'CSS', 'Bootstrap', 'JS'],
+  //   link: 'https://style-factory.netlify.app/',
+  //   image: 'projects/style-factory.png'
+  // },
+  // {
+  //   name: 'Casa Artesana – Online Marketplace',
+  //   role: 'Front End Developer',
+  //   description:
+  //     'Frontend for an online handicraft marketplace made with HTML, CSS and JavaScript. Includes product galleries, categories and a mobile-first responsive layout.',
+  //   tech: ['HTML', 'CSS', 'JavaScript'],
+  //   link: 'https://casaartesana.netlify.app/',
+  //   image: 'projects/casa-artesana.png'
+  // },
+  // {
+  //   name: 'Servicios Hogar – Services Directory',
+  //   role: 'Front End Developer',
+  //   description:
+  //     'Website for hiring home service professionals, created with HTML, CSS and JavaScript. Includes categorized service listings, intuitive navigation and a fully responsive design.',
+  //   tech: ['HTML', 'CSS', 'JavaScript'],
+  //   link: 'https://servicioshogar.netlify.app/',
+  //   image: 'projects/servicios-hogar.png'
+  // },
+  // {
+  //   name: 'SafePets – Blockchain Marketplace',
+  //   role: 'Project Manager / Frontend Developer',
+  //   description:
+  //     'Winner of Latina Blockchain Hackathon (Polygon Cardona category). A decentralized marketplace promoting responsible pet adoption and sterilization.',
+  //   tech: ['React', 'Solidity', 'Web3', 'Figma'],
+  //   link: 'https://devpost.com/software/safepets',
+  //   image: 'projects/safepets.png'
+  // }
 ];
 
 export const talks = [

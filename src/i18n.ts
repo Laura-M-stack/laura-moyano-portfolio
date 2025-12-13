@@ -22,11 +22,11 @@ export const translations = {
             contactEyebrow: 'Let us build something together'
         },
         about: [
-            "I’m a Front End Developer passionate about building digital products that balance usability, performance and creativity.",
-            "Until November 2025 I worked at Chicks Group Inc. as a Product Engineer, collaborating with international teams on scalable web interfaces.",
-            "Before that, I contributed to AI training projects at Outlier.ai, developing prompts and testing strategies for model optimization.",
-            "Nowadays I’m focused on freelance and creative projects that merge technology, design and automation — exploring how AI can enhance front-end development, content creation and personal productivity.",
-            // "I enjoy learning, iterating and sharing knowledge — whether it’s through open-source work, mentorship or my motivational YouTube project, Make Your Reality."
+            "I’m a Full Stack Developer with a strong focus on building scalable, well-designed digital products that combine usability, performance and clean architecture.",
+            "Until November 2025 I worked at Chicks Group Inc. as a Product Engineer, collaborating with international teams on front end and full stack improvements for the ChicksX exchange platform.",
+            "Before that, I contributed to AI training and evaluation projects at Outlier.ai, working on prompt engineering, testing workflows and model optimization.",
+            "I also led and co-developed SafePets — a blockchain-based marketplace built with an international team — which won the Polygon Cardona innovation award at the Latina Blockchain Hackathon in Peru.",
+            "Currently I focus on freelance and creative projects where I combine development, product thinking, design and automation, exploring how AI enhances full-stack development and digital creation."
         ],
         experience: [
             {
@@ -67,7 +67,7 @@ export const translations = {
             },
             {
                 company: 'Latina Blockchain Hackathon',
-                role: 'Frontend Developer & Project Manager',
+                role: 'Full Stack Developer & Project Manager',
                 period: '2024',
                 description:
                     'Led and built SafePets, a blockchain-based marketplace that won the Polygon Cardona category for innovation.',
@@ -190,6 +190,13 @@ export const translations = {
         },
         projects: [
             {
+                name: 'StackProof — Web3 DApp',
+                role: 'Full Stack Developer',
+                description:
+                    'Web3 demo dApp that connects a wallet and lets the user sign a message to generate a verifiable “proof”. Built to showcase wallet integration, signature flows and a clean UI.',
+                tech: ['React', 'TypeScript', 'Viem', 'Hardhat'],
+            },
+            {
                 name: 'Currency Converter App',
                 role: 'Front End Developer',
                 description:
@@ -203,41 +210,6 @@ export const translations = {
                     'Single-page website for a beauty studio, built with React and TypeScript. Includes services, team, testimonials and an online booking section, with a fully responsive layout.',
                 tech: ['React', 'TypeScript', 'Vite', 'SCSS']
             },
-            {
-                name: 'ChatMarketAI',
-                role: 'Front End Developer',
-                description:
-                    'Web platform to explore and connect chatbot solutions. Built using HTML, CSS and JavaScript with a clean layout and responsive navigation.',
-                tech: ['HTML', 'CSS', 'JavaScript']
-            },
-            {
-                name: 'Style Factory',
-                role: 'Front End Developer',
-                description:
-                    'Landing page for a fashion brand, featuring responsive layouts, strong visual branding, smooth interactions and API integration for dynamic content.',
-                tech: ['HTML', 'CSS', 'Bootstrap', 'JS']
-            },
-            {
-                name: 'Casa Artesana – Online Marketplace',
-                role: 'Front End Developer',
-                description:
-                    'Frontend for an online handicraft marketplace made with HTML, CSS and JavaScript. Includes product galleries, category filters and a mobile-first responsive layout.',
-                tech: ['HTML', 'CSS', 'JavaScript']
-            },
-            {
-                name: 'Servicios Hogar – Services Directory',
-                role: 'Front End Developer',
-                description:
-                    'Website for hiring home service professionals, created with HTML, CSS and JavaScript. Includes categorized service listings, clear navigation and a fully responsive design.',
-                tech: ['HTML', 'CSS', 'JavaScript']
-            },
-            {
-                name: 'SafePets – Blockchain Marketplace',
-                role: 'Project Manager / Frontend Developer',
-                description:
-                    'Winner of Latina Blockchain Hackathon (Polygon Cardona category). A decentralized marketplace promoting responsible pet adoption and sterilization.',
-                tech: ['React', 'Solidity', 'Web3', 'Figma']
-            }
         ],
         talks: [
             {
@@ -297,10 +269,11 @@ export const translations = {
             contactEyebrow: 'Construyamos algo juntos'
         },
         about: [
-            'Soy Desarrolladora Front End apasionada por crear productos digitales que equilibren usabilidad, rendimiento y creatividad.',
-            'Hasta noviembre de 2025 trabajé en Chicks Group Inc. como Product Engineer, colaborando con equipos internacionales en la implementación de interfaces web escalables.',
-            'Antes de eso, participé en proyectos de entrenamiento de IA en Outlier.ai, desarrollando prompts y estrategias de testing para optimizar modelos.',
-            'Actualmente me enfoco en proyectos freelance y creativos que combinan tecnología, diseño y automatización — explorando cómo la IA puede potenciar el desarrollo front end, la creación de contenido y la productividad personal.'
+            "Soy Desarrolladora Full Stack con enfoque en construir productos digitales escalables que combinan usabilidad, rendimiento y arquitectura limpia.",
+            "Hasta noviembre de 2025 trabajé en Chicks Group Inc. como Product Engineer, colaborando con equipos internacionales en mejoras front end y full stack para la plataforma de exchange ChicksX.",
+            "Antes de eso participé en proyectos de entrenamiento y evaluación de modelos de IA en Outlier.ai, trabajando en prompt engineering, testing y optimización de modelos.",
+            "También lideré y co-desarrollé SafePets — un marketplace blockchain creado con un equipo internacional — que ganó la categoría Polygon Cardona por innovación en la Latina Blockchain Hackathon en Perú.",
+            "Actualmente me enfoco en proyectos freelance y creativos donde combino desarrollo, producto, diseño y automatización, explorando cómo la IA potencia el desarrollo full stack y la creación digital."
         ],
         education: [
             {
@@ -438,7 +411,7 @@ export const translations = {
             },
             {
                 company: 'Latina Blockchain Hackathon',
-                role: 'Frontend Developer y Project Manager',
+                role: 'Desarrolladora Full Stack y Project Manager',
                 period: '2024',
                 description:
                     'Liderazgo y desarrollo de SafePets, un marketplace blockchain ganador de la categoría Polygon Cardona por innovación.',
@@ -463,6 +436,13 @@ export const translations = {
         ],
         projects: [
             {
+                name: 'StackProof — DApp Web3',
+                role: 'Desarrolladora Full Stack',
+                description:
+                    'DApp demo Web3 que conecta una wallet y permite firmar un mensaje para generar una “prueba” verificable. Hecha para mostrar integración con wallet, flujo de firmas y una UI prolija.',
+                tech: ['React', 'TypeScript', 'Viem', 'Hardhat'],
+            },
+            {
                 name: 'App Conversor de Monedas',
                 role: 'Desarrolladora Front End',
                 description:
@@ -476,41 +456,41 @@ export const translations = {
                     'Página web para un estudio de belleza desarrollada con React y TypeScript. Incluye secciones de servicios, equipo, testimonios y turnos online, con diseño totalmente responsive.',
                 tech: ['React', 'TypeScript', 'Vite', 'SCSS']
             },
-            {
-                name: 'ChatMarketAI',
-                role: 'Desarrolladora Front End',
-                description:
-                    'Plataforma web para explorar y conectar soluciones de chatbots, creada con HTML, CSS y JavaScript. Presenta un diseño minimalista y navegación responsive.',
-                tech: ['HTML', 'CSS', 'JavaScript']
-            },
-            {
-                name: 'Style Factory',
-                role: 'Desarrolladora Front End',
-                description:
-                    'Landing page para una marca de moda, con diseño responsive, identidad visual definida, animaciones suaves e integración de API para contenido dinámico.',
-                tech: ['HTML', 'CSS', 'Bootstrap', 'JS']
-            },
-            {
-                name: 'Casa Artesana – Marketplace Online',
-                role: 'Desarrolladora Front End',
-                description:
-                    'Frontend de un mercado online de artesanías hecho con HTML, CSS y JavaScript. Incluye galerías de productos, categorías y un layout completamente responsive.',
-                tech: ['HTML', 'CSS', 'JavaScript']
-            },
-            {
-                name: 'Servicios Hogar – Directorio de Oficios',
-                role: 'Desarrolladora Front End',
-                description:
-                    'Sitio web para contratar trabajadores de oficios, desarrollado con HTML, CSS y JavaScript. Incluye listados de servicios por categoría, navegación clara y diseño mobile-first.',
-                tech: ['HTML', 'CSS', 'JavaScript']
-            },
-            {
-                name: 'SafePets – Marketplace Blockchain',
-                role: 'Project Manager / Desarrolladora Frontend',
-                description:
-                    'Proyecto ganador del Latina Blockchain Hackathon (Categoría Polygon Cardona). Plataforma descentralizada que promueve la adopción responsable de mascotas y la esterilización.',
-                tech: ['React', 'Solidity', 'Web3', 'Figma']
-            }
+            // {
+            //     name: 'ChatMarketAI',
+            //     role: 'Desarrolladora Front End',
+            //     description:
+            //         'Plataforma web para explorar y conectar soluciones de chatbots, creada con HTML, CSS y JavaScript. Presenta un diseño minimalista y navegación responsive.',
+            //     tech: ['HTML', 'CSS', 'JavaScript']
+            // },
+            // {
+            //     name: 'Style Factory',
+            //     role: 'Desarrolladora Front End',
+            //     description:
+            //         'Landing page para una marca de moda, con diseño responsive, identidad visual definida, animaciones suaves e integración de API para contenido dinámico.',
+            //     tech: ['HTML', 'CSS', 'Bootstrap', 'JS']
+            // },
+            // {
+            //     name: 'Casa Artesana – Marketplace Online',
+            //     role: 'Desarrolladora Front End',
+            //     description:
+            //         'Frontend de un mercado online de artesanías hecho con HTML, CSS y JavaScript. Incluye galerías de productos, categorías y un layout completamente responsive.',
+            //     tech: ['HTML', 'CSS', 'JavaScript']
+            // },
+            // {
+            //     name: 'Servicios Hogar – Directorio de Oficios',
+            //     role: 'Desarrolladora Front End',
+            //     description:
+            //         'Sitio web para contratar trabajadores de oficios, desarrollado con HTML, CSS y JavaScript. Incluye listados de servicios por categoría, navegación clara y diseño mobile-first.',
+            //     tech: ['HTML', 'CSS', 'JavaScript']
+            // },
+            // {
+            //     name: 'SafePets – Marketplace Blockchain',
+            //     role: 'Desarrolladora Full Stack y Project Manager',
+            //     description:
+            //         'Proyecto ganador del Latina Blockchain Hackathon (Categoría Polygon Cardona). Plataforma descentralizada que promueve la adopción responsable de mascotas y la esterilización.',
+            //     tech: ['React', 'Solidity', 'Web3', 'Figma']
+            // }
         ],
         talks: [
             {

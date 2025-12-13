@@ -132,15 +132,10 @@ export const Projects: React.FC = () => {
     localized: t.projects?.[index] as any,
   }));
 
-  // primeros 3 como destacados
-  const featured = entries.slice(0, 3);
-  const others = entries.slice(3);
-
   const linkLabel = language === 'en' ? 'View project' : 'Ver proyecto';
-  const featuredLabel =
-    language === 'en' ? 'Featured projects' : 'Proyectos destacados';
-  const othersLabel =
-    language === 'en' ? 'Other projects' : 'Otros proyectos';
+  const title = language === 'en' ? 'Latest projects' : 'Últimos proyectos';
+
+  const latest = entries;
 
   return (
     <Section
@@ -149,18 +144,7 @@ export const Projects: React.FC = () => {
       eyebrow={t.sections.projectsEyebrow}
     >
       <div className="projects-layout">
-        <ProjectsSlider
-          title={featuredLabel}
-          entries={featured}
-          linkLabel={linkLabel}
-        />
-        {others.length > 0 && (
-          <ProjectsSlider
-            title={othersLabel}
-            entries={others}
-            linkLabel={linkLabel}
-          />
-        )}
+        <ProjectsSlider title={title} entries={latest} linkLabel={linkLabel} />
       </div>
     </Section>
   );

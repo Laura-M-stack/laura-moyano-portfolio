@@ -6,21 +6,21 @@ import { useLanguage } from '../context/LanguageContext';
 
 const heroText = {
   en: {
-    titleLine1: 'Front End',
+    titleLine1: 'Full Stack ',
     titleLine2: 'Developer',
     subtitle: 'Turning ideas into digital experiences.',
     description:
-      'Front End Developer with a focus on clean UX, scalable interfaces and AI integration. I enjoy combining design, technology and creativity to build meaningful digital products.',
+      "Full Stack Developer focused on clean UX and scalable, well-designed architectures. I enjoy building reliable applications that combine strong frontend foundations with solid backend development.",
     viewProjects: 'View projects',
     linkedin: 'LinkedIn',
     hi: 'Hi, I am'
   },
   es: {
     titleLine1: 'Desarrolladora',
-    titleLine2: 'Front End',
+    titleLine2: 'Full Stack',
     subtitle: 'Transformo ideas en experiencias digitales.',
     description:
-      'Desarrolladora Front End enfocada en UX limpio, interfaces escalables e integración con inteligencia artificial. Me gusta combinar diseño, tecnología y creatividad para construir productos digitales significativos.',
+      "Desarrolladora Full Stack enfocada en una UX limpia y arquitecturas escalables y bien diseñadas. Disfruto crear aplicaciones confiables que combinan un frontend sólido con un desarrollo backend robusto.",
     viewProjects: 'Ver proyectos',
     linkedin: 'LinkedIn',
     hi: 'Hola, soy'
