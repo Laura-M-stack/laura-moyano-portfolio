@@ -79,7 +79,7 @@ export const translations = {
             },
             {
                 company: 'Freelance',
-                role: 'Front End Developer & Tester',
+                role: 'Full Stack Developer & Tester',
                 period: '2023 – Present',
                 description:
                     'Developed responsive websites and performed QA testing for clients and personal projects.',

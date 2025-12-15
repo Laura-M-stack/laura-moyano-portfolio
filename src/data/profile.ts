@@ -1,9 +1,9 @@
 export const profile = {
   name: 'Laura Moyano',
-  role: 'Front End Developer',
+  role: 'Full Stack Developer',
   location: 'Argentina · Remote friendly',
   tagline:
-    'Front End Developer with a focus on clean UX, scalable interfaces and AI integration. I enjoy combining design, technology and creativity to build meaningful digital products.',
+    'Full Stack Developer with a focus on clean UX, scalable interfaces and AI integration. I enjoy combining design, technology and creativity to build meaningful digital products.',
   links: {
     linkedin: 'https://www.linkedin.com/in/laura-moyano-h',
     github: 'https://github.com/Laura-M-stack',
@@ -77,7 +77,7 @@ export const experiences = [
   },
   {
     company: 'Freelance',
-    role: 'Front End Developer & Tester',
+    role: 'Full Stack Developer & Tester',
     period: '2023 – Present',
     description:
       'Developed responsive websites and performed QA testing for small businesses and creative projects. Focused on UX quality and visual clarity.',
