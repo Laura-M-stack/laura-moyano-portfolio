@@ -190,6 +190,13 @@ export const translations = {
         },
         projects: [
             {
+                name: 'Tigre Turismo — Travel Planner Web App',
+                role: 'Front-End Developer',
+                description:
+                    'Responsive web application to explore tourist activities in Tigre (Buenos Aires) and build a personalized day itinerary. Includes advanced filters, interactive maps, favorites, time estimation, and itinerary sharing. Built with a strong focus on UX, performance, and real-world usability.',
+                tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'React Router', 'Leaflet'],
+            },
+            {
                 name: 'StackProof — Web3 DApp',
                 role: 'Full Stack Developer',
                 description:
@@ -435,6 +442,13 @@ export const translations = {
             }
         ],
         projects: [
+            {
+                name: 'Tigre Turismo — Planificador de actividades',
+                role: 'Desarrolladora Front-End',
+                description:
+                    'Aplicación web responsive para explorar actividades turísticas en Tigre (Buenos Aires) y armar un itinerario personalizado. Incluye filtros avanzados, mapas interactivos, guardado de favoritos, estimación de tiempos y compartir itinerarios. Proyecto enfocado en UX, performance y uso en contextos reales.',
+                tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'React Router', 'Leaflet'],
+            },
             {
                 name: 'StackProof — DApp Web3',
                 role: 'Desarrolladora Full Stack',
