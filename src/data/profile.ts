@@ -91,23 +91,23 @@ export const experiences = [
 ];
 
 export const projects = [
-  {
-    name: 'Tigre Turismo',
+   {
+    name: 'Tigre Turismo — Travel Planner Web App',
     role: 'Front End Developer, UX/UI Designer',
     description:
-      '',
-    tech: ['React', 'TypeScript', 'Viem', 'Hardhat'],
-    link: 'https://laura-m-stack.github.io/stackproof/',
-    image: 'projects/stackproof.png',
-  },
-  {
-    name: 'Tigre Turismo — Travel Planner Web App',
-    role: 'Front-End Developer',
-    description:
-      'Responsive web application to explore tourist activities in Tigre (Buenos Aires) and build a personalized day itinerary. Includes advanced filters, interactive maps, favorites, time estimation, and itinerary sharing. Built with a strong focus on UX, performance, and real-world usability.',
+      'Responsive web application to explore tourist activities in Tigre (Buenos Aires) and build a personalized day itinerary. Includes advanced filters, interactive maps, favorites, time estimation, and itinerary sharing.',
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'React Router', 'Leaflet'],
     link: 'https://laura-m-stack.github.io/tigre-turismo/',
     image: 'projects/tigre-turismo.png',
+  },
+  {
+    name: 'StackProof — Web3 DApp',
+    role: 'Full Stack Developer',
+    description:
+      'Web3 demo dApp that connects a wallet and lets the user sign a message to generate a verifiable “proof”. Built to showcase wallet integration, signature flows and a clean UI.',
+    tech: ['React', 'TypeScript', 'Viem', 'Hardhat'],
+    link: 'https://laura-m-stack.github.io/stackproof/',
+    image: 'projects/stackproof.png',
   },
   {
     name: 'Currency Converter App',
