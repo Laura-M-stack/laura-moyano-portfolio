@@ -7,7 +7,6 @@ import { Experience } from './sections/Experience';
 import { Education } from './sections/Education';
 import { Projects } from './sections/Projects';
 import { Talks } from './sections/Talks';
-import { Contact } from './sections/Contact';
 import { Footer } from './components/Footer';
 import { Skills } from './sections/Skills';
 
@@ -24,7 +23,6 @@ const App: React.FC = () => {
         <Education />
         <Projects />
         <Talks />
-        <Contact />
       </main>
       <Footer />
     </div>

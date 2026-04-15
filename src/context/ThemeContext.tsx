@@ -5,17 +5,22 @@ export type ThemeId =
     | 'ocean'
     | 'neonpulse'
     | 'forest'
-    | 'mono'
+    | 'sunset'
     | 'lavender'
     | 'amber'
     | 'crimson'
+    | 'midnight'
+    | 'eclipse'
     | 'pearl'
     | 'sand'
     | 'rosemilk'
     | 'mintfresh'
-    | 'skyline'
+    | 'tropical'
     | 'cloud'
-    | 'snowbloom';
+    | 'snowbloom'
+    | 'latte'
+    | 'aqua'
+    | 'blossom';
 
 type ThemeContextValue = {
     theme: ThemeId;

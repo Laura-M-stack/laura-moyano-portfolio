@@ -13,20 +13,18 @@ export const translations = {
         footer: 'Made with 💖 by Laura Moyano.',
         sections: {
             aboutEyebrow: 'Who I am',
-            experienceEyebrow: 'What I have been working on',
-            educationEyebrow: 'My educational background',
-            skillsEyebrow: 'What I work with',
+            experienceEyebrow: 'Things I\'ve worked on',
+            educationEyebrow: 'Education',
+            skillsEyebrow: 'Skills',
             educationTitle: 'Education',
-            projectsEyebrow: 'Some things I have built',
-            talksEyebrow: 'Sharing what I learn',
-            contactEyebrow: 'Let us build something together'
+            projectsEyebrow: 'Things I\'ve built',
+            talksEyebrow: 'Talks & events',
+            contactEyebrow: 'Find me here'
         },
         about: [
-            "I’m a Full Stack Developer with a strong focus on building scalable, well-designed digital products that combine usability, performance and clean architecture.",
-            "Until November 2025 I worked at Chicks Group Inc. as a Product Engineer, collaborating with international teams on front end and full stack improvements for the ChicksX exchange platform.",
-            "Before that, I contributed to AI training and evaluation projects at Outlier.ai, working on prompt engineering, testing workflows and model optimization.",
-            "I also led and co-developed SafePets — a blockchain-based marketplace built with an international team — which won the Polygon Cardona innovation award at the Latina Blockchain Hackathon in Peru.",
-            "Currently I focus on freelance and creative projects where I combine development, product thinking, design and automation, exploring how AI enhances full-stack development and digital creation."
+            "I'm a Full Stack Developer who gravitates toward the intersection of code, design and product thinking. I like building things end-to-end — from the architecture to the interface — and paying attention to how they actually feel to use.",
+            "I've shipped interfaces for a crypto exchange, trained language models, led a blockchain hackathon project that won an innovation award, and built smaller things just because they seemed interesting.",
+            "Right now I'm finishing my university technician degree in web development, building my own projects, and using this space as a record of what I've made and what I'm learning."
         ],
         experience: [
             {
@@ -118,73 +116,47 @@ export const translations = {
             title: "Skills & Technologies",
             groups: [
                 {
-                    label: "Frontend Development",
+                    label: "Frontend",
                     items: [
-                        "HTML", "CSS", "JavaScript",
-                        "React", "Svelte", "Aurelia",
-                        "Vue", "TypeScript",
-                        "SCSS", "Tailwind", "Bootstrap",
-                        "Responsive Design",
-                        "UI Architecture", "Performance", "Accessibility"
+                        "React", "TypeScript", "JavaScript",
+                        "Svelte", "Aurelia", "Vue",
+                        "HTML", "CSS", "SCSS", "Tailwind",
+                        "Responsive Design", "Accessibility", "Performance"
                     ]
                 },
                 {
                     label: "Backend & APIs",
                     items: [
-                        "Python", "Node.js", "Express",
-                        "Django", "FastAPI", "Flask",
-                        "REST APIs", "Auth", "Data Modeling", "ORMs", "Databases", "SQL", "NoSQL", "GraphQL", "Serverless", "Cloud Services",
-                        "AWS", "Azure"
+                        "Node.js", "Python", "Express",
+                        "Django", "FastAPI",
+                        "REST APIs", "SQL", "NoSQL",
+                        "AWS", "Azure", "Docker"
                     ]
                 },
                 {
-                    label: "AI Development",
+                    label: "AI & Automation",
                     items: [
                         "LLMs", "Prompt Engineering", "AI Testing",
-                        "LangChain", "RAG", "Evaluation", "Automation",
-                        "Model Evaluation",
-                        "AI Automation", "API Integrations", "Fine-tuning",
+                        "LangChain", "RAG", "Fine-tuning",
+                        "Model Evaluation", "AI Automation", "n8n"
                     ]
                 },
                 {
-                    label: "Testing & QA",
+                    label: "Design & Product",
                     items: [
-                        "Functional Testing", "Test Cases", "UI Testing",
-                        "Exploratory Testing",
-                        "Selenium", "Postman",
-                        "Regression & Integration Tests",
-                        "Performance Testing", "Accessibility Testing", "Bug Tracking", "Reporting"
+                        "Figma", "UX/UI Design", "Prototyping",
+                        "Design Systems", "Wireframing",
+                        "Branding", "Canva", "Illustrator"
                     ]
                 },
                 {
-                    label: "DevOps & Tools",
+                    label: "Tooling & QA",
                     items: [
-                        "Git", "Docker", "CI/CD (monitoring)",
-                        "Jira",
-                        "Azure DevOps", "Deployments", "GitHub Actions", "Version Control"
+                        "Git", "GitHub Actions", "Docker",
+                        "Postman", "Selenium",
+                        "Functional Testing", "Exploratory Testing",
+                        "Jira", "Azure DevOps", "Agile / Scrum"
                     ]
-                },
-                {
-                    label: "Design & Branding",
-                    items: [
-                        "Figma", "Canva", "Photoshop",
-                        "Illustrator", "InDesign",
-                        "Branding", "Prototyping", "UX/UI Design", "Wireframing", "Design Systems", "User-Centered Design",
-                        "Usability Testing", "Accessibility Testing", "Visual Design", "Graphic Design", "Animation Basics",
-                        "Typography", "Color Theory", "Motion Graphics", "Logos", "Icons"
-                    ]
-                },
-                {
-                    label: "Mobile",
-                    items: ["Flutter (basic)", "React Native (basic)", "Responsive Design", "Cross-Platform Development", "Mobile UI/UX Principles", "Performance Optimization"]
-                },
-                {
-                    label: "Automation",
-                    items: ["n8n (basic)", "AI-based automation", "Workflow Automation", "Scripting", "Task Automation", "Integration of Services", "Process Optimization", "API Usage"]
-                },
-                {
-                    label: "Other Skills",
-                    items: ["Project Management", "Agile Methodologies", "Scrum", "Kanban", "Communication", "Team Collaboration", "Problem-Solving", "Time Management", "Adaptability", "Critical Thinking", "Creativity", "Continuous Learning", "Mentorship", "Public Speaking", "Technical Writing"]
                 }
             ]
         },
@@ -243,13 +215,13 @@ export const translations = {
         ],
         contact: {
             intro:
-                'If you want to collaborate or talk about projects involving product, front end or AI, feel free to reach out.',
+                'You can find me on GitHub, LinkedIn or drop me an email.',
             emailTitle: 'Email',
-            emailSubtitle: 'Send me a message',
+            emailSubtitle: 'lauraymh000@gmail.com',
             linkedinTitle: 'LinkedIn',
             linkedinSubtitle: 'Let’s connect',
             githubTitle: 'GitHub',
-            githubSubtitle: 'Check my code'
+            githubSubtitle: 'github.com/Laura-M-stack'
         }
     },
 
@@ -267,20 +239,18 @@ export const translations = {
         footer: 'Hecho con 💖 por Laura Moyano.',
         sections: {
             aboutEyebrow: 'Quién soy',
-            experienceEyebrow: 'En qué estuve trabajando',
-            educationEyebrow: 'Mi formación académica',
-            skillsEyebrow: 'Con qué trabajo',
+            experienceEyebrow: 'En qué trabajé',
+            educationEyebrow: 'Educación',
+            skillsEyebrow: 'Skills',
             educationTitle: 'Educación',
-            projectsEyebrow: 'Algunos proyectos que construí',
-            talksEyebrow: 'Charlas y conferencias',
-            contactEyebrow: 'Construyamos algo juntos'
+            projectsEyebrow: 'Cosas que construí',
+            talksEyebrow: 'Charlas y eventos',
+            contactEyebrow: 'Encontrame acá'
         },
         about: [
-            "Soy Desarrolladora Full Stack con enfoque en construir productos digitales escalables que combinan usabilidad, rendimiento y arquitectura limpia.",
-            "Hasta noviembre de 2025 trabajé en Chicks Group Inc. como Product Engineer, colaborando con equipos internacionales en mejoras front end y full stack para la plataforma de exchange ChicksX.",
-            "Antes de eso participé en proyectos de entrenamiento y evaluación de modelos de IA en Outlier.ai, trabajando en prompt engineering, testing y optimización de modelos.",
-            "También lideré y co-desarrollé SafePets — un marketplace blockchain creado con un equipo internacional — que ganó la categoría Polygon Cardona por innovación en la Latina Blockchain Hackathon en Perú.",
-            "Actualmente me enfoco en proyectos freelance y creativos donde combino desarrollo, producto, diseño y automatización, explorando cómo la IA potencia el desarrollo full stack y la creación digital."
+            "Soy desarrolladora Full Stack y me muevo en la intersección entre código, diseño y producto. Me gusta construir cosas de punta a punta — desde la arquitectura hasta la interfaz — prestando atención a cómo se sienten al usarlas.",
+            "Desarrollé interfaces para una plataforma de exchange, entrené modelos de lenguaje, lideré un proyecto en un hackathon blockchain que ganó un premio a la innovación, y construí cosas más chicas simplemente porque me parecieron interesantes.",
+            "Actualmente estoy terminando la Tecnicatura Universitaria en Desarrollo Web, trabajando en mis propios proyectos, y uso este espacio como registro de lo que construí y lo que voy aprendiendo."
         ],
         education: [
             {
@@ -310,72 +280,47 @@ export const translations = {
             title: "Skills & Tecnologías",
             groups: [
                 {
-                    label: "Desarrollo Front End",
+                    label: "Frontend",
                     items: [
-                        "HTML", "CSS", "JavaScript",
-                        "React", "Svelte", "Aurelia",
-                        "Vue", "TypeScript",
-                        "SCSS", "Tailwind", "Bootstrap", "Responsive Design",
-                        "Arquitectura UI", "Performance", "Accesibilidad"
+                        "React", "TypeScript", "JavaScript",
+                        "Svelte", "Aurelia", "Vue",
+                        "HTML", "CSS", "SCSS", "Tailwind",
+                        "Diseño responsive", "Accesibilidad", "Performance"
                     ]
                 },
                 {
                     label: "Backend & APIs",
                     items: [
-                        "Python", "Node.js", "Express",
-                        "Django", "FastAPI", "Flask",
-                        "APIs REST", "Autenticación", "Modelado de datos",
-                        "ORMs", "Bases de datos", "SQL", "NoSQL", "GraphQL", "Serverless", "Servicios en la nube",
-                        "AWS", "Azure"
+                        "Node.js", "Python", "Express",
+                        "Django", "FastAPI",
+                        "APIs REST", "SQL", "NoSQL",
+                        "AWS", "Azure", "Docker"
                     ]
                 },
                 {
-                    label: "Desarrollo de IA",
+                    label: "IA & Automatización",
                     items: [
                         "LLMs", "Prompt Engineering", "Testing de IA",
-                        "LangChain", "RAG", "Evaluación", "Automatización",
-                        "Evaluación de modelos",
-                        "Automatización con IA", "Integración vía API", "Fine-tuning"
+                        "LangChain", "RAG", "Fine-tuning",
+                        "Evaluación de modelos", "Automatización con IA", "n8n"
                     ]
                 },
                 {
-                    label: "Testing & QA",
+                    label: "Diseño & Producto",
                     items: [
-                        "Testing funcional", "Casos de prueba", "Testing de UI",
-                        "Testing exploratorio",
-                        "Selenium", "Postman",
-                        "Pruebas de regresión e integración",
-                        "Pruebas de performance", "Pruebas de accesibilidad", "Seguimiento de bugs", "Reportes"
+                        "Figma", "UX/UI Design", "Prototipado",
+                        "Sistemas de diseño", "Wireframing",
+                        "Branding", "Canva", "Illustrator"
                     ]
                 },
                 {
-                    label: "DevOps & Herramientas",
+                    label: "Tooling & QA",
                     items: [
-                        "Git", "Docker", "CI/CD (monitoreo)", "Jira",
-                        "Azure DevOps", "Deployments", "GitHub Actions", "Control de versiones"
+                        "Git", "GitHub Actions", "Docker",
+                        "Postman", "Selenium",
+                        "Testing funcional", "Testing exploratorio",
+                        "Jira", "Azure DevOps", "Agile / Scrum"
                     ]
-                },
-                {
-                    label: "Diseño & Branding",
-                    items: [
-                        "Figma", "Canva", "Photoshop",
-                        "Illustrator", "InDesign",
-                        "Branding", "Prototipado", "UX/UI Design", "Wireframing", "Sistemas de diseño", "Diseño centrado en el usuario",
-                        "Pruebas de usabilidad", "Pruebas de accesibilidad", "Diseño visual", "Diseño gráfico", "Animación básica",
-                        "Tipografía", "Teoría del color", "Motion graphics", "Logos", "Íconos"
-                    ]
-                },
-                {
-                    label: "Mobile",
-                    items: ["Flutter (básico)", "React Native (básico)", "Diseño responsive", "Desarrollo cross-platform", "Optimización de performance"]
-                },
-                {
-                    label: "Automatización",
-                    items: ["n8n (básico)", "Automatización con IA", "Automatización de flujos de trabajo", "Scripting", "Automatización de tareas", "Integración de servicios", "Optimización de procesos", "Uso de APIs"]
-                },
-                {
-                    label: "Otras habilidades",
-                    items: ["Gestión de proyectos", "Metodologías ágiles", "Scrum", "Kanban", "Comunicación", "Trabajo en equipo", "Resolución de problemas", "Gestión del tiempo", "Adaptabilidad", "Pensamiento crítico", "Creatividad", "Aprendizaje continuo", "Mentoría", "Oratoria", "Redacción técnica"]
                 }
             ]
         },
@@ -531,13 +476,13 @@ export const translations = {
         ],
         contact: {
             intro:
-                'Si querés colaborar, trabajar en un proyecto o hablar sobre desarrollo, producto o IA, podés escribirme.',
+                'Podés encontrarme en GitHub, LinkedIn o escribirme por email.',
             emailTitle: 'Email',
-            emailSubtitle: 'Enviame un mensaje',
+            emailSubtitle: 'lauraymh000@gmail.com',
             linkedinTitle: 'LinkedIn',
-            linkedinSubtitle: 'Conectemos',
+            linkedinSubtitle: 'linkedin.com/in/laura-moyano-h',
             githubTitle: 'GitHub',
-            githubSubtitle: 'Mirá mi código'
+            githubSubtitle: 'github.com/Laura-M-stack'
         }
     }
 };

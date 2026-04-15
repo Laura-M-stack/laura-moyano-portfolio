@@ -1,35 +1,29 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { profile } from '../data/profile';
-import { Tag } from '../components/Tag';
 import { useLanguage } from '../context/LanguageContext';
 
 const heroText = {
   en: {
-    titleLine1: 'Full Stack ',
-    titleLine2: 'Developer',
-    subtitle: 'Turning ideas into digital experiences.',
-    description:
-      "Full Stack Developer focused on clean UX and scalable, well-designed architectures. I enjoy building reliable applications that combine strong frontend foundations with solid backend development.",
-    viewProjects: 'View projects',
-    linkedin: 'LinkedIn',
-    hi: 'Hi, I am'
+    titlePre: 'I build digital products',
+    titleHighlight: 'with real business sense ',
+    titlePost: 'and user focus.',
+    subtitle: '20+ years understanding what people actually need — now applied to technology.',
+    description: "Full Stack Developer focused on frontend, UX and AI projects. I work end-to-end — from architecture to interface — prioritizing clarity, usability, and solutions that actually make sense.",
+    viewProjects: 'See products',
+    github: 'GitHub',
+    hi: "Hi, I'm"
   },
   es: {
-    titleLine1: 'Desarrolladora',
-    titleLine2: 'Full Stack',
-    subtitle: 'Transformo ideas en experiencias digitales.',
-    description:
-      "Desarrolladora Full Stack enfocada en una UX limpia y arquitecturas escalables y bien diseñadas. Disfruto crear aplicaciones confiables que combinan un frontend sólido con un desarrollo backend robusto.",
-    viewProjects: 'Ver proyectos',
-    linkedin: 'LinkedIn',
+    titlePre: 'Construyo productos digitales',
+    titleHighlight: 'con criterio de negocio ',
+    titlePost: 'y foco en el usuario.',
+    subtitle: 'Más de 20 años entendiendo qué necesita la gente — ahora aplicado a la tecnología.',
+    description: "Desarrolladora Full Stack con foco en frontend, UX y proyectos de IA. Trabajo de punta a punta — desde la arquitectura hasta la interfaz — priorizando claridad, usabilidad y soluciones que realmente tengan sentido.",
+    viewProjects: 'Ver productos',
+    github: 'GitHub',
     hi: 'Hola, soy'
   }
-};
-
-const variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 }
 };
 
 export const Hero: React.FC = () => {
@@ -38,45 +32,64 @@ export const Hero: React.FC = () => {
 
   return (
     <motion.section
-      className="hero hero-centered"
-      initial="hidden"
-      animate="visible"
-      transition={{ staggerChildren: 0.15 }}
+      className="hero"
+      initial={{ opacity: 0, y: 24 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.7, ease: 'easeOut' }}
     >
-      <motion.div
-        className="hero-left"
-        variants={variants}
-        transition={{ duration: 0.7, ease: 'easeOut' }}
-      >
-        <p className="hero-eyebrow">
+      <div className="hero-inner hero-text-only">
+        <motion.p
+          className="hero-eyebrow"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.1, duration: 0.5 }}
+        >
           {h.hi} {profile.name}
-        </p>
-        <h1 className="hero-title">
-          <span className="hero-title-main-group">
-            <span className="hero-title-main hero-title-line1">{h.titleLine1}</span>
-            <span className="hero-title-main hero-title-line2">{h.titleLine2}</span>
+        </motion.p>
+
+        <motion.h1
+          className="hero-title"
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.15, duration: 0.6 }}
+        >
+          <span className="hero-title-main">
+            {h.titlePre}{' '}
+            <div className="hero-title-gradient">{h.titleHighlight}</div>
+            {h.titlePost}
           </span>
-        </h1>
-        <h2 className="hero-subtitle">
+        </motion.h1>
+
+        <motion.h2
+          className="hero-subtitle"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.25, duration: 0.55 }}
+        >
           {h.subtitle}
-        </h2>
-        <p className="hero-tagline">{h.description}</p>
-        <div className="hero-tags">
-        </div>
-        <div className="hero-actions">
-          <a href="#projects" className="btn-primary">
-            {h.viewProjects}
+        </motion.h2>
+
+        <motion.p
+          className="hero-tagline"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.35, duration: 0.5 }}
+        >
+          {h.description}
+        </motion.p>
+
+        <motion.div
+          className="hero-actions"
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.45, duration: 0.5 }}
+        >
+          <a href="#projects" className="btn-primary">{h.viewProjects}</a>
+          <a href={profile.links.github} target="_blank" rel="noreferrer" className="btn-ghost">
+            {h.github}
           </a>
-          <a
-            href={profile.links.linkedin}
-            target="_blank"
-            rel="noreferrer"
-            className="btn-ghost"
-          >
-            {h.linkedin}
-          </a>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
     </motion.section>
   );
 };
