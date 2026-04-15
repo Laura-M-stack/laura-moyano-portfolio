@@ -1,18 +1,22 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { Section } from '../components/Section';
 import { experiences } from '../data/profile';
 import { Tag } from '../components/Tag';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../i18n';
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 24 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, ease: 'easeOut', delay: i * 0.08 }
-  })
+    transition: {
+      duration: 0.5,
+      ease: 'easeOut',
+      delay: i * 0.08,
+    },
+  }),
 };
 
 export const Experience: React.FC = () => {

@@ -1,15 +1,20 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { Section } from '../components/Section';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../i18n';
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: (i: number) => ({
-    opacity: 1, y: 0,
-    transition: { duration: 0.45, ease: 'easeOut', delay: i * 0.1 }
-  })
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.45,
+      ease: 'easeOut',
+      delay: i * 0.1,
+    },
+  }),
 };
 
 export const Education: React.FC = () => {
