@@ -31,7 +31,7 @@ const themes: ThemeOption[] = [
     { id: 'tropical', labelEs: 'Tropical', labelEn: 'Tropical', mode: 'light' },
     { id: 'cloud', labelEs: 'Cielo Suave', labelEn: 'Soft Cloud', mode: 'light' },
     { id: 'snowbloom', labelEs: 'Pétalo Suave', labelEn: 'SnowBloom', mode: 'light' },
-    { id: 'latte', labelEs: 'Paper', labelEn: 'Paper', mode: 'light' },
+    { id: 'latte', labelEs: 'Latte', labelEn: 'Latte', mode: 'light' },
     { id: 'aqua', labelEs: 'Aqua Brisa', labelEn: 'Aqua Breeze', mode: 'light' },
     { id: 'blossom', labelEs: 'Sage', labelEn: 'Sage', mode: 'light' }
 ];
