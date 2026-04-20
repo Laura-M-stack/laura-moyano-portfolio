@@ -203,7 +203,7 @@ export const translations = {
                 event: 'Panel',
                 year: '2024',
                 description:
-                    'Moderator in a discussion about the ethical and social implications of AI, with Dr. Florencia Pollo-Cataneo.'
+                    'Moderator in a discussion about the ethical and social implications of AI, with Dr. Florencia Pollo-Cattaneo.'
             },
             {
                 title: 'AI for Women Entrepreneurs',
@@ -464,7 +464,7 @@ export const translations = {
                 event: 'Panel',
                 year: '2024',
                 description:
-                    'Moderadora en conversatorio sobre el impacto ético y social de la inteligencia artificial junto a la Dra. Florencia Pollo-Cataneo.'
+                    'Moderadora en conversatorio sobre el impacto ético y social de la inteligencia artificial junto a la Dra. Florencia Pollo-Cattaneo.'
             },
             {
                 title: 'IA para Mujeres Empresarias: Automatización y Productividad Responsable',

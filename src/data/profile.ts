@@ -187,7 +187,7 @@ export const talks = [
     event: 'Panel',
     year: '2024',
     description:
-      'Moderator in a talk about artificial intelligence and its social impact with Dr. Florencia Pollo-Cataneo.'
+      'Moderator in a talk about artificial intelligence and its social impact with Dr. Florencia Pollo-Cattaneo.'
   },
   {
     title: 'AI for Women Entrepreneurs: Automation and Responsible Productivity',
