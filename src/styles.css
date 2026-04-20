@@ -609,7 +609,7 @@ body.theme-eclipse {
     --project-card-border: rgba(168, 85, 247, 0.35);
 }
 
-body.theme-latte {
+body.theme-neapolitan {
     --bg: #fdf8f0;
     --bg-elevated: rgba(255, 243, 228, 0.92);
     --bg-soft: rgba(253, 248, 240, 0.95);
@@ -2065,7 +2065,7 @@ main {
     background: linear-gradient(135deg, #e348a7, #b9c7f5);
 }
 
-.theme-pill[data-theme="latte"] .theme-pill-swatch {
+.theme-pill[data-theme="neapolitan"] .theme-pill-swatch {
     background: linear-gradient(135deg, #b8860b, #e07b39);
 }
 

@@ -18,7 +18,7 @@ export type ThemeId =
     | 'tropical'
     | 'cloud'
     | 'snowbloom'
-    | 'latte'
+    | 'neapolitan'
     | 'aqua'
     | 'blossom';
 
