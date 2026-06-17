@@ -8,7 +8,6 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/laura-moyano-h',
     github: 'https://github.com/Laura-M-stack',
     email: 'mailto:lauraymh000@gmail.com',
-    // youtube: 'https://www..com/@MakeYourReality'
   },
   keywords: [
     'Front End Development',
@@ -57,7 +56,7 @@ export const experiences = [
       'Built APIs and machine learning integrations in projects aimed at solving real-world problems using AI technologies.',
     highlights: [
       'Designed and deployed RESTful APIs using Node.js and Python.',
-      'Colabborated in design and frontend development of user interfaces.',
+      'Collaborated in design and frontend development of user interfaces.',
       'Integrated machine learning models into web applications.'
     ],
     tech: ['Node.js', 'Python', 'MySQL']
@@ -67,7 +66,7 @@ export const experiences = [
     role: 'Frontend Developer & Project Manager',
     period: '2024',
     description:
-      'Led and co-developed “SafePets,” a blockchain-based marketplace MVP. The project won the Polygon Cardona category for innovation and usability.',
+      'Led and co-developed "SafePets," a blockchain-based marketplace MVP. The project won the Polygon Cardona category for innovation and usability.',
     highlights: [
       'Designed the main UI and managed a distributed team.',
       'Implemented smart contract integrations and wallet connection.',
@@ -91,7 +90,16 @@ export const experiences = [
 ];
 
 export const projects = [
-   {
+  {
+    name: 'Turnis — Appointment Manager App',
+    role: 'Full Stack Developer & Product Designer',
+    description:
+       'Desktop app for Windows to manage appointments, clients and professionals — simple, offline-first. Built for independent professionals and small businesses that still rely on WhatsApp or paper to organize their schedule. One-time payment, no subscriptions, data stored locally.',
+    tech: ['Tauri', 'React', 'TypeScript', 'SQLite'],
+    link: 'https://turnisapp.com',
+    image: 'projects/turnis.png',
+  },
+  {
     name: 'Tigre Turismo — Travel Planner Web App',
     role: 'Front End Developer, UX/UI Designer',
     description:
@@ -104,7 +112,7 @@ export const projects = [
     name: 'StackProof — Web3 DApp',
     role: 'Full Stack Developer',
     description:
-      'Web3 demo dApp that connects a wallet and lets the user sign a message to generate a verifiable “proof”. Built to showcase wallet integration, signature flows and a clean UI.',
+      'Web3 demo dApp that connects a wallet and lets the user sign a message to generate a verifiable "proof". Built to showcase wallet integration, signature flows and a clean UI.',
     tech: ['React', 'TypeScript', 'Viem', 'Hardhat'],
     link: 'https://laura-m-stack.github.io/stackproof/',
     image: 'projects/stackproof.png',
@@ -124,54 +132,9 @@ export const projects = [
     description:
       'Single-page React website for a beauty studio, including services, team, testimonials and an online booking section. Fully responsive and built with a modern component-based architecture.',
     tech: ['React', 'TypeScript', 'Vite', 'SCSS'],
-    link: 'https://glamourstudio.netlify.app/',
+    link: 'https://laura-m-stack.github.io/glamour-studio/',
     image: 'projects/glamour-studio.png'
   },
-  // {
-  //   name: 'ChatMarketAI',
-  //   role: 'Front End Developer',
-  //   description:
-  //     'Platform to explore and connect with chatbot solutions, built with HTML, CSS and JavaScript.',
-  //   tech: ['HTML', 'CSS', 'JavaScript'],
-  //   link: 'https://chatmarketai.netlify.app/',
-  //   image: 'projects/chat-market-ai.png'
-  // },
-  // {
-  //   name: 'Style Factory',
-  //   role: 'Front End Developer',
-  //   description:
-  //     'Landing page for a fashion brand, featuring responsive design and API integration.',
-  //   tech: ['HTML', 'CSS', 'Bootstrap', 'JS'],
-  //   link: 'https://style-factory.netlify.app/',
-  //   image: 'projects/style-factory.png'
-  // },
-  // {
-  //   name: 'Casa Artesana – Online Marketplace',
-  //   role: 'Front End Developer',
-  //   description:
-  //     'Frontend for an online handicraft marketplace made with HTML, CSS and JavaScript. Includes product galleries, categories and a mobile-first responsive layout.',
-  //   tech: ['HTML', 'CSS', 'JavaScript'],
-  //   link: 'https://casaartesana.netlify.app/',
-  //   image: 'projects/casa-artesana.png'
-  // },
-  // {
-  //   name: 'Servicios Hogar – Services Directory',
-  //   role: 'Front End Developer',
-  //   description:
-  //     'Website for hiring home service professionals, created with HTML, CSS and JavaScript. Includes categorized service listings, intuitive navigation and a fully responsive design.',
-  //   tech: ['HTML', 'CSS', 'JavaScript'],
-  //   link: 'https://servicioshogar.netlify.app/',
-  //   image: 'projects/servicios-hogar.png'
-  // },
-  // {
-  //   name: 'SafePets – Blockchain Marketplace',
-  //   role: 'Project Manager / Frontend Developer',
-  //   description:
-  //     'Winner of Latina Blockchain Hackathon (Polygon Cardona category). A decentralized marketplace promoting responsible pet adoption and sterilization.',
-  //   tech: ['React', 'Solidity', 'Web3', 'Figma'],
-  //   link: 'https://devpost.com/software/safepets',
-  //   image: 'projects/safepets.png'
-  // }
 ];
 
 export const talks = [

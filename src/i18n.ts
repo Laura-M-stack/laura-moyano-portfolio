@@ -162,6 +162,13 @@ export const translations = {
         },
         projects: [
             {
+                name: 'Turnis — Appointment Manager App',
+                role: 'Full Stack Developer & Product Designer',
+                description:
+                    'Windows desktop app to manage appointments, clients and professionals — offline, no subscriptions, data stored locally. Built for independent professionals and small businesses.',
+                tech: ['Tauri', 'React', 'TypeScript', 'SQLite'],
+            },
+            {
                 name: 'Tigre Turismo — Travel Planner Web App',
                 role: 'Front-End Developer',
                 description:
@@ -387,6 +394,13 @@ export const translations = {
             }
         ],
         projects: [
+            {
+                name: 'Turnis — Gestionador de turnos',
+                role: 'Desarrolladora Full Stack & Diseñadora de Producto',
+                description:
+                    'App de escritorio para Windows para gestionar turnos, clientes y profesionales — sin internet, sin suscripciones, datos locales. Pensada para profesionales independientes y pequeños negocios.',
+                tech: ['Tauri', 'React', 'TypeScript', 'SQLite'],
+            },
             {
                 name: 'Tigre Turismo — Planificador de actividades',
                 role: 'Desarrolladora Front-End',
