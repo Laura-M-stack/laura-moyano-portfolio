@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 
 type Language = 'es' | 'en';
 
@@ -9,8 +9,21 @@ interface LanguageContextValue {
 
 const LanguageContext = createContext<LanguageContextValue | undefined>(undefined);
 
+const LANGUAGE_STORAGE_KEY = 'lm-portfolio-language';
+
+const getInitialLanguage = (): Language => {
+  if (typeof window === 'undefined') return 'es';
+  const stored = window.localStorage.getItem(LANGUAGE_STORAGE_KEY) as Language | null;
+  return stored === 'en' || stored === 'es' ? stored : 'es';
+};
+
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('es');
+  const [language, setLanguage] = useState<Language>(getInitialLanguage);
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+    window.localStorage.setItem(LANGUAGE_STORAGE_KEY, language);
+  }, [language]);
 
   const toggleLanguage = () => {
     setLanguage(prev => (prev === 'es' ? 'en' : 'es'));

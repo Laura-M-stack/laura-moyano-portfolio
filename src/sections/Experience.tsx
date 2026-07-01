@@ -27,10 +27,11 @@ export const Experience: React.FC = () => {
     <Section id="experience" label={t.navbar.experience} eyebrow={t.sections.experienceEyebrow}>
       <div className="exp-timeline">
         {experiences.map((exp, index) => {
-          const localized = t.experience[index];
+          const localized = t.experience[exp.id as keyof typeof t.experience];
+
           return (
             <motion.article
-              key={exp.company}
+              key={exp.id}
               className="exp-item"
               custom={index}
               initial="hidden"
@@ -44,19 +45,19 @@ export const Experience: React.FC = () => {
               <div className="exp-content">
                 <header className="exp-header">
                   <div>
-                    <h3 className="exp-role">{localized?.role ?? exp.role}</h3>
+                    <h3 className="exp-role">{localized.role}</h3>
                     <p className="exp-meta">
-                      {localized?.company ?? exp.company}
-                      <span className="exp-period"> · {localized?.period ?? exp.period}</span>
+                      {exp.company}
+                      <span className="exp-period"> · {localized.period}</span>
                     </p>
                   </div>
                   <div className="exp-tags-inline">
                     {exp.tech.map(tg => <Tag key={tg} label={tg} />)}
                   </div>
                 </header>
-                <p className="exp-description">{localized?.description ?? exp.description}</p>
+                <p className="exp-description">{localized.description}</p>
                 <ul className="exp-list">
-                  {(localized?.highlights ?? exp.highlights).map(item => (
+                  {localized.highlights.map(item => (
                     <li key={item}>{item}</li>
                   ))}
                 </ul>

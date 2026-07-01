@@ -26,10 +26,11 @@ export const Talks: React.FC = () => {
     <Section id="talks" label={t.navbar.talks} eyebrow={t.sections.talksEyebrow}>
       <div className="talks-grid">
         {talks.map((talk, index) => {
-          const localized = t.talks[index];
+          const localized = t.talks[talk.id as keyof typeof t.talks];
+
           return (
             <motion.article
-              key={talk.title}
+              key={talk.id}
               className="talk-card"
               custom={index}
               initial="hidden"
@@ -37,10 +38,10 @@ export const Talks: React.FC = () => {
               viewport={{ once: true, margin: '-40px' }}
               variants={fadeUp}
             >
-              <span className="talk-year">{localized?.year ?? talk.year}</span>
-              <h3 className="talk-title">{localized?.title ?? talk.title}</h3>
-              <p className="talk-event">{localized?.event ?? talk.event}</p>
-              <p className="talk-description">{localized?.description ?? talk.description}</p>
+              <span className="talk-year">{talk.year}</span>
+              <h3 className="talk-title">{localized.title}</h3>
+              <p className="talk-event">{localized.event}</p>
+              <p className="talk-description">{localized.description}</p>
             </motion.article>
           );
         })}

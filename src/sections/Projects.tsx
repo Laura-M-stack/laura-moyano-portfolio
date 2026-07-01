@@ -24,25 +24,22 @@ export const Projects: React.FC = () => {
       <div className="projects-marquee-wrapper">
         <div className="projects-marquee-track">
           {allProjects.map((project, index) => {
-            const localized = t.projects?.[index % projects.length] as any;
-            const name = localized?.name ?? project.name;
-            const description = localized?.description ?? project.description;
-            const tech = (localized?.tech ?? project.tech) ?? [];
+            const localized = t.projects[project.id as keyof typeof t.projects];
             const hasLink = project.link && project.link !== '#';
 
             return (
-              <article key={`${project.name}-${index}`} className="project-card">
+              <article key={`${project.id}-${index}`} className="project-card">
                 {project.image && (
                   <div className="project-card-media">
-                    <img src={project.image} alt={name} loading="lazy" />
+                    <img src={project.image} alt={localized.name} loading="lazy" />
                   </div>
                 )}
                 <div className="project-card-body">
                   <span className="project-card-index">{String((index % projects.length) + 1).padStart(2, '0')}</span>
-                  <h3 className="project-card-title">{name}</h3>
-                  <p className="project-card-description">{description}</p>
+                  <h3 className="project-card-title">{localized.name}</h3>
+                  <p className="project-card-description">{localized.description}</p>
                   <div className="project-card-tags">
-                    {tech.map((tag: string) => (
+                    {project.tech.map((tag: string) => (
                       <Tag key={tag} label={tag} />
                     ))}
                   </div>
