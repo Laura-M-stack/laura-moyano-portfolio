@@ -1,6 +1,7 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { Section } from '../components/Section';
-import { profile } from '../data/profile';
+import { profile, talks } from '../data/profile';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../i18n';
 
@@ -22,6 +23,23 @@ export const About: React.FC = () => {
           ))}
         </div>
       </div>
+
+      <dl className="bento">
+        {t.aboutStats.map((stat, i) => (
+          <motion.div
+            key={stat.key}
+            className={`bento-tile bento-tile--${stat.key}`}
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.4 }}
+            transition={{ delay: i * 0.07, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+          >
+            {/* Talks count comes from the data, so it can't drift from the Talks section. */}
+            <dt className="bento-value">{stat.key === 'talks' ? talks.length : stat.value}</dt>
+            <dd className="bento-label">{stat.label}</dd>
+          </motion.div>
+        ))}
+      </dl>
     </Section>
   );
 };

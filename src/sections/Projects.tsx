@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion, useReducedMotion } from 'framer-motion';
 import { Section } from '../components/Section';
 import { projects } from '../data/profile';
 import { TagList } from '../components/Tag';
@@ -8,6 +9,7 @@ import { translations } from '../i18n';
 export const Projects: React.FC = () => {
   const { language } = useLanguage();
   const t = translations[language];
+  const reduceMotion = useReducedMotion();
 
   return (
     <Section id="projects" index={3} label={t.navbar.projects} title={t.sections.projectsTitle}>
@@ -23,9 +25,16 @@ export const Projects: React.FC = () => {
           return (
             <li key={project.id} className={`project ${featured ? 'project--featured' : ''}`}>
               {project.image && (
-                <div className="project-media">
+                <motion.div
+                  className="project-media"
+                  // Screenshot "wipes" in from the bottom the first time it enters the viewport.
+                  initial={reduceMotion ? false : { clipPath: 'inset(100% 0% 0% 0%)' }}
+                  whileInView={{ clipPath: 'inset(0% 0% 0% 0%)' }}
+                  viewport={{ once: true, amount: 0.25 }}
+                  transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
+                >
                   <img src={project.image} alt="" loading="lazy" decoding="async" />
-                </div>
+                </motion.div>
               )}
               <div className="project-body">
                 <p className="project-num">

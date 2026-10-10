@@ -14,7 +14,7 @@ const Probe: React.FC = () => {
     <div>
       <span data-testid="state">{`${palette}/${mode}`}</span>
       <button onClick={() => setPalette('bosque')}>bosque</button>
-      <button onClick={toggleMode}>mode</button>
+      <button onClick={() => toggleMode()}>mode</button>
     </div>
   );
 };

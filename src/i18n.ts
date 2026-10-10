@@ -19,9 +19,9 @@ export const translations = {
             titleEnd: ' and a focus on the people who use them.',
             lede: 'Before I started coding I spent 20+ years in entrepreneurship, logistics and customer service. Today I put that experience into building software end to end — from architecture to interface — with React, TypeScript and UX design.',
             facts: [
-                { label: 'Latest role', value: 'Product Engineer · ChicksX' },
-                { label: 'Studies', value: 'Web Development degree · UNER, 2026' },
-                { label: 'Building', value: 'Turnis, appointment app for small businesses' }
+                { label: 'Recent work', value: 'Freelance QA for Liga del Rey (Uruguay) · Website and store for Rancho Linz' },
+                { label: 'Shipped', value: 'Turnis, appointment app for small businesses' },
+                { label: 'Studies', value: 'Web Development degree · UNER, 2026' }
             ],
             ctaProjects: 'See projects',
             ctaContact: 'Email me'
@@ -55,6 +55,13 @@ export const translations = {
             "I'm a Full Stack Developer who gravitates toward the intersection of code, design and product thinking. I like building things end-to-end — from the architecture to the interface — and paying attention to how they actually feel to use.",
             "I've shipped interfaces for a crypto exchange, trained language models, led a blockchain hackathon project that won an innovation award, and built smaller things just because they seemed interesting.",
             "Right now I'm finishing my university technician degree in web development, building my own projects, and using this space as a record of what I've made and what I'm learning."
+        ],
+        aboutStats: [
+            { key: 'business', value: '+20', label: 'years in entrepreneurship, logistics and customer service before writing code' },
+            { key: 'dev', value: '~4', label: 'years building software' },
+            { key: 'english', value: 'C2', label: 'English level (EF SET)' },
+            { key: 'talks', value: '', label: 'talks and panels on AI' },
+            { key: 'product', value: '1', label: 'own product shipped: Turnis' }
         ],
         experience: {
             'chicks-group': {
@@ -107,6 +114,8 @@ export const translations = {
                 description:
                     'Developed responsive websites and performed QA testing for clients and personal projects.',
                 highlights: [
+                    'Manual QA for Liga del Rey (Uruguay): test plans, test execution and bug reports on staging, plus testing templates for the dev team.',
+                    'Institutional website, SEO and Tiendanube online store for Rancho Linz.',
                     'Created user-friendly designs and clean front-end code.',
                     'Improved site performance and accessibility.',
                     'Delivered tailored solutions for SMEs.'
@@ -284,9 +293,9 @@ export const translations = {
             titleEnd: ' y foco en quien los usa.',
             lede: 'Antes de programar pasé más de 20 años en emprendimientos, logística y atención al cliente. Hoy uso esa experiencia para construir software de punta a punta —de la arquitectura a la interfaz— con React, TypeScript y diseño UX.',
             facts: [
-                { label: 'Último rol', value: 'Product Engineer · ChicksX' },
-                { label: 'Formación', value: 'Tecnicatura en Desarrollo Web · UNER, 2026' },
-                { label: 'Construyendo', value: 'Turnis, app de turnos para pymes' }
+                { label: 'Reciente', value: 'QA freelance para Liga del Rey (Uruguay) · Sitio y tienda para Rancho Linz' },
+                { label: 'Lanzado', value: 'Turnis, app de turnos para pymes' },
+                { label: 'Formación', value: 'Tecnicatura en Desarrollo Web · UNER, 2026' }
             ],
             ctaProjects: 'Ver proyectos',
             ctaContact: 'Escribirme'
@@ -320,6 +329,13 @@ export const translations = {
             "Soy desarrolladora Full Stack y me muevo en la intersección entre código, diseño y producto. Me gusta construir cosas de punta a punta — desde la arquitectura hasta la interfaz — prestando atención a cómo se sienten al usarlas.",
             "Desarrollé interfaces para una plataforma de exchange, entrené modelos de lenguaje, lideré un proyecto en un hackathon blockchain que ganó un premio a la innovación, y construí cosas más chicas simplemente porque me parecieron interesantes.",
             "Actualmente estoy terminando la Tecnicatura Universitaria en Desarrollo Web, trabajando en mis propios proyectos, y uso este espacio como registro de lo que construí y lo que voy aprendiendo."
+        ],
+        aboutStats: [
+            { key: 'business', value: '+20', label: 'años en emprendimientos, logística y atención al cliente antes de escribir código' },
+            { key: 'dev', value: '~4', label: 'años desarrollando software' },
+            { key: 'english', value: 'C2', label: 'nivel de inglés (EF SET)' },
+            { key: 'talks', value: '', label: 'charlas y paneles sobre IA' },
+            { key: 'product', value: '1', label: 'producto propio lanzado: Turnis' }
         ],
         skills: {
             eyebrow: "Con qué construyo",
@@ -421,6 +437,8 @@ export const translations = {
                 description:
                     'Desarrollo de sitios web responsive y testing funcional para clientes y proyectos personales.',
                 highlights: [
+                    'QA manual para Liga del Rey (Uruguay): planes de prueba, ejecución de casos y reporte de bugs en staging, más templates de testing para el equipo de desarrollo.',
+                    'Sitio institucional, SEO y tienda online en Tiendanube para Rancho Linz.',
                     'Diseños centrados en el usuario y código limpio de front end.',
                     'Optimización de rendimiento y accesibilidad.',
                     'Entrega de soluciones personalizadas para cada proyecto.'

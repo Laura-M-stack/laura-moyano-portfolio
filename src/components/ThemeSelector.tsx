@@ -1,7 +1,14 @@
 import React, { useEffect, useId, useRef, useState } from 'react';
-import { PALETTES, useTheme, type PaletteId } from '../context/ThemeContext';
+import { PALETTES, useTheme, type Origin, type PaletteId } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../i18n';
+
+/** Click point, or the button centre for keyboard activation (clientX/Y are 0 then). */
+const originFrom = (e: React.MouseEvent<HTMLElement>): Origin => {
+  if (e.clientX || e.clientY) return { x: e.clientX, y: e.clientY };
+  const r = e.currentTarget.getBoundingClientRect();
+  return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
+};
 
 /**
  * Compact theme control for the navbar: palette (radio group) + light/dark toggle.
@@ -65,7 +72,7 @@ export const ThemeSelector: React.FC = () => {
                 role="radio"
                 aria-checked={palette === p}
                 className="theme-option"
-                onClick={() => setPalette(p)}
+                onClick={e => setPalette(p, originFrom(e))}
               >
                 <span className="theme-option-swatch" data-palette={p} data-mode={mode} aria-hidden="true">
                   <span />
@@ -80,7 +87,7 @@ export const ThemeSelector: React.FC = () => {
             type="button"
             className="theme-mode"
             aria-pressed={mode === 'dark'}
-            onClick={toggleMode}
+            onClick={e => toggleMode(originFrom(e))}
           >
             <span>{t.darkMode}</span>
             <span className="theme-mode-track" aria-hidden="true">
