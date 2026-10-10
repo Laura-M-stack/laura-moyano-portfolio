@@ -25,17 +25,27 @@ export const Projects: React.FC = () => {
           return (
             <li key={project.id} className={`project ${featured ? 'project--featured' : ''}`}>
               {project.image && (
+                // Chrome's IntersectionObserver applies the target's own clip-path, so a
+                // fully clipped element never reports as visible and the wipe never starts.
+                // The observer goes on an unclipped wrapper; the clip animates on the child
+                // through variant propagation.
                 <motion.div
-                  className="project-media"
-                  // Screenshot "wipes" in from the bottom the first time it enters the viewport.
-                  initial={reduceMotion ? false : { clipPath: 'inset(100% 0% 0% 0%)' }}
-                  whileInView={{ clipPath: 'inset(0% 0% 0% 0%)' }}
+                  className="project-media-wrap"
+                  initial={reduceMotion ? false : 'hidden'}
+                  whileInView="visible"
                   viewport={{ once: true, amount: 0.25 }}
-                  transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
                 >
-                  {/* No loading="lazy": the clip-path on .project-media would keep a lazy image
-                      from loading until the wipe finishes, so it would reveal an empty box. */}
-                  <img src={project.image} alt="" decoding="async" />
+                  <motion.div
+                    className="project-media"
+                    variants={{
+                      hidden: { clipPath: 'inset(100% 0% 0% 0%)' },
+                      visible: { clipPath: 'inset(0% 0% 0% 0%)' },
+                    }}
+                    transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
+                  >
+                    {/* Not lazy: lazy-loading also ignores clipped images, so the wipe would reveal an empty box. */}
+                    <img src={project.image} alt="" decoding="async" />
+                  </motion.div>
                 </motion.div>
               )}
               <div className="project-body">

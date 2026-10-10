@@ -13,7 +13,7 @@ export const About: React.FC = () => {
     <Section id="about" index={1} label={t.navbar.about} title={t.sections.aboutTitle}>
       <div className="about">
         <figure className="about-photo">
-          <img src="foto-perfil.webp" alt={profile.name} width={768} height={1367} loading="lazy" />
+          <img src="foto-laura.webp" alt={profile.name} width={768} height={1367} loading="lazy" />
         </figure>
         <div className="about-text">
           {t.about.map((p, i) => (

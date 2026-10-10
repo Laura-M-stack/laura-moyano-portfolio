@@ -856,7 +856,7 @@ ol, ul {
 }
 
 @media (min-width: 761px) {
-  .project--featured:last-child .project-media {
+  .project--featured:last-child .project-media-wrap {
     order: 2;
   }
 }

@@ -35,6 +35,12 @@ export interface ExperienceEntry {
 }
 
 export const experiences: ExperienceEntry[] = [
+  // Most recent first. Freelance is ongoing, so it leads.
+  {
+    id: 'freelance',
+    company: 'Freelance',
+    tech: ['React', 'TypeScript', 'HTML', 'CSS', 'Figma', 'Manual QA', 'Tiendanube']
+  },
   {
     id: 'chicks-group',
     company: 'Chicks Group Inc.',
@@ -54,11 +60,6 @@ export const experiences: ExperienceEntry[] = [
     id: 'blockchain-hackathon',
     company: 'Latina Blockchain Hackathon',
     tech: ['React', 'Solidity', 'Web3']
-  },
-  {
-    id: 'freelance',
-    company: 'Freelance',
-    tech: ['React', 'HTML', 'CSS', 'JS', 'Figma']
   }
 ];
 
