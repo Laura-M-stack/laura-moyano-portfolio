@@ -1,31 +1,22 @@
-import React from "react";
-import { Section } from "../components/Section";
-import { useLanguage } from "../context/LanguageContext";
-import { translations } from "../i18n";
+import React from 'react';
+import { Section } from '../components/Section';
+import { useLanguage } from '../context/LanguageContext';
+import { translations } from '../i18n';
 
 export const Skills: React.FC = () => {
   const { language } = useLanguage();
-  const t = translations[language].skills;
+  const t = translations[language];
 
   return (
-    <Section id="skills" label={t.title} eyebrow={t.eyebrow}>
-      <div className="skills-grid">
-
-        {t.groups.map(group => (
-          <div key={group.label} className="skills-group">
-            <p className="skills-group-title">{group.label}</p>
-
-            <div className="skills-chips">
-              {group.items.map(item => (
-                <span key={item} className="skill-chip">
-                  {item}
-                </span>
-              ))}
-            </div>
+    <Section id="skills" index={4} label={t.navbar.skills} title={t.skills.title}>
+      <dl className="skills">
+        {t.skills.groups.map(group => (
+          <div key={group.label} className="skills-row">
+            <dt>{group.label}</dt>
+            <dd>{group.items.join(' · ')}</dd>
           </div>
         ))}
-
-      </div>
+      </dl>
     </Section>
   );
 };

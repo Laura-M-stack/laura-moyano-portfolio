@@ -1,110 +1,87 @@
-// src/components/Navbar.tsx
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../i18n';
+import { ThemeSelector } from './ThemeSelector';
+
+const SECTION_IDS = ['about', 'experience', 'projects', 'skills', 'education', 'talks', 'contact'] as const;
 
 export const Navbar: React.FC = () => {
   const { language, toggleLanguage } = useLanguage();
   const t = translations[language];
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
-  const links = [
-    { id: 'about', label: t.navbar.about },
-    { id: 'experience', label: t.navbar.experience },
-    { id: 'skills', label: t.navbar.skills },
-    { id: 'education', label: t.navbar.education },
-    { id: 'projects', label: t.navbar.projects },
-    { id: 'talks', label: t.navbar.talks },
-    { id: 'contact', label: t.navbar.contact },
-  ];
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
-  const handleNavClick = (id: string) => {
-    if (id === 'contact') {
-      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-    } else {
-      const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-    setIsOpen(false);
+  // Lock page scroll while the mobile menu is open; close it with Escape.
+  useEffect(() => {
+    if (!isOpen) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setIsOpen(false);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = prev;
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [isOpen]);
+
+  const labels: Record<(typeof SECTION_IDS)[number], string> = {
+    about: t.navbar.about,
+    experience: t.navbar.experience,
+    projects: t.navbar.projects,
+    skills: t.navbar.skills,
+    education: t.navbar.education,
+    talks: t.navbar.talks,
+    contact: t.navbar.contact,
   };
-
-  const handleThemeClick = () => {
-    const el = document.getElementById('theme-selector');
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    setIsOpen(false);
-  };
-
-  const langLabel = language === 'en' ? 'ES' : 'EN';
-  const themeLabel = language === 'en' ? 'Theme' : 'Tema';
 
   return (
-    <header className="navbar">
-      {/* IZQUIERDA */}
-      <div className="navbar-left">
-        <span className="logo-dot" />
-        <span className="navbar-name">Laura Moyano</span>
-      </div>
+    <header className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
+      <div className="nav-inner">
+        <a href="#top" className="nav-brand" onClick={() => setIsOpen(false)}>
+          Laura Moyano
+        </a>
 
-      <nav className={`navbar-nav ${isOpen ? 'navbar-nav--open' : ''}`}>
-        {links.map(link => (
+        <nav
+          id="site-menu"
+          className={`nav-links ${isOpen ? 'nav-links--open' : ''}`}
+          aria-label={language === 'en' ? 'Main' : 'Principal'}
+        >
+          {SECTION_IDS.map(id => (
+            <a key={id} href={`#${id}`} className="nav-link" onClick={() => setIsOpen(false)}>
+              {labels[id]}
+            </a>
+          ))}
+        </nav>
+
+        <div className="nav-tools">
+          <ThemeSelector />
           <button
-            key={link.id}
             type="button"
-            className={`nav-link ${/* acá podés marcar active si querés */ ''}`}
-            onClick={() => handleNavClick(link.id)}
+            className="nav-lang"
+            onClick={toggleLanguage}
+            aria-label={language === 'en' ? 'Cambiar a español' : 'Switch to English'}
           >
-            {link.label}
+            {language === 'en' ? 'ES' : 'EN'}
           </button>
-        ))}
-
-        {/* idioma sólo mobile */}
-        <button
-          type="button"
-          className="lang-toggle lang-toggle--mobile"
-          onClick={toggleLanguage}
-        >
-          {langLabel}
-        </button>
-
-        {/* botón Tema dentro del menú mobile */}
-        <button
-          type="button"
-          className="lang-toggle lang-toggle--mobile"
-          onClick={handleThemeClick}
-        >
-          {language === 'en' ? 'Theme' : 'Tema'}
-        </button>
-      </nav>
-
-      <div className="navbar-right">
-        {/* Tema sólo desktop */}
-        <button
-          type="button"
-          className="theme-nav-button"
-          onClick={handleThemeClick}
-        >
-          {language === 'en' ? 'Theme' : 'Tema'}
-        </button>
-
-        {/* idioma desktop */}
-        <button
-          type="button"
-          className="lang-toggle lang-toggle--desktop"
-          onClick={toggleLanguage}
-        >
-          {langLabel}
-        </button>
-
-        <button
-          type="button"
-          className={`navbar-toggle ${isOpen ? 'is-open' : ''}`}
-          onClick={() => setIsOpen(!isOpen)}
-          aria-label={isOpen ? 'Close menu' : 'Open menu'}
-        >
-          <span className="bar top" />
-          <span className="bar middle" />
-          <span className="bar bottom" />
-        </button>
+          <button
+            type="button"
+            className={`nav-burger ${isOpen ? 'is-open' : ''}`}
+            onClick={() => setIsOpen(o => !o)}
+            aria-expanded={isOpen}
+            aria-controls="site-menu"
+            aria-label={isOpen ? t.navbar.closeMenu : t.navbar.openMenu}
+          >
+            <span />
+            <span />
+          </button>
+        </div>
       </div>
     </header>
   );

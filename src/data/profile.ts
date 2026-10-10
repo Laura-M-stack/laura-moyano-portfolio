@@ -73,37 +73,37 @@ export const projects: ProjectEntry[] = [
   {
     id: 'turnis',
     link: 'https://turnisapp.com',
-    image: 'projects/turnis.png',
+    image: 'projects/turnis.webp',
     tech: ['Tauri', 'React', 'TypeScript', 'SQLite']
   },
   {
     id: 'tigre-turismo',
     link: 'https://laura-m-stack.github.io/tigre-turismo/',
-    image: 'projects/tigre-turismo.png',
+    image: 'projects/tigre-turismo.webp',
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'React Router', 'Leaflet']
   },
   {
     id: 'stackproof',
     link: 'https://laura-m-stack.github.io/stackproof/',
-    image: 'projects/stackproof.png',
+    image: 'projects/stackproof.webp',
     tech: ['React', 'TypeScript', 'Viem', 'Hardhat']
   },
   {
     id: 'currency-converter',
     link: 'https://laura-m-stack.github.io/Currency-Converter-App/',
-    image: 'projects/currency-converter.png',
+    image: 'projects/currency-converter.webp',
     tech: ['Svelte', 'TypeScript', 'Sass']
   },
   {
     id: 'glamour-studio',
     link: 'https://laura-m-stack.github.io/glamour-studio/',
-    image: 'projects/glamour-studio.png',
+    image: 'projects/glamour-studio.webp',
     tech: ['React', 'TypeScript', 'Vite', 'SCSS']
   },
   {
     id: 'rancho-linz',
     link: 'https://rancholinz.com.ar',
-    image: 'projects/rancho-linz.png',
+    image: 'projects/rancho-linz.webp',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO', 'Tiendanube']
   }
 ];

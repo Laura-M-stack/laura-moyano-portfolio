@@ -1,9 +1,15 @@
 import React from 'react';
 
-interface TagProps {
-  label: string;
+interface TagListProps {
+  items: string[];
+  label?: string;
 }
 
-export const Tag: React.FC<TagProps> = ({ label }) => (
-  <span className="tag">{label}</span>
+/** Tech stack as a quiet mono line ("React · TypeScript · Vite") instead of pill soup. */
+export const TagList: React.FC<TagListProps> = ({ items, label }) => (
+  <ul className="tags" aria-label={label}>
+    {items.map(item => (
+      <li key={item}>{item}</li>
+    ))}
+  </ul>
 );

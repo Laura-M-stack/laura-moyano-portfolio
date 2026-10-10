@@ -8,18 +8,48 @@ export const translations = {
             projects: 'Projects',
             talks: 'Talks',
             contact: 'Contact',
-            theme: 'Theme'
+            theme: 'Theme',
+            openMenu: 'Open menu',
+            closeMenu: 'Close menu'
         },
-        footer: 'Made with 💖 by Laura Moyano.',
+        hero: {
+            kicker: 'Full stack developer · Buenos Aires, Argentina',
+            titleStart: 'Digital products built with',
+            titleEmphasis: 'business sense',
+            titleEnd: ' and a focus on the people who use them.',
+            lede: 'Before I started coding I spent 20+ years in entrepreneurship, logistics and customer service. Today I put that experience into building software end to end — from architecture to interface — with React, TypeScript and UX design.',
+            facts: [
+                { label: 'Latest role', value: 'Product Engineer · ChicksX' },
+                { label: 'Studies', value: 'Web Development degree · UNER, 2026' },
+                { label: 'Building', value: 'Turnis, appointment app for small businesses' }
+            ],
+            ctaProjects: 'See projects',
+            ctaContact: 'Email me'
+        },
+        theme: {
+            label: 'Theme',
+            paletteLabel: 'Palette',
+            darkMode: 'Dark mode',
+            palettes: { papel: 'Paper', tinta: 'Ink', bosque: 'Forest', ciruela: 'Plum' },
+            note: 'Four palettes × light/dark, all built on a single set of design tokens.',
+            footerNote: 'Built with React, TypeScript and design tokens.'
+        },
+        footer: 'Laura Moyano. Designed and built by me.',
         sections: {
             aboutEyebrow: 'Who I am',
             experienceEyebrow: 'Things I\'ve worked on',
             educationEyebrow: 'Education',
             skillsEyebrow: 'Skills',
-            educationTitle: 'Education',
+            educationTitle: 'Education & training',
             projectsEyebrow: 'Things I\'ve built',
             talksEyebrow: 'Talks & events',
-            contactEyebrow: 'Find me here'
+            contactEyebrow: 'Find me here',
+            aboutTitle: 'Twenty years solving business problems. Now with code.',
+            experienceTitle: "Where I've worked",
+            projectsTitle: "Products and sites I've built",
+            talksTitle: 'Talks & panels',
+            stack: 'Tech stack',
+            opensNewTab: 'opens in a new tab'
         },
         about: [
             "I'm a Full Stack Developer who gravitates toward the intersection of code, design and product thinking. I like building things end-to-end — from the architecture to the interface — and paying attention to how they actually feel to use.",
@@ -115,7 +145,7 @@ export const translations = {
         ],
         skills: {
             eyebrow: "What I use to build",
-            title: "Skills & Technologies",
+            title: "What I build with",
             groups: [
                 {
                     label: "Frontend",
@@ -221,8 +251,10 @@ export const translations = {
             }
         },
         contact: {
+            titleStart: 'Have a project',
+            titleEmphasis: 'in mind?',
             intro:
-                'You can find me on GitHub, LinkedIn or drop me an email.',
+                'Email me or find me on LinkedIn and GitHub. I\'m open to freelance projects and to full stack or frontend roles.',
             emailTitle: 'Email',
             emailSubtitle: 'lauraymh000@gmail.com',
             linkedinTitle: 'LinkedIn',
@@ -241,18 +273,48 @@ export const translations = {
             projects: 'Proyectos',
             talks: 'Charlas',
             contact: 'Contacto',
-            theme: 'Tema'
+            theme: 'Tema',
+            openMenu: 'Abrir menú',
+            closeMenu: 'Cerrar menú'
         },
-        footer: 'Hecho con 💖 por Laura Moyano.',
+        hero: {
+            kicker: 'Desarrolladora full stack · Buenos Aires, Argentina',
+            titleStart: 'Productos digitales hechos con',
+            titleEmphasis: 'criterio de negocio',
+            titleEnd: ' y foco en quien los usa.',
+            lede: 'Antes de programar pasé más de 20 años en emprendimientos, logística y atención al cliente. Hoy uso esa experiencia para construir software de punta a punta —de la arquitectura a la interfaz— con React, TypeScript y diseño UX.',
+            facts: [
+                { label: 'Último rol', value: 'Product Engineer · ChicksX' },
+                { label: 'Formación', value: 'Tecnicatura en Desarrollo Web · UNER, 2026' },
+                { label: 'Construyendo', value: 'Turnis, app de turnos para pymes' }
+            ],
+            ctaProjects: 'Ver proyectos',
+            ctaContact: 'Escribirme'
+        },
+        theme: {
+            label: 'Tema',
+            paletteLabel: 'Paleta',
+            darkMode: 'Modo oscuro',
+            palettes: { papel: 'Papel', tinta: 'Tinta', bosque: 'Bosque', ciruela: 'Ciruela' },
+            note: 'Cuatro paletas × claro/oscuro, construidas sobre un único set de design tokens.',
+            footerNote: 'Hecho con React, TypeScript y design tokens.'
+        },
+        footer: 'Laura Moyano. Diseño y desarrollo propios.',
         sections: {
             aboutEyebrow: 'Quién soy',
             experienceEyebrow: 'En qué trabajé',
             educationEyebrow: 'Educación',
             skillsEyebrow: 'Skills',
-            educationTitle: 'Educación',
+            educationTitle: 'Formación',
             projectsEyebrow: 'Cosas que construí',
             talksEyebrow: 'Charlas y eventos',
-            contactEyebrow: 'Encontrame acá'
+            contactEyebrow: 'Contacto',
+            aboutTitle: 'Veinte años resolviendo problemas de negocio. Ahora, con código.',
+            experienceTitle: 'Dónde trabajé',
+            projectsTitle: 'Productos y sitios que construí',
+            talksTitle: 'Charlas y paneles',
+            stack: 'Tecnologías',
+            opensNewTab: 'se abre en una pestaña nueva'
         },
         about: [
             "Soy desarrolladora Full Stack y me muevo en la intersección entre código, diseño y producto. Me gusta construir cosas de punta a punta — desde la arquitectura hasta la interfaz — prestando atención a cómo se sienten al usarlas.",
@@ -261,7 +323,7 @@ export const translations = {
         ],
         skills: {
             eyebrow: "Con qué construyo",
-            title: "Skills & Tecnologías",
+            title: "Con qué construyo",
             groups: [
                 {
                     label: "Frontend",
@@ -311,7 +373,7 @@ export const translations = {
         experience: {
             'chicks-group': {
                 role: 'Product Engineer',
-                period: 'May 2025 – Nov 2025',
+                period: 'Mayo 2025 – Nov 2025',
                 description:
                     'Desarrollo y mantenimiento de interfaces web en la plataforma de exchange ChicksX, con participación en la definición de requerimientos junto a los equipos de producto, diseño y testing, asegurando usabilidad y consistencia visual.',
                 highlights: [
@@ -322,7 +384,7 @@ export const translations = {
             },
             'outlier': {
                 role: 'Entrenadora de IA',
-                period: 'Oct 2024 – May 2025',
+                period: 'Oct 2024 – Mayo 2025',
                 description:
                     'Entrenamiento y evaluación de modelos de lenguaje, enfocada en calidad y mejora de prompts.',
                 highlights: [
@@ -454,8 +516,10 @@ export const translations = {
             }
         },
         contact: {
+            titleStart: '¿Tienes un proyecto',
+            titleEmphasis: 'en mente?',
             intro:
-                'Podés encontrarme en GitHub, LinkedIn o escribirme por email.',
+                'Escríbeme por email o encuéntrame en LinkedIn y GitHub. Estoy abierta a proyectos freelance y a posiciones full stack o frontend.',
             emailTitle: 'Email',
             emailSubtitle: 'lauraymh000@gmail.com',
             linkedinTitle: 'LinkedIn',
