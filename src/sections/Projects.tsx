@@ -33,7 +33,9 @@ export const Projects: React.FC = () => {
                   viewport={{ once: true, amount: 0.25 }}
                   transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
                 >
-                  <img src={project.image} alt="" loading="lazy" decoding="async" />
+                  {/* No loading="lazy": the clip-path on .project-media would keep a lazy image
+                      from loading until the wipe finishes, so it would reveal an empty box. */}
+                  <img src={project.image} alt="" decoding="async" />
                 </motion.div>
               )}
               <div className="project-body">

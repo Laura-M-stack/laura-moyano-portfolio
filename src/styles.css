@@ -652,6 +652,7 @@ ol, ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 20%; /* tall portrait: keep the face in frame */
   filter: grayscale(0.15) contrast(1.02);
 }
 .about-text {
