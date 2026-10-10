@@ -1,31 +1,54 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-palette="papel" data-mode="light">
 
 <head>
   <meta charset="UTF-8" />
-
-  <title>Laura Moyano | Building digital products / Productos digitales</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Laura Moyano · Desarrolladora full stack</title>
   <meta name="description"
-    content="Portfolio of digital products, UX-focused development and real-world solutions." />
+    content="Laura Moyano, desarrolladora full stack. Productos digitales hechos con criterio de negocio y foco en quien los usa." />
 
   <!-- Open Graph (LinkedIn, etc.) -->
-  <meta property="og:title"
-    content="Laura Moyano | Building digital products / Productos digitales" />
+  <meta property="og:title" content="Laura Moyano · Desarrolladora full stack" />
   <meta property="og:description"
-    content="Portfolio of digital products, UX-focused development and real-world solutions." />
+    content="Productos digitales hechos con criterio de negocio y foco en quien los usa." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="/laura-moyano-portfolio/preview.png" />
+  <meta property="og:image" content="https://laura-m-stack.github.io/laura-moyano-portfolio/preview.png" />
 
-  <link rel="icon" type="image/png" href="/laura-moyano-portfolio/favicon.png" />
+  <!-- SVG for modern browsers, PNG fallback, and a square icon for iOS home screens -->
+  <link rel="icon" type="image/svg+xml" href="/laura-moyano-portfolio/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/laura-moyano-portfolio/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/laura-moyano-portfolio/apple-touch-icon.png" />
+  <meta name="theme-color" content="#f3eee4" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#171512" media="(prefers-color-scheme: dark)" />
 
+  <!-- Apply saved palette/mode before first paint (avoids a flash of the wrong theme).
+       Must stay in sync with src/context/ThemeContext.tsx -->
+  <script>
+    (function () {
+      var palettes = ['papel', 'tinta', 'bosque', 'ciruela'];
+      var root = document.documentElement;
+      try {
+        var p = localStorage.getItem('lm-portfolio-palette');
+        if (palettes.indexOf(p) !== -1) root.setAttribute('data-palette', p);
+        var m = localStorage.getItem('lm-portfolio-mode');
+        if (m !== 'light' && m !== 'dark') {
+          m = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        root.setAttribute('data-mode', m);
+        root.style.colorScheme = m;
+      } catch (e) { /* storage blocked: keep defaults */ }
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Poppins:wght@600;700&display=swap"
-    rel="stylesheet">
-  <script type="module" crossorigin src="/laura-moyano-portfolio/assets/index-BWSa9KE1.js"></script>
-  <link rel="stylesheet" crossorigin href="/laura-moyano-portfolio/assets/index-CXVdRGf0.css">
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <script type="module" crossorigin src="/laura-moyano-portfolio/assets/index-D7pMOIAS.js"></script>
+  <link rel="stylesheet" crossorigin href="/laura-moyano-portfolio/assets/index-WH8xwpc2.css">
 </head>
 
 <body>
