@@ -5,9 +5,11 @@ Editorial design, bilingual (ES / EN) and a theme system built on design tokens.
 
 **Live site:** https://laura-m-stack.github.io/laura-moyano-portfolio/
 
-![Portfolio preview](public/preview.png)
+![Hero of the portfolio in the Paper palette](public/preview.png)
 
 ## Highlights
+
+![The same page in the four palettes: Paper (light), Ink (dark), Forest (light) and Plum (dark)](screenshots/themes.png)
 
 - **Design tokens, not hard-coded colours.** Every component reads semantic tokens
   (`--surface`, `--ink`, `--accent`…). Four palettes × light/dark mode are just
@@ -26,6 +28,8 @@ Editorial design, bilingual (ES / EN) and a theme system built on design tokens.
   support (Escape closes menus) and ARIA on the theme controls.
 - **Performance:** project screenshots served as WebP (~400 KB total, down from
   ~10 MB of PNGs).
+
+![Projects section: featured project plus a two-column grid](screenshots/projects.png)
 
 ## Tech stack
 
