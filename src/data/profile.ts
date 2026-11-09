@@ -93,13 +93,19 @@ export const projects: ProjectEntry[] = [
     id: 'currency-converter',
     link: 'https://laura-m-stack.github.io/Currency-Converter-App/',
     image: 'projects/currency-converter.webp',
-    tech: ['Svelte', 'TypeScript', 'Sass']
+    tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
   },
   {
     id: 'glamour-studio',
     link: 'https://laura-m-stack.github.io/glamour-studio/',
     image: 'projects/glamour-studio.webp',
-    tech: ['React', 'TypeScript', 'Vite', 'SCSS']
+    tech: ['React', 'TypeScript', 'Vite', 'Framer Motion', 'Vitest']
+  },
+  {
+    id: 'esmalte-club',
+    link: 'https://laura-m-stack.github.io/esmalte-club/',
+    image: 'projects/esmalte-club.webp',
+    tech: ['Astro', 'TypeScript', 'CSS', 'GitHub Actions']
   },
   {
     id: 'rancho-linz',

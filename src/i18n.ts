@@ -224,13 +224,19 @@ export const translations = {
                 name: 'Currency Converter App',
                 role: 'Front End Developer',
                 description:
-                    'Svelte application to convert currencies with real-time rates, dark/light mode, six languages and conversion history. Focused on performance, accessibility and an intuitive user experience.'
+                    'Converts as you type, with 160+ searchable currencies, six languages, light/dark mode and conversion history. Redesigned in Svelte 5 with runes, an accessible keyboard-driven currency picker and unit-tested logic.'
             },
             'glamour-studio': {
-                name: 'Glamour Studio – Beauty & Wellness',
-                role: 'Front End Developer',
+                name: 'Glamour Studio — Beauty Salon',
+                role: 'Designer & Front End Developer',
                 description:
-                    'Single-page website for a beauty studio, built with React and TypeScript. Includes services, team, testimonials and an online booking section, with a fully responsive layout.'
+                    'Dark neobrutalist landing page for a fictional beauty salon. Its booking form only offers available time slots for the chosen day and builds the WhatsApp request; the booking logic is unit-tested.'
+            },
+            'esmalte-club': {
+                name: 'Esmalte Club — Nail Bar',
+                role: 'Designer & Front End Developer',
+                description:
+                    'Editorial landing page in white, pink and black for a fictional nail bar, with a menu-style price list, mosaic gallery and FAQ. Built with Astro and almost no JavaScript, deployed automatically with GitHub Actions.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Phytotherapy Brand',
@@ -498,13 +504,19 @@ export const translations = {
                 name: 'App Conversor de Monedas',
                 role: 'Desarrolladora Front End',
                 description:
-                    'Aplicación en Svelte para convertir monedas con tipos de cambio en tiempo real, modo claro/oscuro, seis idiomas e historial de conversiones. Enfocada en rendimiento, accesibilidad y una UX intuitiva.'
+                    'Convierte mientras escribís, con más de 160 monedas y buscador, seis idiomas, modo claro/oscuro e historial. Rediseñada en Svelte 5 con runes, un selector de monedas accesible por teclado y la lógica cubierta con tests unitarios.'
             },
             'glamour-studio': {
-                name: 'Glamour Studio – Estética & Bienestar',
-                role: 'Desarrolladora Front End',
+                name: 'Glamour Studio — Salón de belleza',
+                role: 'Diseñadora y Desarrolladora Front End',
                 description:
-                    'Página web para un estudio de belleza desarrollada con React y TypeScript. Incluye secciones de servicios, equipo, testimonios y turnos online, con diseño totalmente responsive.'
+                    'Landing neobrutalista oscura para un salón de belleza ficticio. El formulario de turnos solo ofrece horarios disponibles para el día elegido y arma el pedido por WhatsApp; la lógica de reservas tiene tests unitarios.'
+            },
+            'esmalte-club': {
+                name: 'Esmalte Club — Nail bar',
+                role: 'Diseñadora y Desarrolladora Front End',
+                description:
+                    'Landing editorial en blanco, rosa y negro para un nail bar ficticio, con carta de precios en formato menú, galería en mosaico y preguntas frecuentes. Hecha en Astro casi sin JavaScript y publicada automáticamente con GitHub Actions.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Fitoterapia',
