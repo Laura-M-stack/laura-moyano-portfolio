@@ -115,6 +115,12 @@ export const projects: ProjectEntry[] = [
     tech: ['Astro', 'TypeScript', 'CSS', 'GitHub Actions']
   },
   {
+    id: 'vanta-studio',
+    link: 'https://laura-m-stack.github.io/vanta-studio-landing/',
+    image: 'projects/vanta-studio.webp',
+    tech: ['HTML5', 'CSS3', 'JavaScript']
+  },
+  {
     id: 'rancho-linz',
     link: 'https://rancholinz.com.ar',
     image: 'projects/rancho-linz.webp',

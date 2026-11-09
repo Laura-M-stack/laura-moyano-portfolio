@@ -244,6 +244,12 @@ export const translations = {
                 description:
                     'Editorial landing page in white, pink and black for a fictional nail bar, with a menu-style price list, mosaic gallery and FAQ. Built with Astro and almost no JavaScript, deployed automatically with GitHub Actions.'
             },
+            'vanta-studio': {
+                name: 'Vanta Studio — Agency Landing Page',
+                role: 'Designer & Front End Developer',
+                description:
+                    'Brutalist-editorial piece with oversized typography, a four-color palette and scroll animations. Includes a custom cursor, interactive project filters and a 100% responsive design.'
+            },
             'rancho-linz': {
                 name: 'Rancho Linz – Phytotherapy Brand',
                 role: 'Front End Developer & SEO',
@@ -529,6 +535,12 @@ export const translations = {
                 role: 'Diseñadora y Desarrolladora Front End',
                 description:
                     'Landing editorial en blanco, rosa y negro para un nail bar ficticio, con carta de precios en formato menú, galería en mosaico y preguntas frecuentes. Hecha en Astro casi sin JavaScript y publicada automáticamente con GitHub Actions.'
+            },
+            'vanta-studio': {
+                name: 'Vanta Studio — Landing de agencia',
+                role: 'Diseñadora y Desarrolladora Front End',
+                description:
+                    'Pieza brutalist-editorial con tipografía oversized, paleta de 4 colores y animaciones de scroll. Incluye cursor custom, filtros interactivos de proyectos y diseño 100% responsive.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Fitoterapia',
