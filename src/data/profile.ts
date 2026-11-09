@@ -81,7 +81,7 @@ export const projects: ProjectEntry[] = [
   {
     id: 'tigre-turismo',
     link: 'https://laura-m-stack.github.io/tigre-turismo/',
-    image: 'projects/tigre-turismo.webp?v=2',
+    image: 'projects/tigre-turismo.webp?v=3',
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Leaflet', 'Vitest']
   },
   {
@@ -99,19 +99,19 @@ export const projects: ProjectEntry[] = [
   {
     id: 'currency-converter',
     link: 'https://laura-m-stack.github.io/Currency-Converter-App/',
-    image: 'projects/currency-converter.webp?v=2',
+    image: 'projects/currency-converter.webp?v=3',
     tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
   },
   {
     id: 'glamour-studio',
     link: 'https://laura-m-stack.github.io/glamour-studio/',
-    image: 'projects/glamour-studio.webp?v=2',
+    image: 'projects/glamour-studio.webp?v=3',
     tech: ['React', 'TypeScript', 'Vite', 'Framer Motion', 'Vitest']
   },
   {
     id: 'esmalte-club',
     link: 'https://laura-m-stack.github.io/esmalte-club/',
-    image: 'projects/esmalte-club.webp?v=2',
+    image: 'projects/esmalte-club.webp?v=3',
     tech: ['Astro', 'TypeScript', 'CSS', 'GitHub Actions']
   },
   {
