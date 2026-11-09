@@ -63,6 +63,7 @@ export const experiences: ExperienceEntry[] = [
   }
 ];
 
+/** Bump the ?v= of an image when replacing it, so browsers and the GitHub Pages CDN fetch the new file. */
 export interface ProjectEntry {
   id: string;
   link: string;
@@ -92,19 +93,19 @@ export const projects: ProjectEntry[] = [
   {
     id: 'currency-converter',
     link: 'https://laura-m-stack.github.io/Currency-Converter-App/',
-    image: 'projects/currency-converter.webp',
+    image: 'projects/currency-converter.webp?v=2',
     tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
   },
   {
     id: 'glamour-studio',
     link: 'https://laura-m-stack.github.io/glamour-studio/',
-    image: 'projects/glamour-studio.webp',
+    image: 'projects/glamour-studio.webp?v=2',
     tech: ['React', 'TypeScript', 'Vite', 'Framer Motion', 'Vitest']
   },
   {
     id: 'esmalte-club',
     link: 'https://laura-m-stack.github.io/esmalte-club/',
-    image: 'projects/esmalte-club.webp',
+    image: 'projects/esmalte-club.webp?v=2',
     tech: ['Astro', 'TypeScript', 'CSS', 'GitHub Actions']
   },
   {
