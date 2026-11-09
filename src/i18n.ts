@@ -214,6 +214,12 @@ export const translations = {
                 description:
                     'Planner for a day in Tigre (Buenos Aires): 18 places with filters, a list synced to a numbered map and a reorderable itinerary saved in the browser. Photo licenses are verified automatically and the logic is covered by unit tests.'
             },
+            'anden9-travel': {
+                name: 'Andén 9 Travel — Tour Packages Demo',
+                role: 'Designer & Full Stack Developer',
+                description:
+                    'Site for a fictional travel agency selling packages across Argentina: a departures board calculated from today\'s date, a route map from Buenos Aires and a four-step booking flow with prices in USD and a peso reference. Booking is a simulation, with no real payment. Licensed photos with credits, plus unit and E2E tests.'
+            },
             'stackproof': {
                 name: 'StackProof — Web3 DApp',
                 role: 'Full Stack Developer',
@@ -493,6 +499,12 @@ export const translations = {
                 role: 'Desarrolladora Front-End',
                 description:
                     'Guía para planificar un día en Tigre (Buenos Aires): 18 lugares con filtros, lista sincronizada con un mapa numerado e itinerario ordenable que se guarda en el navegador. Fotos con licencia verificada automáticamente y lógica cubierta con pruebas unitarias.'
+            },
+            'anden9-travel': {
+                name: 'Andén 9 Travel — Paquetes turísticos',
+                role: 'Diseñadora y Desarrolladora Full Stack',
+                description:
+                    'Sitio de una agencia de viajes ficticia con paquetes por Argentina: tablero de próximas salidas calculadas según la fecha de hoy, mapa de rutas desde Buenos Aires y reserva en cuatro pasos con precios en USD y referencia en pesos. La reserva es una simulación, sin pago real. Fotos con licencia y crédito, y pruebas unitarias y E2E.'
             },
             'stackproof': {
                 name: 'StackProof — DApp Web3',

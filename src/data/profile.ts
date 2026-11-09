@@ -85,6 +85,12 @@ export const projects: ProjectEntry[] = [
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Leaflet', 'Vitest']
   },
   {
+    id: 'anden9-travel',
+    link: 'https://anden9-travel.vercel.app/',
+    image: 'projects/anden9-travel.webp',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Zustand', 'Zod', 'Vitest', 'Playwright']
+  },
+  {
     id: 'stackproof',
     link: 'https://laura-m-stack.github.io/stackproof/',
     image: 'projects/stackproof.webp',
