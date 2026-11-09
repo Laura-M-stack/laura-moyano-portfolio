@@ -81,8 +81,8 @@ export const projects: ProjectEntry[] = [
   {
     id: 'tigre-turismo',
     link: 'https://laura-m-stack.github.io/tigre-turismo/',
-    image: 'projects/tigre-turismo.webp',
-    tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'React Router', 'Leaflet']
+    image: 'projects/tigre-turismo.webp?v=2',
+    tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Leaflet', 'Vitest']
   },
   {
     id: 'stackproof',

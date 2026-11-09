@@ -212,7 +212,7 @@ export const translations = {
                 name: 'Tigre Turismo — Travel Planner Web App',
                 role: 'Front-End Developer',
                 description:
-                    'Responsive web application to explore tourist activities in Tigre (Buenos Aires) and build a personalized day itinerary.'
+                    'Planner for a day in Tigre (Buenos Aires): 18 places with filters, a list synced to a numbered map and a reorderable itinerary saved in the browser. Photo licenses are verified automatically and the logic is covered by unit tests.'
             },
             'stackproof': {
                 name: 'StackProof — Web3 DApp',
@@ -492,7 +492,7 @@ export const translations = {
                 name: 'Tigre Turismo — Planificador de actividades',
                 role: 'Desarrolladora Front-End',
                 description:
-                    'Aplicación web responsive para explorar actividades turísticas en Tigre (Buenos Aires) y armar un itinerario personalizado.'
+                    'Guía para planificar un día en Tigre (Buenos Aires): 18 lugares con filtros, lista sincronizada con un mapa numerado e itinerario ordenable que se guarda en el navegador. Fotos con licencia verificada automáticamente y lógica cubierta con pruebas unitarias.'
             },
             'stackproof': {
                 name: 'StackProof — DApp Web3',
