@@ -245,10 +245,10 @@ export const translations = {
                     'Editorial landing page in white, pink and black for a fictional nail bar, with a menu-style price list, mosaic gallery and FAQ. Built with Astro and almost no JavaScript, deployed automatically with GitHub Actions.'
             },
             'vanta-studio': {
-                name: 'Vanta Studio — Agency Landing Page',
+                name: 'Recorte Estudio — Agency Landing Page',
                 role: 'Designer & Front End Developer',
                 description:
-                    'Brutalist-editorial piece with oversized typography, a four-color palette and scroll animations. Includes a custom cursor, interactive project filters and a 100% responsive design.'
+                    'Editorial landing page for a fictional design agency: large serif typography, a three-color palette, case studies in an accordion with filters and a demo contact form. Accessible, responsive and dependency-free.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Phytotherapy Brand',
@@ -537,10 +537,10 @@ export const translations = {
                     'Landing editorial en blanco, rosa y negro para un nail bar ficticio, con carta de precios en formato menú, galería en mosaico y preguntas frecuentes. Hecha en Astro casi sin JavaScript y publicada automáticamente con GitHub Actions.'
             },
             'vanta-studio': {
-                name: 'Vanta Studio — Landing de agencia',
+                name: 'Recorte Estudio — Landing de agencia',
                 role: 'Diseñadora y Desarrolladora Front End',
                 description:
-                    'Pieza brutalist-editorial con tipografía oversized, paleta de 4 colores y animaciones de scroll. Incluye cursor custom, filtros interactivos de proyectos y diseño 100% responsive.'
+                    'Landing editorial para una agencia de diseño ficticia: tipografía serif de gran tamaño, paleta de tres colores, casos en acordeón con filtros y formulario de demostración. Accesible, responsive y sin dependencias.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Fitoterapia',
