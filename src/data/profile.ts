@@ -93,7 +93,7 @@ export const projects: ProjectEntry[] = [
   {
     id: 'stackproof',
     link: 'https://laura-m-stack.github.io/stackproof/',
-    image: 'projects/stackproof.webp?v=2',
+    image: 'projects/stackproof.webp?v=3',
     tech: ['React', 'TypeScript', 'Viem']
   },
   {
