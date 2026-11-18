@@ -117,7 +117,7 @@ export const projects: ProjectEntry[] = [
   {
     id: 'vanta-studio',
     link: 'https://laura-m-stack.github.io/vanta-studio-landing/',
-    image: 'projects/vanta-studio.webp',
+    image: 'projects/vanta-studio.webp?v=2',
     tech: ['HTML5', 'CSS3', 'JavaScript']
   },
   {
