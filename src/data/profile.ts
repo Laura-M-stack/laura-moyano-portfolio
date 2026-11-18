@@ -93,8 +93,8 @@ export const projects: ProjectEntry[] = [
   {
     id: 'stackproof',
     link: 'https://laura-m-stack.github.io/stackproof/',
-    image: 'projects/stackproof.webp',
-    tech: ['React', 'TypeScript', 'Viem', 'Hardhat']
+    image: 'projects/stackproof.webp?v=2',
+    tech: ['React', 'TypeScript', 'Viem']
   },
   {
     id: 'currency-converter',
