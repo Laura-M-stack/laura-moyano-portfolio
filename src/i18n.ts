@@ -224,7 +224,7 @@ export const translations = {
                 name: 'StackProof — Web3 DApp',
                 role: 'Full Stack Developer',
                 description:
-                    'Web3 demo dApp that connects a wallet and lets the user sign a message to generate a verifiable “proof”. Built to showcase wallet integration, signature flows and a clean UI.'
+                    'Web3 demo dApp that signs a message with the wallet to generate a verifiable “proof”, and lets anyone check a proof without a wallet. Bilingual UI, a preview of what gets signed, and unit-tested verification.'
             },
             'currency-converter': {
                 name: 'Currency Converter App',
@@ -516,7 +516,7 @@ export const translations = {
                 name: 'StackProof — DApp Web3',
                 role: 'Desarrolladora Full Stack',
                 description:
-                    'DApp demo Web3 que conecta una wallet y permite firmar un mensaje para generar una “prueba” verificable. Hecha para mostrar integración con wallet, flujo de firmas y una UI prolija.'
+                    'DApp demo Web3 que firma un mensaje con la wallet para generar una “prueba” verificable, y permite comprobar cualquier prueba sin wallet. Interfaz bilingüe, vista previa de lo que se firma y verificación con tests.'
             },
             'currency-converter': {
                 name: 'App Conversor de Monedas',
