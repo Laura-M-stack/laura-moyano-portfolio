@@ -49,7 +49,9 @@ export const translations = {
             projectsTitle: "Products and sites I've built",
             talksTitle: 'Talks & panels',
             stack: 'Tech stack',
-            opensNewTab: 'opens in a new tab'
+            opensNewTab: 'opens in a new tab',
+            showMore: 'Show more projects',
+            showLess: 'Show fewer projects'
         },
         about: [
             "I'm a Full Stack Developer who gravitates toward the intersection of code, design and product thinking. I like building things end-to-end — from the architecture to the interface — and paying attention to how they actually feel to use.",
@@ -377,7 +379,9 @@ export const translations = {
             projectsTitle: 'Productos y sitios que construí',
             talksTitle: 'Charlas y paneles',
             stack: 'Tecnologías',
-            opensNewTab: 'se abre en una pestaña nueva'
+            opensNewTab: 'se abre en una pestaña nueva',
+            showMore: 'Ver más proyectos',
+            showLess: 'Ver menos proyectos'
         },
         about: [
             "Soy desarrolladora Full Stack y me muevo en la intersección entre código, diseño y producto. Me gusta construir cosas de punta a punta — desde la arquitectura hasta la interfaz — prestando atención a cómo se sienten al usarlas.",

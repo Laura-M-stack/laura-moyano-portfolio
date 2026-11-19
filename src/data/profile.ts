@@ -85,10 +85,10 @@ export const projects: ProjectEntry[] = [
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Leaflet', 'Vitest']
   },
   {
-    id: 'anden9-travel',
-    link: 'https://anden9-travel.vercel.app/',
-    image: 'projects/anden9-travel.webp',
-    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Zustand', 'Zod', 'Vitest', 'Playwright']
+    id: 'bar-meridiano',
+    link: 'https://laura-m-stack.github.io/bar-meridiano/',
+    image: 'projects/bar-meridiano.webp',
+    tech: ['Astro', 'TypeScript', 'CSS', 'Vitest', 'GitHub Actions']
   },
   {
     id: 'stackproof',
@@ -97,22 +97,10 @@ export const projects: ProjectEntry[] = [
     tech: ['React', 'TypeScript', 'Viem']
   },
   {
-    id: 'currency-converter',
-    link: 'https://laura-m-stack.github.io/Currency-Converter-App/',
-    image: 'projects/currency-converter.webp?v=4',
-    tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
-  },
-  {
-    id: 'glamour-studio',
-    link: 'https://laura-m-stack.github.io/glamour-studio/',
-    image: 'projects/glamour-studio.webp?v=3',
-    tech: ['React', 'TypeScript', 'Vite', 'Framer Motion', 'Vitest']
-  },
-  {
-    id: 'esmalte-club',
-    link: 'https://laura-m-stack.github.io/esmalte-club/',
-    image: 'projects/esmalte-club.webp?v=3',
-    tech: ['Astro', 'TypeScript', 'CSS', 'GitHub Actions']
+    id: 'ruido-sur',
+    link: 'https://laura-m-stack.github.io/ruido-sur/',
+    image: 'projects/ruido-sur.webp',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'GitHub Actions']
   },
   {
     id: 'vanta-studio',
@@ -121,16 +109,16 @@ export const projects: ProjectEntry[] = [
     tech: ['HTML5', 'CSS3', 'JavaScript']
   },
   {
-    id: 'bar-meridiano',
-    link: 'https://laura-m-stack.github.io/bar-meridiano/',
-    image: 'projects/bar-meridiano.webp',
-    tech: ['Astro', 'TypeScript', 'CSS', 'Vitest', 'GitHub Actions']
+    id: 'rancho-linz',
+    link: 'https://rancholinz.com.ar',
+    image: 'projects/rancho-linz.webp',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO', 'Tiendanube']
   },
   {
-    id: 'pipa',
-    link: 'https://laura-m-stack.github.io/pipa/',
-    image: 'projects/pipa.webp',
-    tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
+    id: 'glamour-studio',
+    link: 'https://laura-m-stack.github.io/glamour-studio/',
+    image: 'projects/glamour-studio.webp?v=3',
+    tech: ['React', 'TypeScript', 'Vite', 'Framer Motion', 'Vitest']
   },
   {
     id: 'hilo',
@@ -139,10 +127,22 @@ export const projects: ProjectEntry[] = [
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Vitest']
   },
   {
-    id: 'casa-koi',
-    link: 'https://laura-m-stack.github.io/casa-koi/',
-    image: 'projects/casa-koi.webp',
-    tech: ['HTML5', 'CSS3', 'JavaScript', 'GitHub Actions']
+    id: 'pipa',
+    link: 'https://laura-m-stack.github.io/pipa/',
+    image: 'projects/pipa.webp',
+    tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
+  },
+  {
+    id: 'currency-converter',
+    link: 'https://laura-m-stack.github.io/Currency-Converter-App/',
+    image: 'projects/currency-converter.webp?v=4',
+    tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
+  },
+  {
+    id: 'esmalte-club',
+    link: 'https://laura-m-stack.github.io/esmalte-club/',
+    image: 'projects/esmalte-club.webp?v=3',
+    tech: ['Astro', 'TypeScript', 'CSS', 'GitHub Actions']
   },
   {
     id: 'harina-y-flor',
@@ -151,16 +151,16 @@ export const projects: ProjectEntry[] = [
     tech: ['Astro', 'TypeScript', 'Vitest', 'GitHub Actions']
   },
   {
-    id: 'ruido-sur',
-    link: 'https://laura-m-stack.github.io/ruido-sur/',
-    image: 'projects/ruido-sur.webp',
-    tech: ['HTML5', 'CSS3', 'JavaScript', 'GitHub Actions']
+    id: 'anden9-travel',
+    link: 'https://anden9-travel.vercel.app/',
+    image: 'projects/anden9-travel.webp',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Zustand', 'Zod', 'Vitest', 'Playwright']
   },
   {
-    id: 'rancho-linz',
-    link: 'https://rancholinz.com.ar',
-    image: 'projects/rancho-linz.webp',
-    tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO', 'Tiendanube']
+    id: 'casa-koi',
+    link: 'https://laura-m-stack.github.io/casa-koi/',
+    image: 'projects/casa-koi.webp',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'GitHub Actions']
   }
 ];
 

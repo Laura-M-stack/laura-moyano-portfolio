@@ -861,6 +861,12 @@ ol, ul {
   }
 }
 
+.projects-more {
+  display: flex;
+  justify-content: center;
+  margin-top: clamp(40px, 5vw, 64px);
+}
+
 /* Skills */
 .skills {
   border-top: 1px solid var(--line);

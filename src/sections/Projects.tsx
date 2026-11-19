@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { Section } from '../components/Section';
 import { projects } from '../data/profile';
@@ -6,20 +6,26 @@ import { TagList } from '../components/Tag';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../i18n';
 
+// The hero card plus 8 cards (4 rows) are the curated sample; the rest sits behind a toggle.
+const INITIAL_VISIBLE = 9;
+
 export const Projects: React.FC = () => {
   const { language } = useLanguage();
   const t = translations[language];
   const reduceMotion = useReducedMotion();
+  const [expanded, setExpanded] = useState(false);
+  const shown = expanded ? projects : projects.slice(0, INITIAL_VISIBLE);
+  const hidden = projects.length - INITIAL_VISIBLE;
 
   return (
     <Section id="projects" index={3} label={t.navbar.projects} title={t.sections.projectsTitle}>
-      <ul className="projects">
-        {projects.map((project, index) => {
+      <ul className="projects" id="projects-list">
+        {shown.map((project, index) => {
           const localized = t.projects[project.id as keyof typeof t.projects];
           const hasLink = Boolean(project.link) && project.link !== '#';
           // First project is the hero card. If the rest leave an orphan in the
           // 2-column grid, the last one also goes full width (no lonely card).
-          const isOrphan = index === projects.length - 1 && (projects.length - 1) % 2 === 1;
+          const isOrphan = index === shown.length - 1 && (shown.length - 1) % 2 === 1;
           const featured = index === 0 || isOrphan;
 
           return (
@@ -71,6 +77,24 @@ export const Projects: React.FC = () => {
           );
         })}
       </ul>
+      {hidden > 0 && (
+        <div className="projects-more">
+          <button
+            type="button"
+            className="btn btn--line"
+            aria-expanded={expanded}
+            aria-controls="projects-list"
+            onClick={() => {
+              if (expanded) {
+                document.getElementById('projects')?.scrollIntoView({ block: 'start' });
+              }
+              setExpanded(!expanded);
+            }}
+          >
+            {expanded ? t.sections.showLess : `${t.sections.showMore} (${hidden})`}
+          </button>
+        </div>
+      )}
     </Section>
   );
 };
