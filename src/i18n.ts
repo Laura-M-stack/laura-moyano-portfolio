@@ -280,6 +280,12 @@ export const translations = {
                 description:
                     'Cottagecore site for a fictional neighborhood bakery in Buenos Aires: a weekly table of what comes out of the oven each day, an "open now" status calculated in Buenos Aires time and a cake configurator with live pricing, minimum notice, closed-day rules and pickup slots that depend on the day. Built with Astro and TypeScript; the date and pricing logic is separated from the DOM and covered by 39 unit tests. Illustrations are hand-written SVG.'
             },
+            'ruido-sur': {
+                name: 'Ruido Sur — Record Label',
+                role: 'Designer & Front End Developer',
+                description:
+                    'Neo-brutalist site for a fictional independent label from the south of Buenos Aires: a show calendar built relative to today with genre filters, search and sold-out states, a live countdown to the next gig and ticket reservations (up to four per show) kept in the browser. Dates are handled in fixed Buenos Aires time, and the agenda and reservation logic lives apart from the DOM with 18 tests on the native Node runner. Plain HTML, CSS and JavaScript, no frameworks; the record covers are generated SVG.'
+            },
             'rancho-linz': {
                 name: 'Rancho Linz – Phytotherapy Brand',
                 role: 'Front End Developer & SEO',
@@ -601,6 +607,12 @@ export const translations = {
                 role: 'Diseñadora y Desarrolladora Front End',
                 description:
                     'Sitio cottagecore para una panadería de barrio ficticia de Buenos Aires: tabla semanal de lo que sale del horno cada día, estado «abierto ahora» calculado en hora de Buenos Aires y un configurador de tortas con precio en vivo, anticipación mínima, días cerrados y horarios de retiro según el día. Hecho con Astro y TypeScript; la lógica de fechas y precios está separada del DOM y cubierta por 39 tests unitarios. Las ilustraciones son SVG escritos a mano.'
+            },
+            'ruido-sur': {
+                name: 'Ruido Sur — Sello discográfico',
+                role: 'Diseñadora y Desarrolladora Front End',
+                description:
+                    'Sitio neobrutalista para un sello independiente ficticio del sur de Buenos Aires: agenda de shows armada en relación al día de hoy con filtros por género, búsqueda y estado agotado, cuenta regresiva en vivo hasta la próxima fecha y reservas de entradas (hasta cuatro por show) guardadas en el navegador. Las fechas se manejan en hora fija de Buenos Aires y la lógica de agenda y reservas está separada del DOM, con 18 tests sobre el runner nativo de Node. HTML, CSS y JavaScript puros, sin frameworks; las tapas de los discos son SVG generados.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Fitoterapia',

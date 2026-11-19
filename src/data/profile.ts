@@ -151,6 +151,12 @@ export const projects: ProjectEntry[] = [
     tech: ['Astro', 'TypeScript', 'Vitest', 'GitHub Actions']
   },
   {
+    id: 'ruido-sur',
+    link: 'https://laura-m-stack.github.io/ruido-sur/',
+    image: 'projects/ruido-sur.webp',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'GitHub Actions']
+  },
+  {
     id: 'rancho-linz',
     link: 'https://rancholinz.com.ar',
     image: 'projects/rancho-linz.webp',
