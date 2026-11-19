@@ -145,6 +145,12 @@ export const projects: ProjectEntry[] = [
     tech: ['HTML5', 'CSS3', 'JavaScript', 'GitHub Actions']
   },
   {
+    id: 'harina-y-flor',
+    link: 'https://laura-m-stack.github.io/harina-y-flor/',
+    image: 'projects/harina-y-flor.webp',
+    tech: ['Astro', 'TypeScript', 'Vitest', 'GitHub Actions']
+  },
+  {
     id: 'rancho-linz',
     link: 'https://rancholinz.com.ar',
     image: 'projects/rancho-linz.webp',

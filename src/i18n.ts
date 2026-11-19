@@ -274,6 +274,12 @@ export const translations = {
                 description:
                     'Japandi-style store for a fictional tea and ceramics shop, with category filters and a slide-in cart that keeps quantities, applies free shipping above a threshold and survives a reload. Plain HTML, CSS and JavaScript with no dependencies; the cart logic is separated from the DOM and unit-tested. Product illustrations are hand-written SVG.'
             },
+            'harina-y-flor': {
+                name: 'Harina & Flor — Bakery',
+                role: 'Designer & Front End Developer',
+                description:
+                    'Cottagecore site for a fictional neighborhood bakery in Buenos Aires: a weekly table of what comes out of the oven each day, an "open now" status calculated in Buenos Aires time and a cake configurator with live pricing, minimum notice, closed-day rules and pickup slots that depend on the day. Built with Astro and TypeScript; the date and pricing logic is separated from the DOM and covered by 39 unit tests. Illustrations are hand-written SVG.'
+            },
             'rancho-linz': {
                 name: 'Rancho Linz – Phytotherapy Brand',
                 role: 'Front End Developer & SEO',
@@ -589,6 +595,12 @@ export const translations = {
                 role: 'Diseñadora y Desarrolladora Front End',
                 description:
                     'Tienda de estilo Japandi para un negocio ficticio de té y cerámica, con filtros por categoría y un carrito lateral que conserva las cantidades, aplica envío gratis desde un monto y sobrevive a una recarga. HTML, CSS y JavaScript puros, sin dependencias; la lógica del carrito está separada del DOM y tiene tests unitarios. Las ilustraciones de los productos son SVG escritos a mano.'
+            },
+            'harina-y-flor': {
+                name: 'Harina & Flor — Panadería',
+                role: 'Diseñadora y Desarrolladora Front End',
+                description:
+                    'Sitio cottagecore para una panadería de barrio ficticia de Buenos Aires: tabla semanal de lo que sale del horno cada día, estado «abierto ahora» calculado en hora de Buenos Aires y un configurador de tortas con precio en vivo, anticipación mínima, días cerrados y horarios de retiro según el día. Hecho con Astro y TypeScript; la lógica de fechas y precios está separada del DOM y cubierta por 39 tests unitarios. Las ilustraciones son SVG escritos a mano.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Fitoterapia',
