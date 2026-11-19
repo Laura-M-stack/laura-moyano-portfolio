@@ -121,6 +121,18 @@ export const projects: ProjectEntry[] = [
     tech: ['HTML5', 'CSS3', 'JavaScript']
   },
   {
+    id: 'bar-meridiano',
+    link: 'https://laura-m-stack.github.io/bar-meridiano/',
+    image: 'projects/bar-meridiano.webp',
+    tech: ['Astro', 'TypeScript', 'CSS', 'Vitest', 'GitHub Actions']
+  },
+  {
+    id: 'pipa',
+    link: 'https://laura-m-stack.github.io/pipa/',
+    image: 'projects/pipa.webp',
+    tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
+  },
+  {
     id: 'rancho-linz',
     link: 'https://rancholinz.com.ar',
     image: 'projects/rancho-linz.webp',

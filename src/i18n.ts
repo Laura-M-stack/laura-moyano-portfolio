@@ -224,7 +224,7 @@ export const translations = {
                 name: 'StackProof — Web3 DApp',
                 role: 'Full Stack Developer',
                 description:
-                    'Web3 demo dApp that signs a message with the wallet to generate a verifiable “proof”, and lets anyone check a proof without a wallet. Bilingual UI, a preview of what gets signed, and unit-tested verification.'
+                    'Web3 demo dApp that connects a wallet and lets the user sign a message to generate a verifiable “proof”. Built to showcase wallet integration, signature flows and a clean UI.'
             },
             'currency-converter': {
                 name: 'Currency Converter App',
@@ -249,6 +249,18 @@ export const translations = {
                 role: 'Designer & Front End Developer',
                 description:
                     'Editorial landing page for a fictional design agency: large serif typography, a three-color palette, case studies in an accordion with filters and a demo contact form. Accessible, responsive and dependency-free.'
+            },
+            'bar-meridiano': {
+                name: 'Bar Meridiano — Cocktail Bar',
+                role: 'Designer & Front End Developer',
+                description:
+                    'Art Deco landing page for a fictional cocktail bar in emerald and gold. It shows a live “open now” status in Buenos Aires time, including closing after midnight, and a reservation form that validates the date and offers only valid time slots. Built with Astro; the schedule and booking logic are unit-tested.'
+            },
+            'pipa': {
+                name: 'Pipa — Learning App for Kids',
+                role: 'Designer & Front End Developer',
+                description:
+                    'Claymorphism landing page for a fictional maths app for ages 5 to 8, with a playable five-question addition lesson, gentle hints after mistakes and a one-to-three-star score saved on the device. Built with Svelte 5; the lesson and progress logic are unit-tested.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Phytotherapy Brand',
@@ -516,7 +528,7 @@ export const translations = {
                 name: 'StackProof — DApp Web3',
                 role: 'Desarrolladora Full Stack',
                 description:
-                    'DApp demo Web3 que firma un mensaje con la wallet para generar una “prueba” verificable, y permite comprobar cualquier prueba sin wallet. Interfaz bilingüe, vista previa de lo que se firma y verificación con tests.'
+                    'DApp demo Web3 que conecta una wallet y permite firmar un mensaje para generar una “prueba” verificable. Hecha para mostrar integración con wallet, flujo de firmas y una UI prolija.'
             },
             'currency-converter': {
                 name: 'App Conversor de Monedas',
@@ -541,6 +553,18 @@ export const translations = {
                 role: 'Diseñadora y Desarrolladora Front End',
                 description:
                     'Landing editorial para una agencia de diseño ficticia: tipografía serif de gran tamaño, paleta de tres colores, casos en acordeón con filtros y formulario de demostración. Accesible, responsive y sin dependencias.'
+            },
+            'bar-meridiano': {
+                name: 'Bar Meridiano — Coctelería',
+                role: 'Diseñadora y Desarrolladora Front End',
+                description:
+                    'Landing Art Déco para una coctelería ficticia en esmeralda y dorado. Muestra el estado “abierto ahora” en hora de Buenos Aires, incluso con cierre pasada la medianoche, y un formulario de reservas que valida la fecha y ofrece solo horarios válidos. Hecha en Astro; la lógica de horarios y reservas tiene tests unitarios.'
+            },
+            'pipa': {
+                name: 'Pipa — App para aprender jugando',
+                role: 'Diseñadora y Desarrolladora Front End',
+                description:
+                    'Landing claymorphism para una app ficticia de matemática para chicos de 5 a 8 años, con una lección de sumas jugable de cinco preguntas, ayudas después de equivocarse y un puntaje de una a tres estrellas guardado en el dispositivo. Hecha en Svelte 5; la lógica de la lección y del progreso tiene tests unitarios.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Fitoterapia',
