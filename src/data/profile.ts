@@ -99,7 +99,7 @@ export const projects: ProjectEntry[] = [
   {
     id: 'currency-converter',
     link: 'https://laura-m-stack.github.io/Currency-Converter-App/',
-    image: 'projects/currency-converter.webp?v=3',
+    image: 'projects/currency-converter.webp?v=4',
     tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
   },
   {
@@ -131,6 +131,18 @@ export const projects: ProjectEntry[] = [
     link: 'https://laura-m-stack.github.io/pipa/',
     image: 'projects/pipa.webp',
     tech: ['Svelte 5', 'TypeScript', 'Vite', 'Vitest']
+  },
+  {
+    id: 'hilo',
+    link: 'https://laura-m-stack.github.io/hilo/',
+    image: 'projects/hilo.webp',
+    tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Vitest']
+  },
+  {
+    id: 'casa-koi',
+    link: 'https://laura-m-stack.github.io/casa-koi/',
+    image: 'projects/casa-koi.webp',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'GitHub Actions']
   },
   {
     id: 'rancho-linz',

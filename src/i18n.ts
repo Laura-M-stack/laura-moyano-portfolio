@@ -262,6 +262,18 @@ export const translations = {
                 description:
                     'Claymorphism landing page for a fictional maths app for ages 5 to 8, with a playable five-question addition lesson, gentle hints after mistakes and a one-to-three-star score saved on the device. Built with Svelte 5; the lesson and progress logic are unit-tested.'
             },
+            'hilo': {
+                name: 'Hilo — Meeting Summaries',
+                role: 'Designer & Front End Developer',
+                description:
+                    'Light aurora-style landing page for a fictional meeting-notes tool. The live demo reads a pasted transcript and extracts decisions, tasks with owner and due date, and a Markdown export, all in the browser. It is rule-based, not AI, and says so on the page. Built with React, TypeScript and Tailwind CSS; the text analysis is covered by 42 unit tests.'
+            },
+            'casa-koi': {
+                name: 'Casa Koi — Tea & Ceramics',
+                role: 'Designer & Front End Developer',
+                description:
+                    'Japandi-style store for a fictional tea and ceramics shop, with category filters and a slide-in cart that keeps quantities, applies free shipping above a threshold and survives a reload. Plain HTML, CSS and JavaScript with no dependencies; the cart logic is separated from the DOM and unit-tested. Product illustrations are hand-written SVG.'
+            },
             'rancho-linz': {
                 name: 'Rancho Linz – Phytotherapy Brand',
                 role: 'Front End Developer & SEO',
@@ -565,6 +577,18 @@ export const translations = {
                 role: 'Diseñadora y Desarrolladora Front End',
                 description:
                     'Landing claymorphism para una app ficticia de matemática para chicos de 5 a 8 años, con una lección de sumas jugable de cinco preguntas, ayudas después de equivocarse y un puntaje de una a tres estrellas guardado en el dispositivo. Hecha en Svelte 5; la lógica de la lección y del progreso tiene tests unitarios.'
+            },
+            'hilo': {
+                name: 'Hilo — Resúmenes de reuniones',
+                role: 'Diseñadora y Desarrolladora Front End',
+                description:
+                    'Landing de estilo aurora clara para una herramienta ficticia de notas de reuniones. La demo en vivo lee una transcripción pegada y extrae decisiones, tareas con responsable y fecha, y una exportación a Markdown, todo en el navegador. Funciona con reglas, no con IA, y la página lo aclara. Hecha en React, TypeScript y Tailwind CSS; el análisis de texto tiene 42 tests unitarios.'
+            },
+            'casa-koi': {
+                name: 'Casa Koi — Té y cerámica',
+                role: 'Diseñadora y Desarrolladora Front End',
+                description:
+                    'Tienda de estilo Japandi para un negocio ficticio de té y cerámica, con filtros por categoría y un carrito lateral que conserva las cantidades, aplica envío gratis desde un monto y sobrevive a una recarga. HTML, CSS y JavaScript puros, sin dependencias; la lógica del carrito está separada del DOM y tiene tests unitarios. Las ilustraciones de los productos son SVG escritos a mano.'
             },
             'rancho-linz': {
                 name: 'Rancho Linz – Fitoterapia',
