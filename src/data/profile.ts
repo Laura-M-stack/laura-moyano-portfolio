@@ -109,6 +109,12 @@ export const projects: ProjectEntry[] = [
     tech: ['HTML5', 'CSS3', 'JavaScript']
   },
   {
+    id: 'huella-vet',
+    link: 'https://laura-m-stack.github.io/huella-vet/',
+    image: 'projects/huella-vet.webp',
+    tech: ['React', 'TypeScript', 'Vite', 'Vitest', 'GitHub Actions']
+  },
+  {
     id: 'rancho-linz',
     link: 'https://rancholinz.com.ar',
     image: 'projects/rancho-linz.webp',
@@ -125,12 +131,6 @@ export const projects: ProjectEntry[] = [
     link: 'https://laura-m-stack.github.io/hilo/',
     image: 'projects/hilo.webp',
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Vitest']
-  },
-  {
-    id: 'huella-vet',
-    link: 'https://laura-m-stack.github.io/huella-vet/',
-    image: 'projects/huella-vet.webp',
-    tech: ['React', 'TypeScript', 'Vite', 'Vitest', 'GitHub Actions']
   },
   {
     id: 'pipa',
