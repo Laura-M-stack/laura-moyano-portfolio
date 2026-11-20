@@ -258,6 +258,12 @@ export const translations = {
                 description:
                     'Art Deco landing page for a fictional cocktail bar in emerald and gold. It shows a live “open now” status in Buenos Aires time, including closing after midnight, and a reservation form that validates the date and offers only valid time slots. Built with Astro; the schedule and booking logic are unit-tested.'
             },
+            'huella-vet': {
+                name: 'Huella Vet — Veterinary Clinic Management',
+                role: 'Designer & Front End Developer',
+                description:
+                    'Demo of custom internal software for a fictional veterinary clinic: a daily dashboard, patient records, a clash-free appointment schedule, vaccine reminders with a ready-to-send message for the owner, and supplies with low-stock and expiry alerts. Data stays in the browser. Built with React and TypeScript; the scheduling, vaccine and stock rules are unit-tested.'
+            },
             'pipa': {
                 name: 'Pipa — Learning App for Kids',
                 role: 'Designer & Front End Developer',
@@ -587,6 +593,12 @@ export const translations = {
                 role: 'Diseñadora y Desarrolladora Front End',
                 description:
                     'Landing Art Déco para una coctelería ficticia en esmeralda y dorado. Muestra el estado “abierto ahora” en hora de Buenos Aires, incluso con cierre pasada la medianoche, y un formulario de reservas que valida la fecha y ofrece solo horarios válidos. Hecha en Astro; la lógica de horarios y reservas tiene tests unitarios.'
+            },
+            'huella-vet': {
+                name: 'Huella Vet — Gestión de veterinaria',
+                role: 'Diseñadora y Desarrolladora Front End',
+                description:
+                    'Demo de software de gestión a medida para una clínica veterinaria ficticia: panel del día, fichas de pacientes, agenda sin choques de horario, avisos de vacunas con el mensaje listo para el tutor e insumos con alertas de stock y vencimiento. Los datos quedan en el navegador. Hecha con React y TypeScript; las reglas de agenda, vacunas y stock tienen tests unitarios.'
             },
             'pipa': {
                 name: 'Pipa — App para aprender jugando',

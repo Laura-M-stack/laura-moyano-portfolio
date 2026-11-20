@@ -127,6 +127,12 @@ export const projects: ProjectEntry[] = [
     tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Vitest']
   },
   {
+    id: 'huella-vet',
+    link: 'https://laura-m-stack.github.io/huella-vet/',
+    image: 'projects/huella-vet.webp',
+    tech: ['React', 'TypeScript', 'Vite', 'Vitest', 'GitHub Actions']
+  },
+  {
     id: 'pipa',
     link: 'https://laura-m-stack.github.io/pipa/',
     image: 'projects/pipa.webp',
